@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaa=self.webpackChunkaa||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Install own xx Network Speakeasy Web server","permalink":"/blog/2023/04/30/install-xx-network-speakeasy"}]}')}}]);
