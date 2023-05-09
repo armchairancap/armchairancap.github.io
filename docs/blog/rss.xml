@@ -4,10 +4,22 @@
         <title>ArmchairAncap Blog</title>
         <link>https://armchairancap.github.io/blog</link>
         <description>ArmchairAncap Blog</description>
-        <lastBuildDate>Sun, 30 Apr 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 May 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Sign and verify messages using xx Network wallet]]></title>
+            <link>https://armchairancap.github.io/blog/2023/05/08/xx-netork-wallet-sign-verify</link>
+            <guid>https://armchairancap.github.io/blog/2023/05/08/xx-netork-wallet-sign-verify</guid>
+            <pubDate>Mon, 08 May 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sign]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sign">Sign<a href="#sign" class="hash-link" aria-label="Direct link to Sign" title="Direct link to Sign">​</a></h2><p>Go to <code>Developer</code> &gt; <code>Sign and Verify</code> &gt; <code>Sign message</code></p><p>Pick an address ("wallet") to use and enter a message or other data you wish to sign with your wallet key to <code>sign the following data</code>. </p><p>This may be any text such as your Speakeasy codename, email address, etc.</p><p><img loading="lazy" alt="Sign message from xx Network wallet" src="/assets/images/xx-network-wallet-sign-8da08f66d9202f2b160d42ac4464eff5.png" width="710" height="402" class="img_ev3q"></p><p>Click on the copy icon to copy the signature (<code>signature of supplied data</code>) to clipboard. </p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="verify">Verify<a href="#verify" class="hash-link" aria-label="Direct link to Verify" title="Direct link to Verify">​</a></h2><p>To verify, go to <code>Verify signature</code> rather than <code>Sign and Verify</code>.</p><p>You need to pick the same wallet and same message, and if everything checks out, the icon next to <code>the supplied signature</code> will become a green check mark.</p><p>Bad signatures will fail to verify.</p><p><img loading="lazy" alt="Bad signature fails to verify" src="/assets/images/xx-network-wallet-verify-bad-hash-0663fee410bf7df525709e93e80dfa63.png" width="710" height="402" class="img_ev3q"></p><p>Bad data will fail to verify against a correct signature.</p><p><img loading="lazy" alt="Correct signature and content verify" src="/assets/images/xx-network-wallet-verify-incomplete-f059411c8c7f93b658bd86ccde36d043.png" width="710" height="402" class="img_ev3q"></p><p>Correct verification requires the same wallet, message data and signature.</p><p><img loading="lazy" alt="Correct verification" src="/assets/images/xx-network-wallet-verify-f61496bae4a508271925217cf5c3356e.png" width="710" height="402" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="xx-network-signatures-not-deterministic">xx Network signatures not deterministic<a href="#xx-network-signatures-not-deterministic" class="hash-link" aria-label="Direct link to xx Network signatures not deterministic" title="Direct link to xx Network signatures not deterministic">​</a></h2><p>xx Network uses Schnorrkel (sr25519), which doesn't create deterministic messages.</p><p>For an example, I used the same wallet and same message and signed the message two more times. Each time I got a valid, but different, signature.</p><ul><li><code>0x2a40ed0.......3187</code></li><li><code>0xdec0ed9.......b78f</code></li></ul>]]></content:encoded>
+            <category>xx network</category>
+            <category>sign</category>
+            <category>verify</category>
+            <category>wallet</category>
+        </item>
         <item>
             <title><![CDATA[Install own xx Network Speakeasy Web server]]></title>
             <link>https://armchairancap.github.io/blog/2023/04/30/install-xx-network-speakeasy</link>

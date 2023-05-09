@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaa=self.webpackChunkaa||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Sign and verify messages using xx Network wallet","permalink":"/blog/2023/05/08/xx-netork-wallet-sign-verify"},{"title":"Install own xx Network Speakeasy Web server","permalink":"/blog/2023/04/30/install-xx-network-speakeasy"}]}')}}]);
