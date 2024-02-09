@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkaa=self.webpackChunkaa||[]).push([[9887],{7610:a=>{a.exports=JSON.parse('{"label":"haven","permalink":"/blog/tags/haven","allTagsPath":"/blog/tags","count":2}')}}]);
