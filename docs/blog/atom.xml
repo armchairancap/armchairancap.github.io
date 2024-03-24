@@ -25,7 +25,7 @@
 <p>Privacy and cryptocurrency enthusiasts are rightfully outraged.</p>
 <p>One point the latter - especially EU-based Monero supporters active on social media such as X - are still missing is that the regulations, once formalized in "laws" will make their advocacy untenable.</p>
 <p>Of course that I feel bad for them and other non-criminal users affected by these changes even though I don't hold any privacy coins including Monero.</p>
-<p>That aside, they are still missing the fact that the regulations put them in untenable position.</p>
+<p>That aside, they are still missing the fact that the regulations put them in an untenable position.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="untenable-position">Untenable position<a href="https://armchairancap.github.io/blog/2024/03/23/eu-legislation-untenable-for-privacy-coin-users#untenable-position" class="hash-link" aria-label="Direct link to Untenable position" title="Direct link to Untenable position">​</a></h2>
 <p>If you're an <em>active</em> Monero user who uses MNR, you now must report transaction details to the government.</p>
 <p>If you do that, what kind of privacy coin is that? It's arguably no different from custodial USDT or fiat checking accounts!</p>
@@ -38,7 +38,7 @@
 <li>not use Monero at all</li>
 </ul>
 <p>Those who continue using Monero and do not plan reporting their transactions will be at risk and likely disappear from centralized social media to lower their risk profile.</p>
-<p>One group that won't be at risk is Monero speculators and traders, but we don't need to consider them as the number of centralized exchanges with Monero pairs is very limited, and using a decentralized exchange automatically makes one a person who uses anonymous crypto transactions (and likely well over the limit).</p>
+<p>One group that won't be at risk is Monero speculators and traders, but we don't need to consider this group as the number of centralized exchanges with Monero pairs in the EU is very limited (and declining) and at the same time using a decentralized exchange for trading and speculation automatically makes one a person who uses anonymous crypto transactions and likely well over the limit.</p>
 <p>Criminals are the group that will be least affected, that much is sure.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="xx-coin-is-unaffected">xx coin is unaffected<a href="https://armchairancap.github.io/blog/2024/03/23/eu-legislation-untenable-for-privacy-coin-users#xx-coin-is-unaffected" class="hash-link" aria-label="Direct link to xx coin is unaffected" title="Direct link to xx coin is unaffected">​</a></h2>
 <p>David Chaum's idea to not make xx coin a privacy coin was very smart.</p>
@@ -48,10 +48,13 @@
 <p><strong>Staking</strong> - available today - allow nominators to get a return on staked coins.</p>
 <p>The first, still missing piece, is work-in-progress: <strong>xx coin on decentralized exchanges</strong>. Today wrapped xx coin is available on <a href="https://xrpl.org/" target="_blank" rel="noopener noreferrer">XRPL</a>, but there is work in progress on EVM bridge which will make it possible to trade xx coin on decentralized cryptocurrency exchanges.</p>
 <p>Eventually xx coin will be used to pay <strong>postage (xxPostage) for premium traffic on xx Network</strong>, which will create demand for it. By then it should be easy to buy it on decentralized cryptocurrency  exchanges.</p>
+<p>xx coin is not used in mainstream P2P crypto payments and speculation (which is easy to check by looking at turnover). So far it's mostly used for staking.</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="take-aways">Take-aways<a href="https://armchairancap.github.io/blog/2024/03/23/eu-legislation-untenable-for-privacy-coin-users#take-aways" class="hash-link" aria-label="Direct link to Take-aways" title="Direct link to Take-aways">​</a></h2>
-<p>I predict reduced effectiveness and activity from EU-based Monero community members. Those who remain active are probably not Monero users.</p>
+<p>xx Network fans from the EU advocate privacy and the use of the network's mixing service, which is currently completely free.</p>
+<p>Local privacy coin fans, on the other hand, advocate anonymous payments although most will soon cease using them.</p>
+<p>I therefore predict reduced effectiveness and activity from EU-based Monero (and other privacy coins) community members. Those who remain active are probably <em>not</em> Monero users.</p>
 <p>Monero is a great privacy coin and its supporters now have to face such challenges.</p>
-<p>Dr. Chaum has picked a different way to fight the good fight and the changes in EU regulations do not affect xx Network any more than they affect the regular privacy-less coin.</p>]]></content>
+<p>Dr. Chaum picked a different way to fight the good fight and latest changes in the EU regulations related to AML do not affect xx Network any more than they affect the regular privacy-less coin.</p>]]></content>
         <author>
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
@@ -110,7 +113,7 @@
 <p>There are CLI scripts for "secure" password sharing, but they rely on personal infrastructure (some server &amp; DB which may or may not be secure), or 3rd party infrastructure which may or may not be more secure than xx Network (and often doesn't have open source code on both the server and client).</p>
 <p>There's also Tailscale, but again - to be equally secure, you still have to encrypt your data before sending it and probably at-rest as well (considering that the client is "online" at all times). If you can make use of Tailscale for other things that's great, but if you need something quick - like when setting up some VMs in the cloud - xx CLI client could be good enough.</p>
 <p>xx CLI client could also be modified for other purposes, for example as a low censorship-free broadcast tool without the need for Tor (which may be blocked anyway). xx Network can also be blocked, but most locations and corporate firewalls haven't done it yet.</p>
-<p>As of now, xx Network gateways retain client side-encrypted data for 21 days, after which it expires and may be found only on the clients (if they logged in and downloaded it before it expired). So, keep in mind that you may shred the local session file, channel file and private key to disable access locally, while chat data stored on xx Network gateways expires in weeks. What you cannot delete is messages other clients received on their side.</p>]]></content>
+<p>As of now, xx Network gateways retain client side-encrypted data for 21 days, after which it expires and may be found only on the clients (if they logged in and downloaded it before it expired). So, keep in mind that you may shred the local session file, channel file and private key to disable access locally, while chat data stored on xx Network gateways expires in weeks. What you cannot delete is the messages other clients received on their side without access to those clients.</p>]]></content>
         <author>
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
