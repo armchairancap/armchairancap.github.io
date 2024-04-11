@@ -2,11 +2,99 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://armchairancap.github.io/blog</id>
     <title>ArmchairAncap Blog</title>
-    <updated>2024-04-06T00:00:00.000Z</updated>
+    <updated>2024-04-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://armchairancap.github.io/blog"/>
     <subtitle>ArmchairAncap Blog</subtitle>
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First they came for CEXes, then for DEXes]]></title>
+        <id>https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view</id>
+        <link href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view"/>
+        <updated>2024-04-11T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#what-does-that-mean">What does that mean?</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#impact-on-cryptocurrencies">Impact on cryptocurrencies</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#what-can-be-done">What can be done</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#what-xx-network-has-to-offer">What xx Network has to offer</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#take-away">Take-away</a></li>
+</ul>
+<p>The Coin Telegraph <a href="https://cointelegraph.com/news/uniswap-token-drops-team-to-fight-sec-wells-notice" target="_blank" rel="noopener noreferrer">reports</a>:</p>
+<blockquote>
+<p>Uniswap Labs founder Hayden Adams said its “ready to fight” after disclosing it received a notice of possible enforcement action from the SEC.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-does-that-mean">What does that mean?<a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#what-does-that-mean" class="hash-link" aria-label="Direct link to What does that mean?" title="Direct link to What does that mean?">​</a></h2>
+<p>Let's soak in the wisdom of X for a minute.</p>
+<p>(Presumed) teenage shitcoiner 1 on X:</p>
+<blockquote>
+<p>No one that uses Uniswap cares about the SEC</p>
+</blockquote>
+<p>The SEC doesn't care that no one who uses Uniswap doesn't care about the SEC.</p>
+<p>All they need to do is to persuade Mr. Adams and fellow developers to pick another hobby (after they beat them in a Biden kangaroo court).</p>
+<p>(Presumed) teenage shitcoiner 2 on X:</p>
+<blockquote>
+<p>With Dexes like uniswap, SEC can bring down the domain but easily anyone can setup a Dex exchange like Uniswap.</p>
+</blockquote>
+<p>Like anyone can setup and run a coin mixer - they can't, not for long anyway.</p>
+<p>These SEC activities aren't unexpected.</p>
+<p>It's <a href="https://www.coindesk.com/policy/2024/03/06/shapeshift-settles-sec-charges-it-sold-crypto-securities/" target="_blank" rel="noopener noreferrer">happened before</a> to ShapeShift which - curiously enough (see the link) just settled with the SEC some five weeks ago.</p>
+<blockquote>
+<p>The federal regulator instituted a cease-and-desist against ShapeShift, which dissolved its U.S. crypto exchange in 2021.</p>
+</blockquote>
+<p>Very encouraging (for the SEC)! One down, few more to go! Centralized or decentralized doesn't matter - as long as there's a person that can be sued, they're good to go after them. (In the case of the US government they don't even care if you're a US citizen or resident.)</p>
+<p>Maybe some used to think - apparently, some on X still do - that one can just ignore the delistings of their coins from CEX or the draconian anti-privacy and anti-liberty laws takin effect.</p>
+<p>Unfortunately, that's not possible as long as we have these quasi-capitalist and quasi-socialist governments unite in their fascist and globalist mission to eliminate freedom.</p>
+<p>It's not hard to imagine what comes next - it's not unlike what I said in the post <a href="https://armchairancap.github.io/blog/2024/03/23/eu-legislation-untenable-for-privacy-coin-users">EU puts EU-based privacy coin users in untenable position</a>. In fact, it's the same thing, in my opinion.</p>
+<p>Here's how I see this play out for DEXes:</p>
+<ul>
+<li>Prominent US-based DEX developers, non-profits, community members, server operators are silenced</li>
+<li>Many users drop off as well</li>
+<li>The same thing happens worldwide</li>
+<li>"Anonymous" (in their opinion) community members continue development and operations (decentralized Git, Tor services, etc.), but volumes are small and liquidity sucks</li>
+<li>Because anonymity and reputation don't go together well, scams increase (malicious commits, for example), fundraising is hard, user base a tiny fraction of what it could be</li>
+</ul>
+<p>Decentralized Exchanges won't disappear, but they're in for a difficult period.</p>
+<p>Another possibility - not immediate, but 3-5 years from now - is that the West sets up some version of the commie firewall that detects and blocks IP addresses of known DEX nodes. I <em>know</em> that's very hard, but so is today's blocking of general Internet in certain hellholes around world which does work quite well. All it takes is a bit of disruption and globally disruptive legal action which everyone seems to be eager to team up on.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="impact-on-cryptocurrencies">Impact on cryptocurrencies<a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#impact-on-cryptocurrencies" class="hash-link" aria-label="Direct link to Impact on cryptocurrencies" title="Direct link to Impact on cryptocurrencies">​</a></h2>
+<p>It's easy to think this would mainly impact "illegal" (privacy coins). That was my first thought, in fact.</p>
+<p>But that's not the case. It will impact <em>all users</em>, and therefore <em>all coins</em>.</p>
+<p>In the case of major crypto-currencies, any coin that other coins are denominated in - primarily stablecoins, but also BTC, ETH and others.</p>
+<p>Who knows, maybe - in I'm right - privacy coins could regain some of the lost popularity, but if you lose 90% of users and gain 20%, that's still not a great result.</p>
+<p>I looked at the past 12 months of Ethereum vs. Monero on Google Trends. If you remove Ethereum from the chart and look at Monero alone, you'll see it went up a lot in late 2023 and then dropped off. I think it will drop even further (see that post on EU above).</p>
+<p><img decoding="async" loading="lazy" alt="Google Trends - Ethereum vs Monero" src="https://armchairancap.github.io/assets/images/2024-04-11-interest-over-time-ethereum-vs-monero-1y-1eb23d4963088df6f110527fc3cabfca.png" width="1138" height="357" class="img_ev3q"></p>
+<p>But when Ethereum is added to the chart, Monero looks flat and barely registers.</p>
+<p>It's not an apples-to-apples comparison, I know, but it shows two things:</p>
+<ul>
+<li>The average user cares about flipping coins, not about privacy (not something I like to see, but let's admit it)</li>
+<li>Despite the ongoing attack on privacy (and other) crypto-currencies in the EU, Monero is attracting just a small fraction of crypto-currency users, which I think confirms my expectation that most crypto-exchange users will give up or trade "legal and regulated coins" (completely useless circle-jerk as far as I'm concerned - it's no different from flipping FANGs all day long)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-can-be-done">What can be done<a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#what-can-be-done" class="hash-link" aria-label="Direct link to What can be done" title="Direct link to What can be done">​</a></h2>
+<p>Maybe some "benevolent dictator" like that Bukele guy (not benevolent in my opinion, but I'm trying to think like the average teenage Bitcoin fan on X) permits DEX in their country and some prominent developers give up citizenship and relocate there, but this can't do anything for the users in countries where the use of decentralized exchanges is illegal.</p>
+<p>Would economic and political gains from such policies be net-positive? Probably not. Maybe that'd earn sanctions, cut them off from the IMF/WB, etc. I'm not suggesting utilitarianism, but merely the fact that politicians have to consider it as there would be a price to pay.</p>
+<p>Assuming some jurisdictions decide to harbor such activities, the next problem to consider is DEX users' privacy.</p>
+<p>I wouldn't even attempt to suggest xx Network mixnet (cMixx) could be used to circumvent the problem. This solution already exists and works (see <a href="https://github.com/xx-labs/proxxy/" target="_blank" rel="noopener noreferrer">Proxxy</a>) and we'll probably see it as an extension or "Web 3 app" in browsers like <a href="https://carbon.website/" target="_blank" rel="noopener noreferrer">Carbon</a> one day.</p>
+<p>How many users will dare to violate laws this way? I'd say a small minority - primarily those from countries with governments "who haven't gotten their shit together" (yet).</p>
+<p>Tor Browser may be another option, although it's not as good a solution as cMixx. It's harder to use correctly, and setting up malicious Tor nodes costs next to nothing.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-xx-network-has-to-offer">What xx Network has to offer<a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#what-xx-network-has-to-offer" class="hash-link" aria-label="Direct link to What xx Network has to offer" title="Direct link to What xx Network has to offer">​</a></h2>
+<p>xx Network's Proxxy approach acts as a mixing proxy gateway between your client (for example, Carbon browser) and the server (for example, DEX server nodes). This is useful because it breaks the link between DEX activity (observable by all) and user's IP and location.</p>
+<p>It also hides the connection between a wallet (addresses) and the owner. For non-private coins, a DEX observer would see there's a wallet with 123 XYZ coins, and monitor ins and outs, but they couldn't see who owns it. If one were to trade on a DEX via Proxxy, they could do that in privacy and exit to a privacy coin (so that the last leg is also anonymized on-chain).</p>
+<p>But let's not forget that a DEX could route all its messages over xx Network's cMix protocol. <a href="https://dashboard.xx.network/" target="_blank" rel="noopener noreferrer">xx Network dashboard</a> currently shows 3000 messages per second. That could be enough for a DEX that doesn't attempt to provide near real-time settlement.</p>
+<p><img decoding="async" loading="lazy" src="https://armchairancap.github.io/assets/images/2024-04-11-xx-cmix-networ-dashboard-583b935ea6a4374c819eec2690ff4b5a.png" width="1374" height="736" class="img_ev3q"></p>
+<p>3000 messages per second is plenty, and can scale as soon as more nodes are added to the network (which is a function of network economics, but ultimately driven by demand which is currently a community decision and later may become a function of postage fees - more users, more nodes chasing their cut of postage).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="take-away">Take-away<a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view#take-away" class="hash-link" aria-label="Direct link to Take-away" title="Direct link to Take-away">​</a></h2>
+<p>I'm not optimistic about this development now and the prospects for crypto-currencies in coming years.</p>
+<p>Bitcoin is already a joke (see the recent news on how almost 50% of mined coins are routed to a single address - presumably almost 50% of "virgin coins" are bought by Wall Street custodians) and Ethereum isn't far behind (just wait until the first ETFs appear - it's going to be worse, because of staking which lets Wall Street farm virgin coins directly).</p>
+<p>Crypto-enthusiasts think they (or "someone") can ignore what governments do "because decentralized". That works only until they knock on your door.</p>
+<p>xx Network (Proxxy, etc.) can help and will help to some extent, but in a NWO environment it still can be stopped.</p>
+<p>The only way this can be solved in the long term is by fighting centralization and that means civic engagement against globalists, dictators and autocrats - from the UN over governments of large political unions down to small countries.</p>
+<p>Code is law, but not the law.</p>]]></content>
+        <author>
+            <name>ArmchairAncap</name>
+            <uri>https://github.com/armchairancap</uri>
+        </author>
+        <category label="xx network" term="xx network"/>
+        <category label="defi" term="defi"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What I like about the Wrapped XX coin (WXX)]]></title>
         <id>https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin</id>
