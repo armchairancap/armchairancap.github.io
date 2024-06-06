@@ -225,12 +225,12 @@ LOS ANGELES--(BUSINESS WIRE)--The world’s first quantum-resistant messaging ap
 <p>On Techlore forums they justify Signal's "need" for phone numbers as the only way to prevent spam.</p>
 <p>Ugh, okay, but that's a "in order to save the village, we had to destroy it" kind of measure for a <em>privacy</em>-related application!</p>
 <p>xx Network is still <a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#why-its-important">completely free and will introduce API limiting only for power users and only when postage becomes available</a>, you don't need a phone number <em>and</em> you can use a network-native, decentralized identity. This has worked this way since 2022. Phoenixx also implements ENS-related identity (ENS).</p>
-<p>xx Network is open to spam, that's true. If it was spammed, postage would probably be implemented sooner, but if you don't know a person's xx Network identity, there's no way to spam them so spam still is not a problem.</p>
-<p>If you consider just the privacy aspect here: what's a bigger honeypot and potential scam here?</p>
+<p>xx Network is open to spam, that's true. If it was spammed, postage would probably be implemented sooner. But if you don't know a person's xx Network identity (which you can't unless they give it to you), there's no way to spam them in the first place so spam is still not a problem.</p>
+<p>If you now consider just the privacy aspect here: which of these is a bigger honeypot and potential (privacy) scam here?</p>
 <p>One app has your phone number and some metadata.</p>
-<p>The other doesn't know anything about you, its gateways are decentralized in dozens of jurisdictions, there's nowhere to "register" your data and there's no plan for the average user to ever need to pay anything.</p>
-<p>I don't think either of the platforms is a "scam", but it's easy to see which one is designed for privacy and why having a coin users don't ever have to buy beats collecting phone numbers!</p>
-<p>One of them is a major honeypot.</p>
+<p>The other doesn't know anything about you, its gateways are decentralized in dozens of jurisdictions, there's nowhere to "register" your data and there's no plan for the average user to ever needing to pay anything.</p>
+<p>I don't think either of the platforms is a "scam", but it's easy to see which one is designed for privacy and why having a coin users don't ever have to buy beats collecting phone numbers.</p>
+<p>One of them is a major honeypot, that's for sure.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="take-aways">Take-aways<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#take-aways" class="hash-link" aria-label="Direct link to Take-aways" title="Direct link to Take-aways">​</a></h2>
 <ul>
 <li>xx Network client now uses CTIDH</li>
