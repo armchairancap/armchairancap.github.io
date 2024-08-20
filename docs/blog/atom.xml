@@ -2,11 +2,95 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://armchairancap.github.io/blog</id>
     <title>ArmchairAncap Blog</title>
-    <updated>2024-08-16T00:00:00.000Z</updated>
+    <updated>2024-08-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://armchairancap.github.io/blog"/>
     <subtitle>ArmchairAncap Blog</subtitle>
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Comparison between Nym and xx Network]]></title>
+        <id>https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork</id>
+        <link href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork"/>
+        <updated>2024-08-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My comments on Nym compared to xxNetwork]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-vs">Why "vs."<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#why-vs" class="hash-link" aria-label="Direct link to Why &quot;vs.&quot;" title="Direct link to Why &quot;vs.&quot;">​</a></h2>
+<p>It's not A vs. B, it's A and B, but the Nym Web sites make some biased comparisons with xx Network, so I'll do my own for the benefit of my readers.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-are-nym-and-xx-network">What are Nym and xx Network?<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#what-are-nym-and-xx-network" class="hash-link" aria-label="Direct link to What are Nym and xx Network?" title="Direct link to What are Nym and xx Network?">​</a></h2>
+<p>They're both blockchain-rooted privacy platforms.</p>
+<ul>
+<li>Nym Tech <a href="https://nymtech.medium.com/" target="_blank" rel="noopener noreferrer">blog</a> (they hve different sites for the company, services, etc.)</li>
+<li>xx Network <a href="https://xx.network/" target="_blank" rel="noopener noreferrer">web site</a></li>
+</ul>
+<p>But there are differences, so let's take a look at those.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="comparison">Comparison<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#comparison" class="hash-link" aria-label="Direct link to Comparison" title="Direct link to Comparison">​</a></h2>
+<p>This is how I see it.</p>
+<table><thead><tr><th>Feature</th><th>Nym</th><th>xx Network</th></tr></thead><tbody><tr><td>Blockchain</td><td>Cosmos SDK-based</td><td>Polkadot SDK-based (Substrate)</td></tr><tr><td>Validators</td><td>Permissioned validators</td><td>Permissionless validators</td></tr><tr><td>Services</td><td>VPN and mixnet service</td><td>Mixnet service</td></tr><tr><td>Payments</td><td>zk-nymVPN</td><td>No anonymity</td></tr><tr><td>Mixnet</td><td>modified 3rd party (Loopix)</td><td>Self-developed, PQC (cMix)</td></tr><tr><td>Privacy coin</td><td>semi-privacy coin (Nym)</td><td>non-privacy coin (xx coin)</td></tr><tr><td>PQC</td><td>no (roadmap item)</td><td>yes</td></tr></tbody></table>
+<p>I haven't compared VPN-related features because xx Network doesn't offer that service. You may want to do your own comparison vs. Mullvad VPN or other VPN service.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="blockchain">Blockchain<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#blockchain" class="hash-link" aria-label="Direct link to Blockchain" title="Direct link to Blockchain">​</a></h3>
+<p>This isn't important for end users, but Polkadot (used by xx Network) has a bigger ecosystem compared to Cosmos.</p>
+<p>Governance and integrations seem better on Polkadot and that's why it's been relatively easy for xx Network to create integrations (bridge) with Ripple and Ethereum, for example. I expect this will continue simply because xx Network leverages a superior blockchain platform (Polkadot).</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="validators">Validators<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#validators" class="hash-link" aria-label="Direct link to Validators" title="Direct link to Validators">​</a></h3>
+<p>Nym is still running a permissioned network that's smaller than xx Network's. In this regard, they're behind.</p>
+<p>Perhaps out of necessity, Nym has a more restricted entry and exit conditions for validators. I actually like how they do this and I think it's better than xx Network. Highlights:</p>
+<blockquote>
+<p>New validators can join via a NYM-to-NYX swap contract. The contract will not allow more than 1% of total stake increase per month to prevent sudden hostile takeovers.</p>
+</blockquote>
+<blockquote>
+<p>The contract will only allow swapping NYM to NYX and will not allow exchanging NYX back to NYM. A NYX holder who wishes to sell their NYX stake will have to do so via OTC trades.</p>
+</blockquote>
+<p>You may say this doesn't prevent indirect hoarding of coins, but at least at this moment (because the network is permissioned with KYC, it appears) they can control this better. xx Network has some small pools that should be banned from the network, but the problem probably isn't significant enough to motivate the community to move against it.</p>
+<p>xx Network is permissionless as far as staking and identity are concerned. So, although Nym's rules and controls seem helpful, they may not be possible to implement on xx Network or a permissionless Nym network. We'll see how Nym adjusts to permissionless life (if they ever get there).</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="services">Services<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#services" class="hash-link" aria-label="Direct link to Services" title="Direct link to Services">​</a></h3>
+<p>Nym provides a Wireguard-based VPN routed over their network, which xx Network doesn't do.</p>
+<p>While this seems great - you don't need to buy Mullvad or other VPN subscription, for example - it's a trap.</p>
+<p>Not for the users, but for Nym Tech and their community whose nodes provide that service.</p>
+<p>I don't think they'll be able to pull this off because bandwidth requirements will be huge and there's no way operators who operate VPN entry/exit nodes can do that with residential connections. What does that mean?</p>
+<p>That means SPs or the cloud, and that means they'll need to be paid.</p>
+<p>But, now you have KYC + getting paid for VPN + risk of illegal use (which they can't really monitor because it's encrypted and censorship-free). Do you see where this is going?</p>
+<p>Do you want to make $500/mo and deal with daily DMCA notices and maybe even police inquiries? Not many people do, unless they're based in a 3rd world country.</p>
+<p>I don't know how they're going to pull that off. If I was them I'd allow only whitelisted destinations, but for most of those people don't really need to use VPNs.</p>
+<p>We'll see. I'm skeptical.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="integrations">Integrations<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#integrations" class="hash-link" aria-label="Direct link to Integrations" title="Direct link to Integrations">​</a></h3>
+<p>I haven't done a deep dive on these, but:</p>
+<ul>
+<li>Nym is ahead in VPN-related integrations simply because there's not much to integrate and xx Network doesn't have that integration to begin with</li>
+<li>Mixnet integrations are hard to compare because they're dissimilar and each platform has a few so maybe it's fair to say it's roughly even</li>
+</ul>
+<p>xx Network has wallet integrations through Proxxy, while Nym's own wallet natively uses Nym's mixnet (and they have Zk-nyms), so in wallet integrations they're likely better.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="payments">Payments<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#payments" class="hash-link" aria-label="Direct link to Payments" title="Direct link to Payments">​</a></h3>
+<p>xx Network doesn't have blockchain privacy features. This decision was deliberate - I wrote about it <a href="https://armchairancap.github.io/blog/2024/04/11/sec-targets-uniswap-total-ban-in-view">here</a>.</p>
+<p>Nym has zk-nyms which makes it a privacy-capable coin and therefore a candidate for delisting (or harder listing) on centralized exchanges.</p>
+<p>If you need a VPN, you can get Mullvad VPN and pay with Monero. If you're a Nym VPN user, then it appears you can buy Nym VPN credits with Zcash.</p>
+<p>Both approaches work, but with Nym you can buy both VPN and pay for mixnet services with one coin. Now you may say "I prefer Monero and Mullvad", but that's a matter of preference and convenience.</p>
+<p>xx coin, the native currency of xx chain, may add privacy features in the future but it's been deprioritized to avoid regulatory and listing challenges.</p>
+<p>One valid point in Nym's material is that you can acquire their coin and pay for services without being tracked. xx Network can't do that. At the same time, xx Network cMix service is still free, so there's nothing to pay for. You still <em>don't need</em> any xx coin to use xx Network in the first place!</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="mixnet">Mixnet<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#mixnet" class="hash-link" aria-label="Direct link to Mixnet" title="Direct link to Mixnet">​</a></h3>
+<p>First, post-quantum cryptography (PQC) is a to-do item for Nym, and implemented in xx Network's cMix.</p>
+<p>Second, Nym's network is still centralized, so every single validator is known. Said differently: Nym mixing is decentralized, but all the mixers are known.</p>
+<p>Third, in their <a href="https://nymtech.net/nymvpn_litepaper.pdf" target="_blank" rel="noopener noreferrer">litepaper</a>, they have a comparison between cMix (mixnet used by xx Network) and their modified 3rd party design (based on <a href="https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-piotrowska.pdf" target="_blank" rel="noopener noreferrer">Loopix</a>). I'm not qualified to evaluate that, so I won't.</p>
+<p>And then there's this thing below. As a reminder: their litepaper was published (updated?) in 2023, so it's not like they've missed anything because it didn't exist in mid 2023.</p>
+<p>In the table below they refer to Elixxir (which was the company behind xx Network/cMixx early on) although xx Network has become foundation-managed years ago and Elixxir no long plays a role. Maybe using a prehistoric name is a way to say "we created that in 2019 and forgot to update". Well, you didn't and your litepaper was published on Nov 2, 2023.</p>
+<p><img decoding="async" loading="lazy" src="https://armchairancap.github.io/assets/images/2024-08-20-nym-vs-cmix-883252249a85e0a74143c500e753cffb.png" width="685" height="448" class="img_xHFY"></p>
+<p>Let's see:</p>
+<ul>
+<li><strong>1 - Incentivised relays</strong> - xx Network has had that for years. Validators stake themselves and get staked by other coin holders. They get rewarded for authoring blocks on xx chain and relaying cMix messages. <a href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage/">In coming quarters</a> postage for premium tier users.</li>
+<li><strong>2 - Scalable network</strong> - xx Network has almost 400 nodes - more than enough for its traffic needs - and it doesn't seem not scalable (or whatever is the opposite from scalable). For a mixnet focused on short messages (whether it's text messages or API calls), it seems scalable enough to me.</li>
+<li><strong>3 - Secure and efficient encryption protocol</strong> - As I've mentioned earlier Nym claims their approach has a higher efficiency which I am unable to judge, but they don't have post-quantum encryption so even it it's more efficient, is it more secure across the board? It's a blanket statement. Not to mention that xx Network's cMix was developed in-house by Dr. Chaum and is still being developed (this includes development for <a href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage">three Worldcoin grants</a>), while Nym's is a modified implementation of a 3rd party invention.</li>
+<li><strong>4 - Community governance of the relay nodes</strong> - xx Network has had this for years and Polkadot has better governance features than Cosmos.</li>
+<li><strong>5 - Large anonymity set</strong> - xx Network currently uses 5 nodes and most messages generally delivered within 3 seconds (see Real Time (round) component in the <a href="https://dashboard.xx.network/" target="_blank" rel="noopener noreferrer">xx Network dashboard</a> - mean 24h latency is currently 2.12s). That seems enough for the use cases targeted by xx Network (chat, API proxy, voting, etc.), and can be increased. I don't know how large (it's not in the litepaper and I didn't try very hard to find that information elsewhere) Nym's anonymity sets are, so this advantage isn't quantified and doesn't appear significant for xx Network use cases.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="conclusion">Conclusion<a href="https://armchairancap.github.io/blog/2024/08/20/nym-vs-xxnetwork#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>Nym has some advantages, but they're behind in terms of development - fully permissioned chain, no PQC and with legal challenges ahead of them.</p>
+<p>VPNs are cool, but it's also just bulk traffic - porn, Torrents and crap of that nature. Not that we don't need that too, but it's a saturated and legally sensitive market (copyright violations, illegal content, etc). Due to the high cost of comparatively enormous bandwidth required for VPNs, it will be a very tough use case to monetize. And Nym Tech has bills to pay.</p>
+<p>Dr. Chaum's decisions to not create a privacy coin and to focus on specific (and high-value) use cases such as messaging and voting were in hindsight perfect. The choice of blockchain platform (Polkadot/Substrate) - whether due to luck or wisdom or a combination of both - also seems better than Nym's Cosmos, so I expect less hurdles and faster progress with xx Network's Web3 integrations.</p>
+<p>Personally I'm comfortable with design choices, target markets and other details of xx Network.</p>
+<p>Nym looks like a decent platform, but they've made some less than ideal choices.</p>]]></content>
+        <author>
+            <name>ArmchairAncap</name>
+            <uri>https://github.com/armchairancap</uri>
+        </author>
+        <category label="xx network" term="xx network"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Worldcoin and xx Network postage]]></title>
         <id>https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage</id>
