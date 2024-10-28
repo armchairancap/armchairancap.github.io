@@ -10,7 +10,7 @@
 
 
 <script src="https://cdn.counter.dev/script.js" async data-id="83dc700a-b821-4e57-9425-02b8336a9456" data-utcoffset="0"></script><link rel="stylesheet" href="/assets/css/styles.c669becb.css">
-<script src="/assets/js/runtime~main.0a31130b.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.2a84159a.js" defer="defer"></script>
 <script src="/assets/js/main.42a96e66.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard" data-theme="light">
@@ -80,7 +80,7 @@
 <p>As an example of yet other approaches, I&#x27;ve built a simple browser extension which downloads selected (Magnet) links using Tribler: very easy to use, no patches required. But you can&#x27;t see or control what&#x27;s going on with downloads without going to another tab or window with Tribler UI.</p>
 <p>I couldn&#x27;t load Haven in this &quot;preview&quot; version of Firefox (WASM issues), but this is how simple the extension is: select a Magnet link in Haven chat and use the extension to initiate Tribler download.</p>
 <p><img decoding="async" loading="lazy" alt="Download with Tribler Extension" src="/assets/images/haven-with-browser-extension-2d8b862c5e70c1b64e4d73c74ac38513.png" width="1317" height="757" class="img_xHFY"></p>
-<p>This can work anywhere including the &quot;Haven with a Tribler iFrame&quot; approach because it simply talks to the Tribler API and Tribler UI doesn&#x27;t need to be visible. It saves some copy-and-paste even if Tribler runs in the same browser tab as Haven.</p>
+<p>This can work anywhere including the &quot;Haven with a Tribler iFrame&quot; approach because it simply talks to the Tribler API and Tribler UI doesn&#x27;t need to be visible. It saves some copy-and-paste even if Tribler runs in the same browser tab as Haven. I&#x27;ve posted a proof-of-concept version <a href="https://github.com/armchairancap/magnet-link-downloader-tribler-firefox" target="_blank" rel="noopener noreferrer">here</a> - see the link for the details.</p>
 <p>If you&#x27;re a security freak, I won&#x27;t try to persuade you to use these iFrame approaches.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="security-concerns">Security concerns<a href="#security-concerns" class="hash-link" aria-label="Direct link to Security concerns" title="Direct link to Security concerns">​</a></h2>
 <p>It is possible that the app in iFrame does something to its parent frame. If you worry about that, of course just run the apps separately or even in different VMs.</p>
