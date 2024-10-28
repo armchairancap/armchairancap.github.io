@@ -2,11 +2,104 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://armchairancap.github.io/blog</id>
     <title>ArmchairAncap Blog</title>
-    <updated>2024-10-13T00:00:00.000Z</updated>
+    <updated>2024-10-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://armchairancap.github.io/blog"/>
     <subtitle>ArmchairAncap Blog</subtitle>
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[xx Haven with Tribler]]></title>
+        <id>https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler</id>
+        <link href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler"/>
+        <updated>2024-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some ideas for Haven-Tribler integrations]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#whats-tribler">What's Tribler?</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#whats-haven">What's Haven?</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#what-integrations-and-why">What integrations, and why?</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#integrations">Integrations</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#pros-and-cons-of-diy-approaches">Pros and cons of DIY approaches</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#do-we-actually-need-any-integration">Do we actually need any integration?</a></li>
+</ul>
+</li>
+<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#security-concerns">Security concerns</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#summary">Summary</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="whats-tribler">What's Tribler?<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#whats-tribler" class="hash-link" aria-label="Direct link to What's Tribler?" title="Direct link to What's Tribler?">​</a></h2>
+<p>It's an app for Tor-like Torrent-based file sharing that doesn't suck like Tor does.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="whats-haven">What's Haven?<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#whats-haven" class="hash-link" aria-label="Direct link to What's Haven?" title="Direct link to What's Haven?">​</a></h2>
+<p>It's a privacy-focused, decentralized chat and messaging Web app on xx Network's cMixx mixnet.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-integrations-and-why">What integrations, and why?<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#what-integrations-and-why" class="hash-link" aria-label="Direct link to What integrations, and why?" title="Direct link to What integrations, and why?">​</a></h2>
+<p>Let's see about the whys first: you need to find torrents that you want to download.</p>
+<p>Tribler has internal search feature but it's not that good yet.</p>
+<p>So you go out on the Web to find torrents, which means one or more of the following:</p>
+<ul>
+<li>Being tracked on Torrent search Web sites</li>
+<li>Monetary (and sometimes privacy) cost of subscribing to VPN service</li>
+<li>Using Tor to hide your activity</li>
+<li>Registering at Torrent sharing private Web sites or chats</li>
+<li>Using some password-protected site where you're registered with a fake or real identity</li>
+</ul>
+<p>Is there a better way? I think there is: one UI with Haven and Tribler:</p>
+<ul>
+<li>Someone posts RSS feed into a private (or public) Haven Space ("chat channel")</li>
+<li>Users copy links and download them using Tribler</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="integrations">Integrations<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#integrations" class="hash-link" aria-label="Direct link to Integrations" title="Direct link to Integrations">​</a></h2>
+<p>Ideally, Haven could run inside of Tribler. But the Tribler project would have to make that happen. Alternatively, someone could create and maintain a patch. Not very good.</p>
+<p>Another way is to create a small patch to Tribler menus and run Haven in an iFrame.</p>
+<p>Another way is to run Tribler in a Haven iFrame. That's easier, but you have to create a small patch for Haven, which some privacy-sensitive people may not like.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="pros-and-cons-of-diy-approaches">Pros and cons of DIY approaches<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#pros-and-cons-of-diy-approaches" class="hash-link" aria-label="Direct link to Pros and cons of DIY approaches" title="Direct link to Pros and cons of DIY approaches">​</a></h3>
+<p>A Haven iFrame in Tribler chat menu is available <a href="https://github.com/armchairancap/xx-tribler-haven/releases/tag/v1.0" target="_blank" rel="noopener noreferrer">here</a>. I call this attempt v1.0.</p>
+<p>You click on the chat cloud icion and Haven opens in the main pane (iFrame).</p>
+<p><img decoding="async" loading="lazy" alt="Tribler with a Haven iFrame" src="https://armchairancap.github.io/assets/images/tribler-with-haven-iframe-50fa42fec60a59cda3a52ce625ba3dbd.png" width="931" height="360" class="img_xHFY"></p>
+<ul>
+<li>Step 1: join a Haven Space ("chat channel")</li>
+<li>Step 2: find a magnet link</li>
+<li>Step 3: paste it into "Add torrent"</li>
+</ul>
+<p>The bad:</p>
+<ul>
+<li>every time the user navigates away from the chat menu, Haven state is lost and user cannot access Haven again without logging in</li>
+</ul>
+<p>The good:</p>
+<ul>
+<li>every time the user navigates away from the chat menu, Haven state is lost and user cannot access Haven again without logging in</li>
+</ul>
+<p>Do you see what I mean? If your use case is "get into a Haven Space, get one link, copy it to Tribler and leave Haven", this is actually a good approach. All it takes to secure access to Haven is to navigate away: you won't leave Haven iFrame open because in order to use that Magnet link you'll have to leave it. Just make sure your Haven profile password is strong!</p>
+<p>Note that this only hides your Haven identity, Spaces, and chat data, while Tribler UI is still running and downloaded data is on disk.</p>
+<p>The second approach I tried - a Tribler iFrame in Haven - works the other way around, except there's no state in Tribler (it's a server-based application with a Web UI) so if you download multiple torrents or like to chat with Space members as you download, this may be better for you.</p>
+<p><img decoding="async" loading="lazy" alt="Haven with a Tribler iFrame" src="https://armchairancap.github.io/assets/images/haven-with-tribler-iframe-c8ad47f0ddb017cf455472d09dd1c2fd.png" width="1544" height="654" class="img_xHFY"></p>
+<p>Join a channel, get your links, download them in Tribler and watch/manage downloads as they go.</p>
+<p>In this approach there's a small patch to Haven which seems low-risk to me if you're the only user of your Haven instance: you own the Haven instance and you own the Tribler instance as well, so as long as you're not concerned about Tribler in a Haven iFrame, I think patching Haven and using it this way is fine.</p>
+<p>I'm working on finalizing these small patches in another release at the same location as v1.0.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="do-we-actually-need-any-integration">Do we actually need any integration?<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#do-we-actually-need-any-integration" class="hash-link" aria-label="Direct link to Do we actually need any integration?" title="Direct link to Do we actually need any integration?">​</a></h3>
+<p>That's a good question. If you don't use both of these applications at the same time often, it's probably best to use them separately and avoid complications.</p>
+<p>As an example of yet other approaches, I've built a simple browser extension which downloads selected (Magnet) links using Tribler: very easy to use, no patches required. But you can't see or control what's going on with downloads without going to another tab or window with Tribler UI.</p>
+<p>I couldn't load Haven in this "preview" version of Firefox (WASM issues), but this is how simple the extension is: select a Magnet link in Haven chat and use the extension to initiate Tribler download.</p>
+<p><img decoding="async" loading="lazy" alt="Download with Tribler Extension" src="https://armchairancap.github.io/assets/images/haven-with-browser-extension-2d8b862c5e70c1b64e4d73c74ac38513.png" width="1317" height="757" class="img_xHFY"></p>
+<p>This can work anywhere including the "Haven with a Tribler iFrame" approach because it simply talks to the Tribler API and Tribler UI doesn't need to be visible. It saves some copy-and-paste even if Tribler runs in the same browser tab as Haven.</p>
+<p>If you're a security freak, I won't try to persuade you to use these iFrame approaches.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="security-concerns">Security concerns<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#security-concerns" class="hash-link" aria-label="Direct link to Security concerns" title="Direct link to Security concerns">​</a></h2>
+<p>It is possible that the app in iFrame does something to its parent frame. If you worry about that, of course just run the apps separately or even in different VMs.</p>
+<p>In the "Haven with a Tribler iFrame" approach we could tighten the iFrame CORS, and also properly integrate applications so that we don't have to skip authentication from <code>localhost</code> clients on Tribler (which I currently do). I'll post the patches in the repo for easy reviewing. Risk of someone else accessing your instance of Tribler on <code>localhost</code> (where Haven is running) through Haven iFrame should be extremely low, though.</p>
+<p>And this instance of Tribler should not listen on public IPs - simply close off its Web UI and IP ports.</p>
+<p>If you want to let others access Haven on the same computer, you could simply start another container binding a public IP and port. The same goes for extra Tribler instances.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="summary">Summary<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
+<p>Haven provides private and confidential access to Magnet links that can be used in Tribler: free access, post-quantum E2EE, and metadata shredding eliminate the need to use Tor, VPNs or privacy-leaking Web sites.</p>
+<p>Among DIY approaches at lightweight integration:</p>
+<ul>
+<li>For single-torrent and one-off use, Tribler with a Haven iFrame is a good approach which forces inconvenience (and results in good SecOps)</li>
+<li>For parallel use (Haven + Tribler) and multiple downloads, I like Haven with a Tribler iFrame because it gives me full control over Tribler</li>
+<li>For "hidden Tribler" we can run Haven + browser extension that hooks into the Tribler API, but you'd want extra controls and visibility into downloads, which means either occasional access to Tribler UI or a fat extension with some Tribler indicators similar to "Down Them All" or such (which is complex).</li>
+</ul>]]></content>
+        <author>
+            <name>ArmchairAncap</name>
+            <uri>https://github.com/armchairancap</uri>
+        </author>
+        <category label="xx network" term="xx network"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Use BIP39 from bip-utils with xx Network]]></title>
         <id>https://armchairancap.github.io/blog/2024/10/13/bip-utils-with-xx-network</id>
