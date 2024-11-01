@@ -27,14 +27,16 @@
 <li>Published a toy extension for Firefox - see the Tribler-with-Haven blog post for more, and a screenshot is below.</li>
 <li>Updated User and Admin guides to <a href="https://armchairancap.github.io/docs/category/xx-network-haven-users-guide" target="_blank" rel="noopener noreferrer">xx Network Haven</a></li>
 </ul>
-<p>Apart from the "common good" contributions, the rest was centered around exploring Haven with Tribler.</p>
-<p>This screenshot sums it all up - Tribler in Haven iFrame (aka my "v2.0") - and the toy Firefox extension in action.</p>
+<p>Apart from the "common good" contributions (xx Network Learn, etc), the rest was centered around exploring Haven integrations with Tribler.</p>
+<p>This screenshot sums it all up - Tribler in Haven iFrame (aka my "v2.0") - and the toy Firefox extension in action!</p>
 <p><img decoding="async" loading="lazy" alt="Firefox extension to ease download in Haven-Tribler environment" src="https://armchairancap.github.io/assets/images/2024-11-01-xx-haven-firefox-extension-tribler-16440fdd5773b6866f7382cf6af80dc4.png" width="1434" height="938" class="img_xHFY"></p>
 <ul>
-<li>Get Magnet links in a Haven space</li>
-<li>Use the extension to right-click and download them in Tribler</li>
-<li>Watch progress without switching to other tabs or browser windows</li>
-</ul>]]></content>
+<li>Find a Magnet link in a Haven space</li>
+<li>Select the link, right-click on it and use the Firefox extension download it from Tribler</li>
+<li>Watch download progress without switching to other (browser) tabs or windows</li>
+</ul>
+<p>If you use a non-Mozilla browser you can copy the link and add it to Tribler as usual.</p>
+<p>I haven't had time to do a Chromium-based extension yet.</p>]]></content>
         <author>
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
