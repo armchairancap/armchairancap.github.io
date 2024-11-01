@@ -4,10 +4,40 @@
         <title>ArmchairAncap Blog</title>
         <link>https://armchairancap.github.io/blog</link>
         <description>ArmchairAncap Blog</description>
-        <lastBuildDate>Tue, 29 Oct 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Nov 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Good Hacktoberfest 2024]]></title>
+            <link>https://armchairancap.github.io/blog/2024/11/01/my-hacktober-2024-activites</link>
+            <guid>https://armchairancap.github.io/blog/2024/11/01/my-hacktober-2024-activites</guid>
+            <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[My Hacktoberfest 2024 activities]]></description>
+            <content:encoded><![CDATA[<p><a href="https://hacktoberfest.com/" target="_blank" rel="noopener noreferrer">Hacktoberfest 2024</a> is over so here's what I did:</p>
+<ul>
+<li>Added search function, keywords and front matter to 67 pages on <a href="https://learn.xx.network/" target="_blank" rel="noopener noreferrer">https://learn.xx.network/</a>. Usability, SEO, etc.</li>
+<li>Repurposed existing sample code for Kusama to create <a href="https://github.com/armchairancap/polkadot-js-tokengated-website" target="_blank" rel="noopener noreferrer">token-gated site for xx coins</a> which can help anyone who wants to build toke-gated sites. Note that this works only for xx coin, but assets aka NFTs on xx chain would need additional work as asset (NFT) lookups are more complicated.</li>
+<li>Published two simple PoCs for Haven-Tribler integration<!-- -->
+<ul>
+<li>one runs Haven in a Tribler chat frame (I tagged it "v1.0") - more secure, but less convenient (as always...)</li>
+<li>another runs Tribler in a Haven iFrame ("v2.0")</li>
+<li>both can be found <a href="https://github.com/armchairancap/xx-tribler-haven?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">here</a> and there's a <a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler">blog post</a> about the motivation, use cases and approaches</li>
+</ul>
+</li>
+<li>Published a toy extension for Firefox - see the Tribler-with-Haven blog post for more, and a screenshot is below.</li>
+<li>Updated User and Admin guides to <a href="https://armchairancap.github.io/docs/category/xx-network-haven-users-guide" target="_blank" rel="noopener noreferrer">xx Network Haven</a></li>
+</ul>
+<p>Apart from the "common good" contributions, the rest was centered around exploring Haven with Tribler.</p>
+<p>This screenshot sums it all up - Tribler in Haven iFrame (aka my "v2.0") - and the toy Firefox extension in action.</p>
+<p><img decoding="async" loading="lazy" alt="Firefox extension to ease download in Haven-Tribler environment" src="https://armchairancap.github.io/assets/images/2024-11-01-xx-haven-firefox-extension-tribler-16440fdd5773b6866f7382cf6af80dc4.png" width="1434" height="938" class="img_xHFY"></p>
+<ul>
+<li>Get Magnet links in a Haven space</li>
+<li>Use the extension to right-click and download them in Tribler</li>
+<li>Watch progress without switching to other tabs or browser windows</li>
+</ul>]]></content:encoded>
+            <category>xx network</category>
+        </item>
         <item>
             <title><![CDATA[xx Haven with Tribler]]></title>
             <link>https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler</link>
