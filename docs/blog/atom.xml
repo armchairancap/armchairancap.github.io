@@ -13,17 +13,32 @@
         <link href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes"/>
         <updated>2024-11-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Note on Notification if contact's fingerprint changes and other items]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+        <content type="html"><![CDATA[<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#introduction">Introduction</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#wait-i-cant-run-haven-on-mobile">Wait, I can't run Haven on mobile?</a></li>
+</ul>
+</li>
+<li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#notes">Notes</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#notification-if-contacts-fingerprint-changes">Notification if contact's fingerprint changes</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#findadd-contacts">Find/add contacts</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#supported-push-notification-services">Supported push notification services</a></li>
+</ul>
+</li>
+<li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#conclusion">Conclusion</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
 <p>Today I <a href="pathname:////xx-network-haven-comparison/index.html" target="_blank" rel="noopener noreferrer">forked and published</a> a comparison of various messengers. Why?</p>
-<p>Because as the author of the original comparison can't possibly include everything (he actually checks and compares all those details), he focuses on major messengers and currently Haven't isn't included.</p>
-<p>And not having a mobile version probably doesn't help.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="wait-i-cant-run-haven-on-mobile">Wait, I can't run Haven on mobile?<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#wait-i-cant-run-haven-on-mobile" class="hash-link" aria-label="Direct link to Wait, I can't run Haven on mobile?" title="Direct link to Wait, I can't run Haven on mobile?">​</a></h2>
+<p>Because as the author of the original comparison can't possibly include everything (he actually checks and compares all those details, which requires non-trivial efforts) and he focuses on major messengers so Haven't currently isn't included. (He welcomes requests, so you could suggest Haven - Haven't (pun intended).)</p>
+<p>Not having a mobile version probably doesn't help.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="wait-i-cant-run-haven-on-mobile">Wait, I can't run Haven on mobile?<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#wait-i-cant-run-haven-on-mobile" class="hash-link" aria-label="Direct link to Wait, I can't run Haven on mobile?" title="Direct link to Wait, I can't run Haven on mobile?">​</a></h3>
 <p>As of today, yes. I mean, you <em>can</em> run Haven on mobile Android and Linux devices with WASM-capable browsers, but the UI isn't responsive and it doesn't attempt to save battery, so it won't be pretty.</p>
 <p>xx Messenger was a mobile app that would probably have done well in a comparison, but it used an older xxDK and is no longer maintained.</p>
 <p>Haven is the main reference application for xx Network confidential &amp; private messaging. There's a patch for responsive UI which was delivered as part of Hacktoberfest 2024 activities, but it hasn't been merged yet. Keep an eye on that in coming weeks - if merged, that would make Haven more suitable - although just the UI - for Android browsers with WASM support.</p>
 <p>Anyway, back to the main topic, which is I wanted to create a post with some notes regarding the Haven column in that comparison page.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="comments">Comments<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#comments" class="hash-link" aria-label="Direct link to Comments" title="Direct link to Comments">​</a></h2>
-<p>These are notes that clarify some of the Haven values.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="notes">Notes<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#notes" class="hash-link" aria-label="Direct link to Notes" title="Direct link to Notes">​</a></h2>
+<p>These are notes that clarify some of the values I picked for the Haven column in that comparison chart.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="notification-if-contacts-fingerprint-changes">Notification if contact's fingerprint changes<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#notification-if-contacts-fingerprint-changes" class="hash-link" aria-label="Direct link to Notification if contact's fingerprint changes" title="Direct link to Notification if contact's fingerprint changes">​</a></h3>
 <p>Most people have tried Signal. If you swap your phone or such, your Signal chat counterparts will be informed that your "fingerprint" changed. There's no such thing on cMixx (and in Haven).</p>
 <p>Haven <a href="https://armchairancap.github.io/docs/haven-user-guide/identity">identity</a> <em>is</em> the only user-facing cryptographic identity.</p>
@@ -39,7 +54,10 @@
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="supported-push-notification-services">Supported push notification services<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#supported-push-notification-services" class="hash-link" aria-label="Direct link to Supported push notification services" title="Direct link to Supported push notification services">​</a></h3>
 <p>xx Messenger used a centralized push service, but Haven doesn't currently doesn't have it which means it's limited to constant polling which is power-consuming.</p>
 <p>That doesn't matter much for desktops (there's more "unnecessary" activity from <a href="https://learn.xx.network/cmixx/coverTraffic" target="_blank" rel="noopener noreferrer">Cover Traffic</a> than from notifications), but matters on mobile devices.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="conclusion">Conclusion<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>]]></content>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="conclusion">Conclusion<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>I obviously don't speak for the author of the original document, so the values I picked for Haven are my own.</p>
+<p>This post elaborates on all the rows where I felt felt sharing some notes would be helpful. If the original author reviews and adds Haven to his document, I may or may not update my fork (I wouldn't if I completely disagreed with this evaluation, for example).</p>
+<p>I have some other comparisons in other blog entries - you can search the site for "comparison" to find them.</p>]]></content>
         <author>
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
