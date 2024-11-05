@@ -102,7 +102,7 @@ If bots work well, 30 days or longer shouldn't be a problem.</p></div></div>
 <li>Users who access such instances immediately identify themselves by their wallet ID (and xx is not a privacy coin) and maybe IP address, browser fingerprint and more</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="alien-nfts">Alien NFTs<a href="https://armchairancap.github.io/blog/2023/11/05/xx-network-asset-gated-access#alien-nfts" class="hash-link" aria-label="Direct link to Alien NFTs" title="Direct link to Alien NFTs">​</a></h2>
-<p>Polkadot has a rich NFT ecosystem that can do more, and they even have bridges to coins from other L1 chains.</p>
+<p>Polkadot has a rich NFT ecosystem that can do more, and they even have bridges to coins from other L1 chains (alien NFTs).</p>
 <p>While that's nice, it's more than we need here.</p>
 <p>Of course, xx chain could adopt some of those features, but I think it objectively doesn't need them.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="summary">Summary<a href="https://armchairancap.github.io/blog/2023/11/05/xx-network-asset-gated-access#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
@@ -133,12 +133,13 @@ If bots work well, 30 days or longer shouldn't be a problem.</p></div></div>
 <li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#notification-if-contacts-fingerprint-changes">Notification if contact's fingerprint changes</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#findadd-contacts">Find/add contacts</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#supported-push-notification-services">Supported push notification services</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#legal-jurisdication">Legal jurisdication</a></li>
 </ul>
 </li>
 <li><a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#conclusion">Conclusion</a></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>Today I <a href="pathname:////xx-network-haven-comparison/index.html" target="_blank" rel="noopener noreferrer">forked and published</a> a comparison of various messengers. Why?</p>
+<p>Today I <a href="https://armchairancap.github.io/xx-network-haven-comparison/index.html" target="_blank" rel="noopener noreferrer">forked and published</a> a comparison of various messengers. Why?</p>
 <p>Because as the author of the original comparison can't possibly include everything (he actually checks and compares all those details, which requires non-trivial efforts) and he focuses on major messengers so Haven't currently isn't included. (He welcomes requests, so you could suggest Haven - Haven't (pun intended).)</p>
 <p>Not having a mobile version probably doesn't help.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="wait-i-cant-run-haven-on-mobile">Wait, I can't run Haven on mobile?<a href="https://armchairancap.github.io/blog/2024/11/01/haven-comparison-notes#wait-i-cant-run-haven-on-mobile" class="hash-link" aria-label="Direct link to Wait, I can't run Haven on mobile?" title="Direct link to Wait, I can't run Haven on mobile?">​</a></h3>
