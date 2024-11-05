@@ -102,6 +102,8 @@ If bots work well, 30 days or longer shouldn't be a problem.</p></div></div>
 <p>While that's nice, it's more than we need here.</p>
 <p>Of course, xx chain could adopt some of those features, but I think it objectively doesn't need them.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="summary">Summary<a href="https://armchairancap.github.io/blog/2023/11/05/xx-network-asset-gated-access#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
+<p>In xx Network wallet NFTs are there, but there's no way to issue them from the wallet. Assets exist, but aren't likely to be used as assets.</p>
+<p><img decoding="async" loading="lazy" alt="xx Network Wallet with assets and NFTs" src="https://armchairancap.github.io/assets/images/2024-11-05-xx-chain-asset-gated-access-04-eef1b2052a4b53c83b16c9d58851f666.png" width="279" height="264" class="img_xHFY"></p>
 <p>The xx Network community hasn't done much to monetize Web (or should I say "Web3" to highlight my "DeFi" prowess) access. One of the reasons is surely lack of examples and documentation, and another is a small market size.</p>
 <p>With XX coin-gated and NFT-gated apps based on xx "assets", that is relatively easy to do now.</p>
 <p>Code for the former is already on Github, while the latter needs 2-3 API calls to be added to that repo.</p>
