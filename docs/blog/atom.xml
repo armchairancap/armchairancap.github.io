@@ -43,7 +43,7 @@
 <p><img decoding="async" loading="lazy" src="https://armchairancap.github.io/assets/images/2024-11-05-xx-chain-asset-gated-access-01-7e8200e191b14681df54de8d17fc8cc0.png" width="904" height="602" class="img_xHFY"></p>
 <p>Let's consider two, <code>test</code> (ID: 4) and <code>Intelligence</code> (ID: 42).</p>
 <p>We need to know how to query their balance in user's wallet.</p>
-<p>For the impatient - find sample JS code in the same repository as above.</p>
+<p>For the impatient JS users - find sample JS code in the same repository.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="query-check-asset-balances">Query (check asset balances)<a href="https://armchairancap.github.io/blog/2023/11/05/xx-network-asset-gated-access#query-check-asset-balances" class="hash-link" aria-label="Direct link to Query (check asset balances)" title="Direct link to Query (check asset balances)">​</a></h2>
 <p>It's unbelievable and ludicrous, but it took me many hours to find this info. As if no one needs this stuff.</p>
 <p>I find that hard to believe! But look above - after several years of mainnet and there's just half a dozen test-grade assets, so maybe that's true?</p>
@@ -121,12 +121,13 @@ If bots work well, 30 days or longer shouldn't be a problem.</p></div></div>
 <p>While that's nice, it's more than we need here.</p>
 <p>Of course, xx chain could adopt some of those features, but I think it objectively doesn't need them.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="summary">Summary<a href="https://armchairancap.github.io/blog/2023/11/05/xx-network-asset-gated-access#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
-<p>In xx Network wallet NFTs are there, but there's no way to issue them from the wallet. Assets exist, but aren't likely to be used as assets.</p>
+<p>In xx Network wallet NFTs are there (based on the xxchain code pallet-nfts v4.0.0 is used), but there's no way to issue them from the wallet. You can find the NFT Pallet documentation <a href="https://wiki.polkadot.network/docs/learn-nft-pallets#nfts-pallet" target="_blank" rel="noopener noreferrer">here</a>, just mind the fact that xx Network Wallet won't let owners see them unless wallet itself gets some upgrades.</p>
+<p>As we've seen assets exist, but aren't likely to be used as "assets".</p>
 <p><img decoding="async" loading="lazy" alt="xx Network Wallet with assets and NFTs" src="https://armchairancap.github.io/assets/images/2024-11-05-xx-chain-asset-gated-access-04-eef1b2052a4b53c83b16c9d58851f666.png" width="279" height="264" class="img_xHFY"></p>
 <p>The xx Network community hasn't done much to monetize Web (or should I say "Web3" to highlight my "DeFi" prowess) access.</p>
 <p>One of the reasons is surely lack of examples and documentation, and another is a small market size.</p>
-<p>With XX coin-gated and NFT-gated apps based on xx "assets" that is easy to do now. Get the code <a href="https://github.com/armchairancap/polkadot-js-tokengated-website/tree/v1.2.1" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<p>Market for xx chain-related token- and NFT-gated services (based on xx "assets") is still small, but it does exist. Anyone who builds something and makes it available for others, lowers the entry barrier for more xx Network services. Let us hope such services emerge in coming months.</p>]]></content>
+<p>With XX coin-gated and NFT-gated apps (based on xx "assets"), that is easy to do now. Get the code <a href="https://github.com/armchairancap/polkadot-js-tokengated-website/tree/v1.2.1" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>Market for xx chain-related token- and NFT-gated services (based on xx chain "assets") is still small, but it does exist. Anyone who builds something and makes it available for others, lowers the entry barrier for more xx Network services. Let us hope such services emerge in coming months.</p>]]></content>
         <author>
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
