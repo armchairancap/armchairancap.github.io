@@ -9,17 +9,17 @@
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Dump block contents on xx chain with xxblockdumper]]></title>
-        <id>https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper</id>
-        <link href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper"/>
+        <id>https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper</id>
+        <link href="https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper"/>
         <updated>2024-11-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Dump xx chain block contents to JSON]]></summary>
         <content type="html"><![CDATA[<ul>
-<li><a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#xxblockdumper">xxblockdumper</a></li>
-<li><a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#using-with-xx-chain">Using with xx chain</a></li>
-<li><a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#what-does-this-all-mean">What does this all mean</a></li>
-<li><a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#conclusion">Conclusion</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper#xxblockdumper">xxblockdumper</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper#using-with-xx-chain">Using with xx chain</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper#what-does-this-all-mean">What does this all mean</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper#conclusion">Conclusion</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="xxblockdumper">xxblockdumper<a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#xxblockdumper" class="hash-link" aria-label="Direct link to xxblockdumper" title="Direct link to xxblockdumper">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="xxblockdumper">xxblockdumper<a href="https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper#xxblockdumper" class="hash-link" aria-label="Direct link to xxblockdumper" title="Direct link to xxblockdumper">​</a></h2>
 <p><a href="https://git.xx.network/carback1/xxblockdumper" target="_blank" rel="noopener noreferrer">xxblockdumper</a> is another nice utility from Rick.</p>
 <p>It aims to provide the following features to xx chain users (from current repo description):</p>
 <ul>
@@ -30,7 +30,7 @@
 <li>Configurable node endpoint</li>
 <li>Built-in retry mechanism with exponential backoff</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="using-with-xx-chain">Using with xx chain<a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#using-with-xx-chain" class="hash-link" aria-label="Direct link to Using with xx chain" title="Direct link to Using with xx chain">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="using-with-xx-chain">Using with xx chain<a href="https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper#using-with-xx-chain" class="hash-link" aria-label="Direct link to Using with xx chain" title="Direct link to Using with xx chain">​</a></h2>
 <p>Download, install, use.</p>
 <p>Three comments regarding today's <code>main</code> tree:</p>
 <ul>
@@ -49,16 +49,81 @@
 <p>Once you get that downloaded, run extract.py on the file (this is a to-do item that will contain a specific example for which the utility is being created).</p>
 <div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">python3 extract.py</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Output file name is currently hard-coded (<code>block_&lt;number&gt;_&lt;timestamp&gt;.json</code>) because xxblockdumper was created to enable simple DIY auditing of individual blocks.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-does-this-all-mean">What does this all mean<a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#what-does-this-all-mean" class="hash-link" aria-label="Direct link to What does this all mean" title="Direct link to What does this all mean">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-does-this-all-mean">What does this all mean<a href="https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper#what-does-this-all-mean" class="hash-link" aria-label="Direct link to What does this all mean" title="Direct link to What does this all mean">​</a></h2>
 <p>It means you get detailed chain info off your xx chain server in the convenient JSON format.</p>
 <p>It means you can use this for certain things without having a big chain explorer at your disposal.</p>
 <p>It means you may not be able to react as quickly as by API-querying an explorer - as you can see, it takes a bit more than 6 seconds to get this stuff out of your RPC endpoint.</p>
 <p>If not all data are requested, it may be possible to provide near-real-time watch services (for example), but I haven't verified this - I just imagine if a fraction of data is required, certain queries could be done in seconds.</p>
 <p>On a fast server we could run multiple xxblockdumper tasks, but as long as each task takes more than 6 seconds to get data and analyze it, that can't work for near-real-time analytics - for that you'd need a different tool.</p>
 <p>If you want to dump details of old block data you'll need to run your node in archive mode and have some 50-100 GB of disk space to play with. "Light" nodes discard such state fairly quickly depending on settings (minutes or hours).</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="conclusion">Conclusion<a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="conclusion">Conclusion<a href="https://armchairancap.github.io/blog/2024/11/11/xx-chain-block-dumper#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>xxblockdumper provides convenience to Python users who want to work with xx chain block data.</p>
 <p>There are minor bugs that will be sorted out and then we'll be able to use it to build other tools.</p>]]></content>
+        <author>
+            <name>ArmchairAncap</name>
+            <uri>https://github.com/armchairancap</uri>
+        </author>
+        <category label="xx network" term="xx network"/>
+        <category label="xx chain" term="xx chain"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why dApps for xx Network]]></title>
+        <id>https://armchairancap.github.io/blog/2024/11/11/xx-dapps</id>
+        <link href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps"/>
+        <updated>2024-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[xx Network ]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_U9DT" id="intro">Intro<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#intro" class="hash-link" aria-label="Direct link to Intro" title="Direct link to Intro">​</a></h2>
+<p>As <a href="https://armchairancap.github.io/blog/2024/11/01/my-hacktober-2024-activites">Hacktoberfest 2024 just finished</a> and I've churned out some more or less coherent stuff for it, I want to share a few very short additional notes about it here.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="building-blocks">Building blocks<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#building-blocks" class="hash-link" aria-label="Direct link to Building blocks" title="Direct link to Building blocks">​</a></h2>
+<p>xx Network has a mixnet (which in turn has an SDK called xxDK) which applications use to work with cMixx.</p>
+<p>xx chain is a Polkadot SDK-based (aka Substrate-based) chain which has its own ecosystem, libraries, API.</p>
+<p>Applications can use xxDK to send messages on xx Network for free, so there's no need to write to xx chain or own XX coins. It is expected that only power-users <a href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage#postage">may have</a> the need to buy XX coin to pay, which is to say casual use should never require anything but xxDK.</p>
+<p>What does that mean for dApp authors?</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="building-dapps-for-xx-network">Building dApps for xx Network<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#building-dapps-for-xx-network" class="hash-link" aria-label="Direct link to Building dApps for xx Network" title="Direct link to Building dApps for xx Network">​</a></h2>
+<p>I think that means xx Network is a good platform for messaging dApps.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="good-native-chain">Good native chain<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#good-native-chain" class="hash-link" aria-label="Direct link to Good native chain" title="Direct link to Good native chain">​</a></h3>
+<p>xx Network is are one of very few networks that provide anonymous messaging <em>and</em> have its own L1 chain to work with.</p>
+<p>xx Network has a <em>good</em> (Substrate-based), fast, low-cost chain with plenty of features - from assets to governance - so for many purposes entire apps can be written to it.</p>
+<p>Most other messaging guys have to write dApps for 3rd party chains - which we can do, too - and we do not. More choice.</p>
+<p>The PoC code for <a href="https://armchairancap.github.io/blog/2023/11/05/xx-network-asset-gated-access/">XX token- and asset-gating</a> of Web sites shows how easy Polkadot-style dApps can work with xx Network - it wasn't too hard to modify the app for xx Network and add asset-gating. It would also be easy to modify that code to use asset-gating on other Substrate-based channels with asset support.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="native-currency">Native currency<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#native-currency" class="hash-link" aria-label="Direct link to Native currency" title="Direct link to Native currency">​</a></h3>
+<p>Most other chains don't have a native currency, so they have to pick a wallet and integrate with another chain.</p>
+<p>xxDK dApps can do that as well, but it's simple enough to use xx chain, especially if you need to handle postage that I mentioned earlier.</p>
+<p>Once XX coin gets listed on a DEX, it will be easy to acquire XX coin with any major crypto-currency and use it to pay postage (when it becomes available).</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="building-use-cases-with-these-building-blocks">Building use cases with these building blocks<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#building-use-cases-with-these-building-blocks" class="hash-link" aria-label="Direct link to Building use cases with these building blocks" title="Direct link to Building use cases with these building blocks">​</a></h2>
+<p>I mentioned some of them in the token-gating post, but I'll make one additional example here to illustrate why I worked on those "building blocks" recently - we can put them together to build some simple dApps (or semi-dApps).</p>
+<ul>
+<li>It is easy to download a file, but if you need to do it reasonably privately, you can use <a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler/#whats-tribler">Tribler</a>
+<ul>
+<li>The challenge is getting the link equally (or more) privately</li>
+<li>Find me in my Haven Space, pay me some coins, and I'll seed the file for you in Tribler (and give you the link). I can automate this completely as I explained in the Hacktoberfest post, or I can make it fully manual (which is necessary for on-demand items), semi-automated, or AI-powered</li>
+</ul>
+</li>
+<li>If you need even more privacy for downloads, you can park them on S3 and use an asset-gated Web site in the public cloud</li>
+<li>If you need even more privacy, you can run <a href="https://armchairancap.github.io/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not/#how-it-could-be-done">xx Haven container and Web service on Onion network</a></li>
+<li>If you want to use a Web3 app without using public cloud, you can create an app that uses xxDK for chat and something like Crust Network to share content</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="summary">Summary<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
+<p>So we have everything you need and there's no need to use any other network, right?</p>
+<p>Wrong! I'm not an XX coin maximalist, folks.</p>
+<p>I'd never "encourage" you to use or buy XX coin. If you - a user or developer - think that it would help you, use it.</p>
+<p>I only wanted to share why I think xx Network mixnet is quite unique in its approach. It does give you more flexibility and more convenience.</p>
+<p>Anyone can build for xxDK and use (or not) whatever crypto currency they like in their dApp. They can also use several - for example:</p>
+<ul>
+<li>some currency which is their first choice</li>
+<li>XX coin for xx Postage</li>
+<li>Crust for blob storage</li>
+<li>Ethereum for ENS (name and reputation)</li>
+</ul>
+<p>Any permutation of these will work, and not having any coin will also work (Haven + Tribler, for example).</p>
+<p>With just a couple of building blocks we can build reasonably private dApps.</p>
+<p>Some other building blocks I'd like to see (not a complete list):</p>
+<ul>
+<li>Reputation (maybe through ENS)</li>
+<li>Identity (maybe through Polkadot or ENS)</li>
+<li>Blob integration (add xxDK chat to Crust app, or run Haven + Crust in the same browser tab)</li>
+</ul>
+<p>If you have own ideas, check out <a href="https://xxfoundation.org/xx-grants-program-reboot/" target="_blank" rel="noopener noreferrer">the xx Foundation Grant program</a> or reach out on X or the XX Discord.</p>]]></content>
         <author>
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
