@@ -2,11 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://armchairancap.github.io/blog</id>
     <title>ArmchairAncap Blog</title>
-    <updated>2024-11-05T00:00:00.000Z</updated>
+    <updated>2024-11-11T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://armchairancap.github.io/blog"/>
     <subtitle>ArmchairAncap Blog</subtitle>
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Dump block contents on xx chain with xxblockdumper]]></title>
+        <id>https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper</id>
+        <link href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper"/>
+        <updated>2024-11-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dump xx chain block contents to JSON]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li><a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#xxblockdumper">xxblockdumper</a></li>
+<li><a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#using-with-xx-chain">Using with xx chain</a></li>
+<li><a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#what-does-this-all-mean">What does this all mean</a></li>
+<li><a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#conclusion">Conclusion</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="xxblockdumper">xxblockdumper<a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#xxblockdumper" class="hash-link" aria-label="Direct link to xxblockdumper" title="Direct link to xxblockdumper">​</a></h2>
+<p><a href="https://git.xx.network/carback1/xxblockdumper" target="_blank" rel="noopener noreferrer">xxblockdumper</a> is another nice utility from Rick.</p>
+<p>It aims to provide the following features to xx chain users (from current repo description):</p>
+<ul>
+<li>Fetch complete block data from any Substrate-based chain</li>
+<li>Retrieve state data and extrinsics</li>
+<li>Export data to JSON format</li>
+<li>Support for latest or specific block numbers</li>
+<li>Configurable node endpoint</li>
+<li>Built-in retry mechanism with exponential backoff</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="using-with-xx-chain">Using with xx chain<a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#using-with-xx-chain" class="hash-link" aria-label="Direct link to Using with xx chain" title="Direct link to Using with xx chain">​</a></h2>
+<p>Download, install, use.</p>
+<p>Three comments regarding today's <code>main</code> tree:</p>
+<ul>
+<li>Currently <code>click.echo(f"Debug - Block structure: {json.dumps(block, indent=2)}", err=True)</code> causes SCALE codec malfunction, so I mark it out before installing (this will probably get fixed soon)</li>
+<li>I've updated some packages before installing, including Python Substrate Interface and SCALE codec, but this will probably be updated in <code>main</code> soon</li>
+<li><code>-n ${BLOCKNUMBER}</code> is optional and <code>None</code> means <code>CURRENT</code></li>
+<li>You may see this error as well</li>
+</ul>
+<div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ blockdumper </span><span class="token parameter variable" style="color:rgb(191, 199, 213)">-n</span><span class="token plain"> ws://192.168.1.3:63007</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Connecting to node: ws://192.168.1.3:63007</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Fetching data </span><span class="token keyword" style="font-style:italic">for</span><span class="token plain"> latest</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Block hash: 0x610dfaf8cfae9c0cc7478183e490cf38f56c497f48b9dd744b5fec9f20777bde</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Error fetching state data: </span><span class="token punctuation" style="color:rgb(199, 146, 234)">{</span><span class="token string" style="color:rgb(195, 232, 141)">'code'</span><span class="token builtin class-name" style="color:rgb(255, 203, 107)">:</span><span class="token plain"> -32702, </span><span class="token string" style="color:rgb(195, 232, 141)">'message'</span><span class="token builtin class-name" style="color:rgb(255, 203, 107)">:</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'Response is too big'</span><span class="token plain">, </span><span class="token string" style="color:rgb(195, 232, 141)">'data'</span><span class="token builtin class-name" style="color:rgb(255, 203, 107)">:</span><span class="token plain"> </span><span class="token string" style="color:rgb(195, 232, 141)">'Exceeded max limit of 1048576'</span><span class="token punctuation" style="color:rgb(199, 146, 234)">}</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>Yeah.</p>
+<p>Change your xx chain configuration to allow large responses and restart chain service. Here the maximum response size is upped to 32 MB.</p>
+<div class="language-raw codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-raw codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">  --rpc-max-request-size 2 \</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  --rpc-max-response-size 32 \</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>You need to be careful with this on servers that provide public services - this can get "expensive"!</p>
+<p><img decoding="async" loading="lazy" alt="RPC calls are not cheap" src="https://armchairancap.github.io/assets/images/2024-11-10-xx-chain-block-dumper-expensive-260badb70e8357dd8178e2553d32d053.png" width="930" height="133" class="img_xHFY"></p>
+<p>As you can imagine, Dwellir's public RPC endpoint hasn't made those adjustments for your freeloading convenience.</p>
+<p>Once you get that downloaded, run extract.py on the file.</p>
+<div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">python3 extract.py</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>File name is currently hard-coded because xxblockdumper was created to enable simple DIY auditing of individual blocks, but this will probably change to make it more convenient.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-does-this-all-mean">What does this all mean<a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#what-does-this-all-mean" class="hash-link" aria-label="Direct link to What does this all mean" title="Direct link to What does this all mean">​</a></h2>
+<p>It means you get detailed chain info off your xx chain server in the convenient JSON format.</p>
+<p>It means you can use this for certain things without having a big chain explorer at your disposal.</p>
+<p>It means you may not be able to react as quickly as by API-querying an explorer - as you can see, it takes a bit more than 6 seconds to get this stuff out of your RPC endpoint.</p>
+<p>If not all data are requested, it may be possible to provide near-real-time watch services (for example), but I haven't verified this - I just imagine if a fraction of data is required, certain queries could be done in seconds.</p>
+<p>On a fast server we could run multiple xxblockdumper tasks, but as long as each task takes more than 6 seconds to get data and analyze it, that can't work for near-real-time analytics - for that you'd need a different tool.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="conclusion">Conclusion<a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>xxblockdumper provides convenience to Python users who want to work with xx chain block data.</p>
+<p>There are minor bugs that will be sorted out and then we'll be able to use it to build other tools.</p>]]></content>
+        <author>
+            <name>ArmchairAncap</name>
+            <uri>https://github.com/armchairancap</uri>
+        </author>
+        <category label="xx network" term="xx network"/>
+        <category label="xx chain" term="xx chain"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NFT-gated access on xx Network]]></title>
         <id>https://armchairancap.github.io/blog/2023/11/05/xx-network-asset-gated-access</id>
