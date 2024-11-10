@@ -56,6 +56,7 @@
 <p>It means you may not be able to react as quickly as by API-querying an explorer - as you can see, it takes a bit more than 6 seconds to get this stuff out of your RPC endpoint.</p>
 <p>If not all data are requested, it may be possible to provide near-real-time watch services (for example), but I haven't verified this - I just imagine if a fraction of data is required, certain queries could be done in seconds.</p>
 <p>On a fast server we could run multiple xxblockdumper tasks, but as long as each task takes more than 6 seconds to get data and analyze it, that can't work for near-real-time analytics - for that you'd need a different tool.</p>
+<p>If you want to dump details of old block data you'll need to run your node in archive mode and have some 50-100 GB of disk space to play with. "Light" nodes discard such state fairly quickly depending on settings (minutes or hours).</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="conclusion">Conclusion<a href="https://armchairancap.github.io/blog/2023/11/11/xx-chain-block-dumper#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>xxblockdumper provides convenience to Python users who want to work with xx chain block data.</p>
 <p>There are minor bugs that will be sorted out and then we'll be able to use it to build other tools.</p>]]></content:encoded>
