@@ -10,7 +10,7 @@
 
 
 <script src="https://cdn.counter.dev/script.js" async data-id="83dc700a-b821-4e57-9425-02b8336a9456" data-utcoffset="0"></script><link rel="stylesheet" href="/assets/css/styles.c669becb.css">
-<script src="/assets/js/runtime~main.9e911025.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.55d1daed.js" defer="defer"></script>
 <script src="/assets/js/main.346be6b1.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard" data-theme="light">
@@ -47,9 +47,9 @@
 <p>You need to be careful with this on servers that provide public services - this can get &quot;expensive&quot;!</p>
 <p><img decoding="async" loading="lazy" alt="RPC calls are not cheap" src="/assets/images/2024-11-10-xx-chain-block-dumper-expensive-260badb70e8357dd8178e2553d32d053.png" width="930" height="133" class="img_xHFY"></p>
 <p>As you can imagine, Dwellir&#x27;s public RPC endpoint hasn&#x27;t made those adjustments for your freeloading convenience.</p>
-<p>Once you get that downloaded, run extract.py on the file.</p>
+<p>Once you get that downloaded, run extract.py on the file (this is a to-do item that will contain a specific example for which the utility is being created).</p>
 <div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">python3 extract.py</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>File name is currently hard-coded because xxblockdumper was created to enable simple DIY auditing of individual blocks, but this will probably change to make it more convenient.</p>
+<p>Output file name is currently hard-coded (<code>block_&lt;number&gt;_&lt;timestamp&gt;.json</code>) because xxblockdumper was created to enable simple DIY auditing of individual blocks.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-does-this-all-mean">What does this all mean<a href="#what-does-this-all-mean" class="hash-link" aria-label="Direct link to What does this all mean" title="Direct link to What does this all mean">​</a></h2>
 <p>It means you get detailed chain info off your xx chain server in the convenient JSON format.</p>
 <p>It means you can use this for certain things without having a big chain explorer at your disposal.</p>
