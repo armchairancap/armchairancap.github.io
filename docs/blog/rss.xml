@@ -100,11 +100,12 @@
 <li>If you need even more privacy, you can run <a href="https://armchairancap.github.io/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not/#how-it-could-be-done">xx Haven container and Web service on Onion network</a></li>
 <li>If you want to use a Web3 app without using public cloud, you can create an app that uses xxDK for chat and something like Crust Network to share content</li>
 </ul>
+<p>With XX chain (or other Substrate-chain) asset-gating we an even serve the same content using <a href="https://github.com/armchairancap/polkadot-js-tokengated-website/issues/2" target="_blank" rel="noopener noreferrer">different routes (links) for different membership levels</a> all on xx Network.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="summary">Summary<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
 <p>So we have everything you need and there's no need to use any other network, right?</p>
 <p>Wrong! I'm not an XX coin maximalist, folks.</p>
 <p>I'd never "encourage" you to use or buy XX coin. If you - a user or developer - think that it would help you, use it.</p>
-<p>I only wanted to share why I think xx Network mixnet is quite unique in its approach. It does give you more flexibility and more convenience.</p>
+<p>I only want to share why I think xx Network mixnet is quite unique in its approach. It does give you more flexibility and more convenience.</p>
 <p>Anyone can build for xxDK and use (or not) whatever crypto currency they like in their dApp. They can also use several - for example:</p>
 <ul>
 <li>some currency which is their first choice</li>
