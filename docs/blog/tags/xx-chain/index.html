@@ -11,7 +11,7 @@
 
 
 <script src="https://cdn.counter.dev/script.js" async data-id="83dc700a-b821-4e57-9425-02b8336a9456" data-utcoffset="0"></script><link rel="stylesheet" href="/assets/css/styles.2fac03d5.css">
-<script src="/assets/js/runtime~main.c26703cc.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.1062c38c.js" defer="defer"></script>
 <script src="/assets/js/main.972bd900.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard" data-theme="light">
@@ -72,7 +72,7 @@
 <p><code>--blocks-pruning archive</code> is what will always work, but xx chain node will need hundreds of GBs, possibly on flash media.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="conclusion">Conclusion<a href="#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
 <p>xxblockdumper provides convenience to Python users who want to work with xx chain block data.</p>
-<p>There are minor bugs that will be sorted out and then we&#x27;ll be able to use it to build other tools.</p></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_i4In padding--none margin-left--sm"><li class="tag_pKY9"><a class="tag_npp9 tagRegular_LeBw" href="/blog/tags/xx-network">xx network</a></li><li class="tag_pKY9"><a class="tag_npp9 tagRegular_LeBw" href="/blog/tags/xx-chain">xx chain</a></li></ul></div></footer></article><article class="margin-bottom--xl"><header><h2 class="title_RyL6"><a href="/blog/2024/11/11/xx-dapps">Why dApps for xx Network</a></h2><div class="container_d2a9 margin-vert--md"><time datetime="2024-11-11T00:00:00.000Z">November 11, 2024</time> · <!-- -->7 min read</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--6 authorCol_tJ1H"><div class="avatar margin-bottom--sm"><a href="https://github.com/armchairancap" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo" src="https://github.com/armchairancap.png" alt="ArmchairAncap"></a><div class="avatar__intro"><div class="avatar__name"><a href="https://github.com/armchairancap" target="_blank" rel="noopener noreferrer"><span>ArmchairAncap</span></a></div></div></div></div></div></header><div class="markdown"><ul>
+<p>There are minor bugs that will be sorted out and then we&#x27;ll be able to use it to build other tools.</p></div><footer class="row docusaurus-mt-lg"><div class="col"><b>Tags:</b><ul class="tags_i4In padding--none margin-left--sm"><li class="tag_pKY9"><a class="tag_npp9 tagRegular_LeBw" href="/blog/tags/xx-network">xx network</a></li><li class="tag_pKY9"><a class="tag_npp9 tagRegular_LeBw" href="/blog/tags/xx-chain">xx chain</a></li></ul></div></footer></article><article class="margin-bottom--xl"><header><h2 class="title_RyL6"><a href="/blog/2024/11/11/xx-dapps">Why dApps for xx Network</a></h2><div class="container_d2a9 margin-vert--md"><time datetime="2024-11-11T00:00:00.000Z">November 11, 2024</time> · <!-- -->8 min read</div><div class="margin-top--md margin-bottom--sm row"><div class="col col--6 authorCol_tJ1H"><div class="avatar margin-bottom--sm"><a href="https://github.com/armchairancap" target="_blank" rel="noopener noreferrer" class="avatar__photo-link"><img class="avatar__photo" src="https://github.com/armchairancap.png" alt="ArmchairAncap"></a><div class="avatar__intro"><div class="avatar__name"><a href="https://github.com/armchairancap" target="_blank" rel="noopener noreferrer"><span>ArmchairAncap</span></a></div></div></div></div></div></header><div class="markdown"><ul>
 <li><a href="#intro">Intro</a></li>
 <li><a href="#building-blocks">Building blocks</a></li>
 <li><a href="#building-dapps-for-xx-network">Building dApps for xx Network</a>
@@ -91,18 +91,20 @@
 <p>xx Network has a mixnet (which in turn has an SDK called xxDK) which applications use to work with cMixx.</p>
 <p>xx chain is a Polkadot SDK-based (aka Substrate-based) chain which has its own ecosystem, libraries, API.</p>
 <p>Applications can use xxDK to send messages on xx Network for free, so there&#x27;s no need to write to xx chain or own XX coins. It is expected that only power-users <a href="/blog/2024/08/16/worldcoin-xx-postage#postage">may have</a> the need to buy XX coin to pay, which is to say casual use should never require anything but xxDK.</p>
-<p>What does that mean for dApp authors?</p>
+<p>What does that mean for dApp authors? I think that means xx Network is a good platform for messaging dApps.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="building-dapps-for-xx-network">Building dApps for xx Network<a href="#building-dapps-for-xx-network" class="hash-link" aria-label="Direct link to Building dApps for xx Network" title="Direct link to Building dApps for xx Network">​</a></h2>
-<p>I think that means xx Network is a good platform for messaging dApps.</p>
+<p>Usually the fact that xx Network is &quot;bootstrapped&quot; in a blockchain elicits negative comments (see <a href="/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#techloretech">these examples</a>), if any at all.</p>
+<p>Most people have no opinion about that, which isn&#x27;t much better. It&#x27;s a major difference and has to be considered. If you have good reasons why it&#x27;s bad, that&#x27;s fine as well.</p>
+<p>I think it has a very positive impact that may not be obvious if you haven&#x27;t thought about it and all you&#x27;ve heard is &quot;crypto is full of scams&quot;.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="feature-full-native-chain">Feature-full native chain<a href="#feature-full-native-chain" class="hash-link" aria-label="Direct link to Feature-full native chain" title="Direct link to Feature-full native chain">​</a></h3>
 <p>xx Network is are one of very few networks that provide anonymous messaging <em>and</em> have its own L1 chain to work with.</p>
-<p>xx Network has a <em>good</em> (Substrate-based), fast, low-cost chain with plenty of features - from assets to governance - so for many purposes entire apps can be written to it.</p>
-<p>Most other messaging guys have to write dApps for 3rd party chains - which we can do, too - and we do not. More choice.</p>
+<p>xx Network has a <em>good</em> (Substrate-based), fast, low-cost chain with plenty of features - from assets to governance - so for many use cases entire apps can be written to it without using anything else.</p>
+<p>Most other decentralized private messaging guys have to write dApps for 3rd party chains - which we can do, too - and we do not. More choice.</p>
 <p>The PoC code for <a href="/blog/2023/11/05/xx-network-asset-gated-access/">XX token- and asset-gating</a> of Web sites shows how easy Polkadot-style dApps can work with xx Network - it wasn&#x27;t too hard to modify the app for xx Network and add asset-gating. It would also be easy to modify that code to use asset-gating on other Substrate-based channels with asset support.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="native-currency">Native currency<a href="#native-currency" class="hash-link" aria-label="Direct link to Native currency" title="Direct link to Native currency">​</a></h3>
-<p>Most other chains don&#x27;t have a native currency, so they have to pick a wallet and integrate with another chain.</p>
-<p>xxDK dApps can do that as well, but it&#x27;s simple enough to use xx chain, especially if you need to handle postage that I mentioned earlier.</p>
-<p>Once XX coin gets listed on a DEX, it will be easy to acquire XX coin with any major crypto-currency and use it to pay postage (when it becomes available).</p>
+<p>Most other private messaging apps don&#x27;t have a native currency, so they have to pick a wallet and integrate with another chain.</p>
+<p>xxDK dApps can do that as well, but it&#x27;s simple enough to use xx chain, especially if you need to handle postage that I mentioned earlier - in that case your app may be able to use one wallet and one currency.</p>
+<p>Once XX coin gets listed on a DEX, it will be easy to acquire XX coin with any major crypto-currency and use it to pay postage (when it becomes available), so using xxDK from a dApp that defaults to other coins isn&#x27;t any different from using other similar networks.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="use-cases-for-these-building-blocks">Use cases for these building blocks<a href="#use-cases-for-these-building-blocks" class="hash-link" aria-label="Direct link to Use cases for these building blocks" title="Direct link to Use cases for these building blocks">​</a></h2>
 <p>I mentioned some of them in the token-gating post, but I&#x27;ll make one additional example here to illustrate why I worked on those &quot;building blocks&quot; recently - we can put them together to build some simple dApps (or semi-dApps).</p>
 <ul>
@@ -118,7 +120,7 @@
 </ul>
 <p>With XX chain (or other Substrate-chain) asset-gating we an even serve the same content using <a href="https://github.com/armchairancap/polkadot-js-tokengated-website/issues/2" target="_blank" rel="noopener noreferrer">different routes (links) for different membership levels</a> all on xx Network.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="is-that-legal">Is that legal<a href="#is-that-legal" class="hash-link" aria-label="Direct link to Is that legal" title="Direct link to Is that legal">​</a></h2>
-<p>Of course, some will inevitably think &quot;of course, crypto is for scams and illegal stuff&quot;.</p>
+<p>Of course, some will inevitably think &quot;crypto is only good for scams and crime&quot;.</p>
 <p>I wouldn&#x27;t be posting about this if I couldn&#x27;t think of a lawful use case.</p>
 <p>There are valid use cases for rare or unique data that can&#x27;t be free (because it may require 100s of GBs in egress bandwidth).</p>
 <p>There are dApps that specialize in blobs (Storj, etc.), but there are use cases where data has to be posted on demand.</p>
