@@ -106,8 +106,9 @@
 <p>What does that mean for dApp authors? I think that means xx Network is a good platform for messaging dApps.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="building-dapps-for-xx-network">Building dApps for xx Network<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#building-dapps-for-xx-network" class="hash-link" aria-label="Direct link to Building dApps for xx Network" title="Direct link to Building dApps for xx Network">​</a></h2>
 <p>Usually the fact that xx Network is "bootstrapped" in a blockchain elicits negative comments (see <a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#techloretech">these examples</a>), if any at all.</p>
-<p>Most people have no opinion about that, which isn't much better. It's a major difference and has to be considered. If you have good reasons why it's bad, that's fine as well.</p>
+<p>Most people have no opinion about that, which isn't much better. It's a major difference and has to be considered. If you have good reasons why being blockchain-based is bad, that's fine as well.</p>
 <p>I think it has a very positive impact that may not be obvious if you haven't thought about it and all you've heard is "crypto is full of scams".</p>
+<p>For example, I happen to think that xx Network (and the Foundation) has a better setup than Signal and their foundation. Let's take a look at some more practical differences between xx Network and chainless apps.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="feature-full-native-chain">Feature-full native chain<a href="https://armchairancap.github.io/blog/2024/11/11/xx-dapps#feature-full-native-chain" class="hash-link" aria-label="Direct link to Feature-full native chain" title="Direct link to Feature-full native chain">​</a></h3>
 <p>xx Network is are one of very few networks that provide anonymous messaging <em>and</em> have its own L1 chain to work with.</p>
 <p>xx Network has a <em>good</em> (Substrate-based), fast, low-cost chain with plenty of features - from assets to governance - so for many use cases entire apps can be written to it without using anything else.</p>
