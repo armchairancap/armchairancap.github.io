@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkaa=self.webpackChunkaa||[]).push([[7716],{1694:a=>{a.exports=JSON.parse('{"permalink":"/blog/tags/it","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

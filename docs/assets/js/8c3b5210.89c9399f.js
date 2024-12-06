@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkaa=self.webpackChunkaa||[]).push([[1972],{7760:a=>{a.exports=JSON.parse('{"label":"wallet","permalink":"/blog/tags/wallet","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
