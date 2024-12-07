@@ -48,11 +48,11 @@
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="nft-concepts">NFT concepts<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#nft-concepts" class="hash-link" aria-label="Direct link to NFT concepts" title="Direct link to NFT concepts">​</a></h2>
 <p>It's a Substrate thing, similar across different chains. Note that some are more advanced and NFT-focused, and there you can do a lot more.</p>
 <ul>
-<li>NFTs come in "collections". A collection is identified by an ID, and has a bunch of properties.</li>
-<li>Each NFT belongs to a collection. Example: collection ID 10 may have NFTs ID 1, 2, and 3.</li>
-<li>NFTs can be minted, priced, transferred, bought, burned. Soul Bound NFTs are those that cannot be transferred.</li>
+<li>NFTs come in "collections". A collection is identified by an ID, and has a bunch of properties</li>
+<li>Each NFT belongs to a collection. Example: collection ID 10 may have NFTs ID 1, 2, and 3</li>
+<li>NFTs can be minted, priced, transferred, bought, burned. Soul Bound NFTs are those that cannot be transferred once they're minted to a wallet</li>
 </ul>
-<p>On xx Network, since there's no user-facing Web UI where you can see anything, it's all a bit weird.</p>
+<p>On xx Network, since there's no user-facing Web UI where you can see anything. There's a small "NFT" page that's always empty and doesn't show any collections, which is a bit weird.</p>
 <p>For more on Polkadot SDK-based NFTs, see this page on the Polkadot Wiki: <a href="https://wiki.polkadot.network/docs/learn-nft-pallets" target="_blank" rel="noopener noreferrer">https://wiki.polkadot.network/docs/learn-nft-pallets</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="nft-operations">NFT operations<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#nft-operations" class="hash-link" aria-label="Direct link to NFT operations" title="Direct link to NFT operations">​</a></h2>
 <p>This is a partial list of NFT-related operations available on Polkadot (source: Polkadot NFT documentation).</p>
