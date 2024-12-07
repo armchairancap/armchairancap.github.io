@@ -19,7 +19,14 @@
 <li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#nft-concepts">NFT concepts</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#nft-operations">NFT operations</a>
 <ul>
-<li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#getting-started-with-nfts">Getting started with NFTs</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#permissionless">Permissionless</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#permissioned">Permissioned</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#permissioned-for-metadata">Permissioned for metadata</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#force-governance-operations">Force (governance) operations</a></li>
+</ul>
+</li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#getting-started-with-nfts">Getting started with NFTs</a>
+<ul>
 <li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#create-a-collection-mint-price-transfer-send-buy">Create a collection, mint, price, transfer, send, buy</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#recap">Recap</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#buy-nft">Buy NFT</a></li>
@@ -43,12 +50,59 @@
 <ul>
 <li>NFTs come in "collections". A collection is identified by an ID, and has a bunch of properties.</li>
 <li>Each NFT belongs to a collection. Example: collection ID 10 may have NFTs ID 1, 2, and 3.</li>
-<li>NFTs can be minted, priced, transferred, bought</li>
+<li>NFTs can be minted, priced, transferred, bought, burned. Soul Bound NFTs are those that cannot be transferred.</li>
 </ul>
-<p>On xx Network, there's no "exchange" where swapping would occur and since there's no UI where you can see anything, it's all a bit weird.</p>
-<p>For more, see this page on the Poladot Wiki: <a href="https://wiki.polkadot.network/docs/learn-nft-pallets" target="_blank" rel="noopener noreferrer">https://wiki.polkadot.network/docs/learn-nft-pallets</a>.</p>
+<p>On xx Network, since there's no user-facing Web UI where you can see anything, it's all a bit weird.</p>
+<p>For more on Polkadot SDK-based NFTs, see this page on the Polkadot Wiki: <a href="https://wiki.polkadot.network/docs/learn-nft-pallets" target="_blank" rel="noopener noreferrer">https://wiki.polkadot.network/docs/learn-nft-pallets</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="nft-operations">NFT operations<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#nft-operations" class="hash-link" aria-label="Direct link to NFT operations" title="Direct link to NFT operations">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="getting-started-with-nfts">Getting started with NFTs<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#getting-started-with-nfts" class="hash-link" aria-label="Direct link to Getting started with NFTs" title="Direct link to Getting started with NFTs">​</a></h3>
+<p>This is a partial list of NFT-related operations available on Polkadot (source: Polkadot NFT documentation).</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="permissionless">Permissionless<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#permissionless" class="hash-link" aria-label="Direct link to Permissionless" title="Direct link to Permissionless">​</a></h3>
+<p>These are not limited to the owner.</p>
+<ul>
+<li>create: Create a new collection by placing a deposit</li>
+<li>mint: Mint a new item within a collection (when the minting is public)</li>
+<li>transfer: Send an item to a new owner</li>
+<li>set_price: Set the price for an item</li>
+<li>buy_item: Buy an item</li>
+<li>pay_tips: Pay tips, could be used for paying the creator royalties</li>
+<li>create_swap: Create an offer to swap an NFT for another NFT and optionally some fungibles</li>
+<li>cancel_swap: Cancel previously created swap offer</li>
+<li>claim_swap: Swap items in an atomic way</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="permissioned">Permissioned<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#permissioned" class="hash-link" aria-label="Direct link to Permissioned" title="Direct link to Permissioned">​</a></h3>
+<p>These are "admin" level actions for the issuer.</p>
+<ul>
+<li>destroy: Destroy a collection. This destroys all the items inside the collection and refunds the deposit</li>
+<li>force_mint: Mint a new item within a collection</li>
+<li>burn: Destroy an item within a collection</li>
+<li>lock_item_transfer: Prevent an individual item from being transferred</li>
+<li>unlock_item_transfer: Revert the effects of a previous lock_item_transfer</li>
+<li>clear_all_transfer_approvals: Clears all transfer approvals set by calling the approve_transfer</li>
+<li>lock_collection: Prevent all items within a collection from being transferred (making them all soul bound)</li>
+<li>lock_item_properties: Lock item's metadata or attributes</li>
+<li>transfer_ownership: Alter the owner of a collection, moving all associated deposits. Ownership of individual items will not be affected</li>
+<li>set_team: Alter the permissioned accounts of a collection</li>
+<li>set_collection_max_supply: Change the max supply of a collection</li>
+<li>update_mint_settings: Update the minting settings for collection</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="permissioned-for-metadata">Permissioned for metadata<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#permissioned-for-metadata" class="hash-link" aria-label="Direct link to Permissioned for metadata" title="Direct link to Permissioned for metadata">​</a></h3>
+<p>Same as above, but for metadata.</p>
+<ul>
+<li>set_attribute: Set a metadata attribute of an item or collection</li>
+<li>clear_attribute: Remove a metadata attribute of an item or collection</li>
+<li>set_metadata: Set general metadata of an item (e.g. an IPFS address of an image url)</li>
+<li>clear_metadata: Remove general metadata of an item</li>
+<li>set_collection_metadata: Set general metadata of a collection</li>
+<li>clear_collection_metadata: Remove general metadata of a collection</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="force-governance-operations">Force (governance) operations<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#force-governance-operations" class="hash-link" aria-label="Direct link to Force (governance) operations" title="Direct link to Force (governance) operations">​</a></h3>
+<p>Also "admin" level operations for the issuer, mostly related to "override" operations.</p>
+<ul>
+<li>Create a new collection (the collection ID can not be chosen)</li>
+<li>Change collection's owner or configuration</li>
+<li>Set an attribute</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="getting-started-with-nfts">Getting started with NFTs<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#getting-started-with-nfts" class="hash-link" aria-label="Direct link to Getting started with NFTs" title="Direct link to Getting started with NFTs">​</a></h2>
 <p>To make my life less miserable:</p>
 <ul>
 <li>I got two wallets (addresses), and created on-chain ID for the "NFT issuer" wallet</li>
@@ -68,6 +122,8 @@
 <div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>It seems this is the first NFT ever created on xx Chain. If so, that's nuts!</p></div></div>
 <p>This results in no NFTs. It's just a collection with minimal details. This NFT is minted by the issuer. (Reference: <a href="https://wallet.xx.network/#/explorer/query/0xb1891997433a75dae001e670f3bd0be0219cc289b035ba65681b2926b7ccd054" target="_blank" rel="noopener noreferrer">extrinsic in block 15,954,954</a>)</p>
 <div class="language-raw codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-raw codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">{</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  settings: 0</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  maxSupply: 500</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  mintSettings: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    mintType: Issuer</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    price: 1,000,000,000</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    startBlock: null</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    endBlock: null</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    defaultItemSettings: 0</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  }</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>There are different options which you should explore, such as mint settings: Issuer, Public, HolderOf. Issuer limits minting to the admin (<code>mintType: Issuer</code>, above).</p>
+<p><img decoding="async" loading="lazy" alt="xx Chain - create NFT with minting options" src="https://armchairancap.github.io/assets/images/2024-12-07-xx-network-nft-08-nft-mint-settings-2c835b83fb09e4be79932ff32816cb19.png" width="539" height="540" class="img_xHFY"></p>
 <p>In the wallet, go to Developer &gt; Chain state &gt; Storage, pick <code>ntfs.collection</code> and see there are no items yet (ArmchairAncap-Test-Wallet is 6Z...).</p>
 <div class="language-raw codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-raw codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">{</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  owner: 6ZLGrh6Mu7uDioL7bAVS4kTsRSez7w1Lz18fiApUqRHNWnxd</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  ownerDeposit: 100,000,000,000</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  items: 0</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  itemMetadatas: 0</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  itemConfigs: 0</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  attributes: 0</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>Since I'm in control of issuance (minting) I minted the first item for The-Dude. That's collection ID 0, NFT ID 1 (<code>ntfs.mint</code>).</p>
@@ -120,7 +176,7 @@
 <p>Personally, now that I know this API works and how it compares to xx Chain assets, I think NFTs are even better for mebership- and subscription-like use cases than assets!</p>
 <p>There's no need to buy NFTs "off the market" like assets, which is a major advantage. You can also set discounts, named buyers, and more.</p>
 <p>I'm not interested in real "NFT" (memecoins and similar), so the fact that the xx Network Wallet has nothing doesn't bother me at all. xx Network assets are much better in this regard - you can see which assets exists, and how holds how many, but doing anything with them is difficult.</p>
-<p>Other chains may have a more advanced NFT palette, but I'd say xx Chain doesn't even need those newer palette. Other chains need apps that use NFTs, but xx Chain already has one - it's called Haven.</p>
+<p>Other chains may have a more advanced NFT pallet, but I'd say xx Chain doesn't even need those newer pallet. Other chains need apps that use NFTs, but xx Chain already has a good one - it's called Haven.</p>
 <p>While one may NFT-gate a Web site, you can't NFT-gate a Haven channel because the same channel (Space) can be accessed from any instance. But: we can <a href="https://armchairancap.github.io/blog/2024/11/28/xx-validators-shall-we-play-a-game">ask Haven users to sign their wallet address</a> using their wallet, and then easily check if the user owns an NFT (or some quantity of an xx Network asset).</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="next-steps">Next steps<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#next-steps" class="hash-link" aria-label="Direct link to Next steps" title="Direct link to Next steps">​</a></h2>
 <p>xx Chain can do a lot more with NFTs than the spartan UI suggests - it's more than enough for some very interesting use cases.</p>
