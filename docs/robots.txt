@@ -1,0 +1,15 @@
+user-agent: DuckDuckBot
+allow: /
+
+user-agent: Bingbot
+allow: /
+
+user-agent: googlebot
+user-agent: Googlebot
+allow: /
+
+user-agent: Googlebot-Image
+user-agent: *
+disallow: /
+
+sitemap: https://armchairancap.github.io/sitemap.xml
