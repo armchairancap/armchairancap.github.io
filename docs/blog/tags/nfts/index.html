@@ -11,7 +11,7 @@
 
 
 <script src="https://cdn.counter.dev/script.js" async data-id="83dc700a-b821-4e57-9425-02b8336a9456" data-utcoffset="0"></script><link rel="stylesheet" href="/assets/css/styles.2fac03d5.css">
-<script src="/assets/js/runtime~main.3ebee85c.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.eee459d6.js" defer="defer"></script>
 <script src="/assets/js/main.7227c257.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard" data-theme="light">
@@ -43,6 +43,7 @@
 <ul>
 <li>The API is there and works</li>
 <li>The official xx Network wallet indeed doesn&#x27;t expose them in any way</li>
+<li>NFT pallet in xx Chain code 0.2.6 is based on pallet-nfts v4.0.0</li>
 </ul>
 <p>So, in theory at least, it should be possible to use them as long as you have your own application or don&#x27;t need a Web UI.</p>
 <p>I decided to spend some time on that this afternoon.</p>
@@ -176,7 +177,7 @@
 <p>See that <a href="/blog/2024/12/07/nfts-on-xx-network">post on token-gated access</a> for some ides as well as the PoC app and its source code.</p>
 <p>Personally, now that I know this API works and how it compares to xx Chain assets, I think NFTs are even better for mebership- and subscription-like use cases than assets!</p>
 <p>There&#x27;s no need to buy NFTs &quot;off the market&quot; like assets, which is a major advantage. You can also set discounts, named buyers, and more.</p>
-<p>I&#x27;m not interested in real &quot;NFT&quot; (memecoins and similar), so the fact that the xx Network Wallet has nothing doesn&#x27;t bother me at all. xx Network assets are much better in this regard - you can see which assets exists, and how holds how many, but doing anything with them is difficult.</p>
+<p>I&#x27;m not interested in popular NFT use cases (memecoins, games and such), so the fact that the xx Network Wallet has nothing for that doesn&#x27;t bother me at all. xx Network assets are much better in this regard - you can see which assets exists, and how holds how many - but doing anything with them is difficult and especially buying and selling.</p>
 <p>Other chains may have a more advanced NFT pallet, but I&#x27;d say xx Chain doesn&#x27;t even need those newer pallet. Other chains need apps that use NFTs, but xx Chain already has a good one - it&#x27;s called Haven.</p>
 <p>While one may NFT-gate a Web site, you can&#x27;t NFT-gate a Haven channel because the same channel (Space) can be accessed from any instance. But: we can <a href="/blog/2024/11/28/xx-validators-shall-we-play-a-game">ask Haven users to sign their wallet address</a> using their wallet, and then easily check if the user owns an NFT (or some quantity of an xx Network asset).</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="next-steps">Next steps<a href="#next-steps" class="hash-link" aria-label="Direct link to Next steps" title="Direct link to Next steps">​</a></h2>
