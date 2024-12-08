@@ -8,10 +8,11 @@
     <subtitle>ArmchairAncap Blog</subtitle>
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Good Samaritans]]></title>
+        <title type="html"><![CDATA[Good Samaritans of Supra Network]]></title>
         <id>https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network</id>
         <link href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network"/>
         <updated>2024-12-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Why capitalism works and why you should not believe E. Warren about predatory lending]]></summary>
         <content type="html"><![CDATA[<blockquote>
 <p>"And who is my neighbor?"</p>
 <p>J.H.C.</p>
@@ -22,15 +23,15 @@
 <ul>
 <li><a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#discord-admins">Discord admins</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#community-members">Community members</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#whos-the-bad-guy">Who's the bad guy</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#whos-the-bad-guy-here">Who's the bad guy here?</a></li>
 </ul>
 </li>
-<li><a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#predatory-lender">Predatory lender</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#predatory-lending">Predatory lending?</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#results">Results</a></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="situation">Situation<a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#situation" class="hash-link" aria-label="Direct link to Situation" title="Direct link to Situation">​</a></h2>
-<p><a href="https://supra.com/" target="_blank" rel="noopener noreferrer">Supra</a> launched, the process of token distribution was a mess.</p>
-<p>Many "airdrop" users weren't able to "claim" their $SUPRA because they couldn't pay for the transaction to do that.</p>
+<p><a href="https://supra.com/" target="_blank" rel="noopener noreferrer">Supra</a> launched and the process of token distribution was a mess. (The network itself is promising.)</p>
+<p>Among the problems, one of the small ones was that many "airdrop" users weren't able to "claim" their $SUPRA because they couldn't pay for the transaction fee required to do that.</p>
 <p>Of course, that's not really a problem: open a CEX account, buy $SUPRA and send it to your address. 15 minutes of easy labor.</p>
 <p>But why work 15 minutes, solve your problem and put yourself in a position in which you can also help your fellow users (1), when you can beg for free in Supra Discord instead?</p>
 <p>(1) By this I mean residents of countries who cannot open accounts in currently available CEXes. None of the current tax haven CEXes accept US account holders, for example.</p>
@@ -39,18 +40,19 @@
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="discord-admins">Discord admins<a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#discord-admins" class="hash-link" aria-label="Direct link to Discord admins" title="Direct link to Discord admins">​</a></h3>
 <p>Discord channel admins allowed begging, which is commonly banned everywhere because it doesn't add any value. It is also counterproductive because it adds noise, and doesn't help the project (whereas sending uses to CEXes does).</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="community-members">Community members<a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#community-members" class="hash-link" aria-label="Direct link to Community members" title="Direct link to Community members">​</a></h3>
-<p>First, I was suprised that relatively few people in Discord complained, but I think I know why: nobody bothers to read anything but their own threads and poor moderation is one of the reasons why.</p>
-<p>Second, some users, like <a href="https://x.com/icryptosystem/status/1862307333998596214" target="_blank" rel="noopener noreferrer">farmsenth.eth</a> on X, were offering "free" 1 $SUPRA to anyone to help them claim tokens.</p>
-<p>The Supra guys reposted, but I <a href="https://x.com/armchairancap/status/1862378695790665822" target="_blank" rel="noopener noreferrer">commented about this on X</a> saying it's a terrible idea that doesn't help Supra at all. Later I noticed a change - they started telling users to go to a CEX and buy $SUPRA - so looks like it worked. I forgot to mention that feeding beggars just makes the problem worse because those who would reluctantly open a CEX account would decide to skip that and beg instead, seeing how it's allowed and works.</p>
-<p>Third, there were two groups of people who didn't feed the beggars:</p>
+<p>First, I was suprised that relatively few people in Discord complained, but I think I know why: nobody bothers to read anything but their own threads and the lax moderation makes that worse becuase there's simply too many stupid posts in the channel (#general on the Supra Discord). At the same time, many are mad about the problems in the claim process, so the administrators can't be as strict as they should be.</p>
+<p>Second, some users, like <a href="https://x.com/icryptosystem/status/1862307333998596214" target="_blank" rel="noopener noreferrer">farmsenth.eth</a> on X, offer to send 1 $SUPRA for "free" to anyone, to help them claim tokens.</p>
+<p>The Supra guys reposted that, but I <a href="https://x.com/armchairancap/status/1862378695790665822" target="_blank" rel="noopener noreferrer">commented about this on X</a> saying it's a terrible idea that doesn't help Supra at all. Later I noticed a change - they started telling users to go to a CEX and buy $SUPRA - so looks like it worked.</p>
+<p>I forgot to mention that feeding beggars just makes the problem worse because those who would reluctantly open a CEX account would decide to skip that and beg instead, seeing how it's allowed and works.</p>
+<p>Third, there were two groups of people who didn't feed the beggars (as much):</p>
 <ul>
 <li>Zero-interest lenders: those who offered to lend 1 $SUPRA under the condition that the borrower pays back after they claim</li>
 <li>Predatory profiteers: those who offered to lend at a profit. I belong to this group.</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="whos-the-bad-guy">Who's the bad guy<a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#whos-the-bad-guy" class="hash-link" aria-label="Direct link to Who's the bad guy" title="Direct link to Who's the bad guy">​</a></h3>
-<p>People like farmsenth.eth are the worst, for reasons explained above and in the tweet. In this group, the Discord account souravrockz (maybe the same guy, I haven't looked) is particularly active, using free $SUPRAs as a marketing tool for gathering followers for his airdrop platform. If that's not definition of spamming, I don't know what is. But they let him anyway.</p>
-<p>The lenders are not too bad, although they too do disservice to the network because they decrease liquidity by helping users stay "offline".</p>
-<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>Note that users who claim tokens without opening a CEX account cannot actually do anything with them.</p><p>There's no staking as of now, and there are no DEXes for $SUPRA either. So there's no reason to help them - they <strong>cannot</strong> possibly do anything with the coins if they do not create a CEX account. The only difference between helping them and not helping them is if you help them they won't need to <strong>buy</strong> few more $SUPRA - they can dump the tokens without any fiat investment in the process.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="whos-the-bad-guy-here">Who's the bad guy here?<a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#whos-the-bad-guy-here" class="hash-link" aria-label="Direct link to Who's the bad guy here?" title="Direct link to Who's the bad guy here?">​</a></h3>
+<p>People like <strong>farmsenth.eth</strong> are the worst, for reasons explained above and in the tweet. In this group, the Discord account <strong>souravrockz</strong> (maybe the same guy, I haven't looked) is particularly active, using free $SUPRAs as a marketing tool for gathering followers for his airdrop platform. If that's not definition of spamming, I don't know what is. But they let him anyway. <strong>farmsenth.eth</strong> does the same on X, buys followers while making CEX partners lose customers they probably justifiably expected to win when they invested in marketing and launch activities.</p>
+<p>The lenders are not as bad, although they too do the same disservice to the network because they decrease liquidity by helping users stay "inactive" as far as CEXes are involved.</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>Note that users who claim tokens without opening a CEX account <strong>cannot actually do anything with them</strong>.</p><p>There's no staking on Supra as of now and there are no DEXes for $SUPRA either, so there's no reason to help them - they <strong>cannot possibly do anything with the coins if they do not create a CEX account</strong>.</p><p>The only difference between helping them and not helping them is if you help them they won't need to <strong>buy</strong> few more $SUPRA - they can dump the tokens without any fiat investment in the process.</p></div></div>
 <p>The profiteers like myself are less bad than the lenders because by asking to be compensated we discourage begging (since not all beggars want to pay more back).</p>
 <p>I would prefer that beggars be banned or kicked so that there's no begging and everyone goes to CEX so that only a small minority (Americans and Europeans, mostly) asks for help. But begging is going on and the first two groups doing their thing, so I decided to participate using what I belive is the least bad approach.</p>
 <p>Did it work?</p>
@@ -58,16 +60,16 @@
 <li>Yes, when no one from the other two groups (donors and lenders) happens to be online</li>
 <li>No, when someone from one or both groups offers to help out for free</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="predatory-lender">Predatory lender<a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#predatory-lender" class="hash-link" aria-label="Direct link to Predatory lender" title="Direct link to Predatory lender">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="predatory-lending">Predatory lending?<a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#predatory-lending" class="hash-link" aria-label="Direct link to Predatory lending?" title="Direct link to Predatory lending?">​</a></h2>
 <p>Is 500% interest per day predatory lending?</p>
-<p>No, because it takes me minutes of work (copy, login, send, messaging) to do it and the "profit" was 8 $SUPRA (approximately 15 cents at the time).</p>
-<p>That's not even US$ 9 per hour, so I was working for less than a minimum wage in the West. Sorry, but I'm not sorry.</p>
+<p>No, because it takes me minutes of work (copy, login, send, messaging) to do it and the "profit" was 8 $SUPRA (approximately 15 cents at the time) per successful customer.</p>
+<p>That's not even US$ 9 per hour, so I was working for less than a minimum wage in the West. Sorry, but I'm not sorry!</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="results">Results<a href="https://armchairancap.github.io/blog/2024/12/08/good-samaritans-of-supra-network#results" class="hash-link" aria-label="Direct link to Results" title="Direct link to Results">​</a></h2>
 <p>Another fun aspect of this has been profitability.</p>
 <p>I've sent 2 $SUPRA to 4 people, each of whom agreed to pay me back 10 $SUPRA.</p>
-<p>Only two paid back. From what I could tell, one was Chinese and one was American.</p>
-<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>The user from China went above &amp; beyond: he asked for 1 $SUPRA. I sent him 2 just to be sure he doesn't get stuck, and he sent me back 20 $SUPRA!</p><p>I later sent him 9 $SUPRA to stick to the original deal (1 in exchange for 10).</p></div></div>
-<p>These guys agreed to receive 2 and pay back 10 (that was some $0.015 and $0.15 at the time) and didn't do it:</p>
+<p>Only two paid back anything. From what I could tell, one was Chinese and one was American.</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>The user from China went above &amp; beyond: he asked for 1 $SUPRA. I sent him 2 just to be sure he doesn't get stuck, and he sent me back 20 $SUPRA!</p><p>Maybe he assumed the original 1-for-10 deal meant I expected 20 in exchange for 2 and he didn't want to make a big deal out of it. Real gentleman!</p><p>I later sent him 9 $SUPRA to stick to the original deal (1 in exchange for 10).</p></div></div>
+<p>These two wallet owners weren't as nice. They agreed to receive 2 and pay back 10 (that was some $0.015 and $0.15 at the time) and didn't do it:</p>
 <ul>
 <li><a href="https://suprascan.io/address/0x699c017fe9b7112a98e58d9896eee3c8fc57ca985f161527c1aeeb491c2093b7" target="_blank" rel="noopener noreferrer">0x699c017fe9b7112a98e58d9896eee3c8fc57ca985f161527c1aeeb491c2093b7</a></li>
 <li><a href="https://suprascan.io/address/0xf1610d90bbc83b967a9b993f05de1e0eca61d2bf45003d840cd3cd0a896638e0" target="_blank" rel="noopener noreferrer">0xf1610d90bbc83b967a9b993f05de1e0eca61d2bf45003d840cd3cd0a896638e0</a></li>
@@ -88,6 +90,7 @@
         </author>
         <category label="supra" term="supra"/>
         <category label="economics" term="economics"/>
+        <category label="reputation" term="reputation"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[NFTs on xx Network]]></title>
