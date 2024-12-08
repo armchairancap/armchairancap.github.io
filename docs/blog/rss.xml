@@ -53,7 +53,7 @@
 <li>Each NFT belongs to a collection. Example: collection ID 10 may have NFTs ID 1, 2, and 3</li>
 <li>NFTs can be minted, priced, transferred, bought, burned. Soul Bound NFTs are those that cannot be transferred once they're minted to a wallet</li>
 </ul>
-<p>On xx Network, since there's no user-facing Web UI where you can see anything. There's a small "NFT" page that's always empty and doesn't show any collections, which is a bit weird.</p>
+<p>On xx Network, since there's no user-facing Web UI where you can see anything. There's a simple "NFT" page that's always empty and doesn't show any collections or holdings, which is confusing. You can own, but can't see if you own any collections or NFTs.</p>
 <p><img decoding="async" loading="lazy" alt="xx Chain - NFT page in xx Network Wallet" src="https://armchairancap.github.io/assets/images/2024-12-07-xx-network-nft-09-xx-network-wallet-nft-page-571fb8892ffadcb8a6dac2bd9871938f.png" width="515" height="304" class="img_xHFY"></p>
 <p>For more on Polkadot SDK-based NFTs, see this page on the Polkadot Wiki: <a href="https://wiki.polkadot.network/docs/learn-nft-pallets" target="_blank" rel="noopener noreferrer">https://wiki.polkadot.network/docs/learn-nft-pallets</a>.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="nft-operations">NFT operations<a href="https://armchairancap.github.io/blog/2024/12/07/nfts-on-xx-network#nft-operations" class="hash-link" aria-label="Direct link to NFT operations" title="Direct link to NFT operations">​</a></h2>
