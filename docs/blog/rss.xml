@@ -18,7 +18,7 @@
 <p>Recently xx Network held its 28th democracy referendum (referendum ID 27) on the topic of hiking the minimum validator stake to 15,000 XX and subsequently as required (and depending on market conditions and the price of xx token).</p>
 <p>Currently it is 1,000 XX which is just $60 - totally laughable!</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="how-did-we-get-here-and-why-this-hike-was-necessary">How did we get here and why this hike was necessary<a href="https://armchairancap.github.io/blog/2024/12/10/xx-referendum-id-27-min-validator-stake#how-did-we-get-here-and-why-this-hike-was-necessary" class="hash-link" aria-label="Direct link to How did we get here and why this hike was necessary" title="Direct link to How did we get here and why this hike was necessary">​</a></h2>
-<p>Originally the minimum validator stake was much higher (14,000 XX) and that was when the coin was several times more valuable. Now it's 1/14th and 1/4 of the value, which means in fiat terms it's 1/64th of what it was.</p>
+<p>Originally the minimum validator stake was much higher (14,000 XX) and that was when the coin was several times more valuable. Now the minimum stake is 1/14 of the amount and 1/4 of the value, which means in fiat terms it's 1/64-th of what it was.</p>
 <p>As usual, when it comes to bad decisions it's now unclear how "it was decided" to make the nonsense cut to 1,000 XX and who was/were the main supporter(s) of that when it was done.</p>
 <p>But looking forward, it's easy to see that the current minimum validator stake doesn't make any sense.</p>
 <ul>
@@ -32,8 +32,8 @@
 <p>Just <code>6ZFHpAxagxZV8E2GFyMEJoTgRvEsBgEh7vHMYSu6p7bLwufg</code>.</p>
 <p>You can see <a href="https://forum.xx.network/t/revised-increase-min-staking/7045/17" target="_blank" rel="noopener noreferrer">here</a> or on-chain: 114 in favor and 1 against.</p>
 <p>Just one voter and - surprise, surprise - was against this common-sense change, and it's a wallet associated with the pool trash:</p>
-<p><img decoding="async" loading="lazy" src="https://armchairancap.github.io/assets/images/2024-12-10-xx-network-min-validator-stake-referendum-f88d54402f1e7eb0c3fb5958999c103c.png" width="1182" height="377" class="img_xHFY"></p>
-<p>To the uninitiated, this validator (<code>MONEYTEAM 04</code>) nominated by the wallet belongs to a centralized farming pool <code>MONEYTEAM</code> which should be pushed out (and that's something I look forward to in 2025).</p>]]></content:encoded>
+<p><img decoding="async" loading="lazy" alt="Wallet that voted against xx Network referendum ID 27" src="https://armchairancap.github.io/assets/images/2024-12-10-xx-network-min-validator-stake-referendum-f88d54402f1e7eb0c3fb5958999c103c.png" width="1182" height="377" class="img_xHFY"></p>
+<p>To the uninitiated, this validator (<code>MONEYTEAM 04</code>) nominated by the dissenting wallet belongs to a centralized farming pool <code>MONEYTEAM</code> which should be pushed out (and that's something I look forward to in 2025).</p>]]></content:encoded>
             <category>xx network</category>
             <category>xx chain</category>
             <category>economics</category>
