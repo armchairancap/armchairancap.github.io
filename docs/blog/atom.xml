@@ -30,6 +30,11 @@
 <li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#opinion-on-qlr">Opinion on QLR</a></li>
 </ul>
 </li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments">Comments</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#qan-blockchain-platform-qanx">QAN blockchain platform (QANX)</a></li>
+</ul>
+</li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#xx-network-xx">xx Network (XX)</a>
 <ul>
 <li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#xx-chain-xx-token">xx Chain (xx token)</a></li>
@@ -190,6 +195,32 @@ I can't think of non-obvious ways that PQ-compromise of xx Chain would impact th
 <p>Block times are 5 and 6 seconds, respectively, but in the case of xx Chain that's not realy pertinent to almost any relevant use case (as I've mentioned, the action is happening on cMixx).</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="opinion-on-qlr">Opinion on QLR<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#opinion-on-qlr" class="hash-link" aria-label="Direct link to Opinion on QLR" title="Direct link to Opinion on QLR">​</a></h3>
 <p>Ozone's PQ-related features look nice, but it's a tiny platform where you may be PQ-ready, but can be excluded or banned at any time. The threat of that is probably higher than the threat of CRQC...</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="comments">Comments<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments" class="hash-link" aria-label="Direct link to Comments" title="Direct link to Comments">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="qan-blockchain-platform-qanx">QAN blockchain platform (QANX)<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#qan-blockchain-platform-qanx" class="hash-link" aria-label="Direct link to QAN blockchain platform (QANX)" title="Direct link to QAN blockchain platform (QANX)">​</a></h3>
+<p>One of the comments mentioned this coin.</p>
+<p>I won't waste time on it - <a href="https://learn.qanplatform.com/about-us/company" target="_blank" rel="noopener noreferrer">it's a company owned platform</a> that has to turn a profit (got $15 million from VCs) or else.</p>
+<blockquote>
+<p>30+ team members spread across 10+ countries</p>
+</blockquote>
+<p>Features:</p>
+<ul>
+<li>PQ (CRYSTALS-Dilithium) - different from messaging focused PQ stack used by cMixx, but PolkadotSDK chains may end up with the same chain PQ algo down the road</li>
+<li>EVM and other VMs - same as PolkadotSDK-basaed chains</li>
+<li>Proof-of-Randomness (PoR) algorithm - see earlier comments on randomness</li>
+<li>1600 TPS - less than xx Chain can do, but even with xxPostage xx Chain won't need many transactions</li>
+<li>Enterprise focus - okay... They run private chains for paying customers</li>
+</ul>
+<blockquote>
+<p>Alpine Esports, a Group Renault brand, and inter alia in the Formula 1® Esports Series signed QANplatform as its Official Blockchain Partner.</p>
+</blockquote>
+<p>It's a chain-focused token that won't make it without (eventually) government or EU handouts. You can see a hint of that here:</p>
+<blockquote>
+<p>First EU country implemented QAN’s quantum-resistant technology in March 2024.</p>
+</blockquote>
+<p>If you have to burn your PQ budget with a EU startup, that's the place to go!</p>
+<p>It doesn't seem their public network has launched (or they don't update their docs). According to <a href="https://learn.qanplatform.com/about-us/roadmap" target="_blank" rel="noopener noreferrer">their roadmap</a> there's no public mainnet yet and they're still collecting validator applications (there's a Google Docs form on the same page).</p>
+<p>Users interested in xx Network's use case (confidential messaging) won't use this one. But they may get some business from enterprise users running private PQ-based chains.</p>
+<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>I believe enterprises who want to pay can reach out to the xx Foundation for licensing and support.</p><p>The xx Network stack is possibly less expensive and very permissively licensed.</p><p>As far as chain features are concerned, <a href="https://supra.com/" target="_blank" rel="noopener noreferrer">Supra</a> (which I hold) will cush these guys.</p></div></div>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="xx-network-xx">xx Network (XX)<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#xx-network-xx" class="hash-link" aria-label="Direct link to xx Network (XX)" title="Direct link to xx Network (XX)">​</a></h2>
 <p>First, each stack of xx Network should be separately analyzed. I'm not a cryptographer,</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="xx-chain-xx-token">xx Chain (xx token)<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#xx-chain-xx-token" class="hash-link" aria-label="Direct link to xx Chain (xx token)" title="Direct link to xx Chain (xx token)">​</a></h3>
@@ -229,6 +260,7 @@ I can't think of non-obvious ways that PQ-compromise of xx Chain would impact th
 <li>xx Chain is PQ-ready and will adopt PQ enhancements from PolkadotSDK which will surely come about. Some enhancements (such as provable decentralized randomness) are already available, it's just that they're not necessary</li>
 <li>cMixx is the core service of xx Network and what sets it apart from these three coins. There are integrations for mixing wallet transactions (e.g. with Metamask), private and confidential ID lookups (Worldcoin) and Haven, a reference messaging platform. You can look at the current grants (on forum.xx.network) and see all of them are related to improving cMixx. One of</li>
 </ul>
+<p>I don't maintain this comparison, but see <a href="https://armchairancap.github.io/xx-network-haven-comparison/index.html" target="_blank" rel="noopener noreferrer">here</a> how Haven (and cMixx in general) compares against other encrypted messengers.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="final-thoughts">Final thoughts<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#final-thoughts" class="hash-link" aria-label="Direct link to Final thoughts" title="Direct link to Final thoughts">​</a></h2>
 <p>The Altcoin Daily post is meaningless. But obviously "it worked" because it made me spend time on writing this post.</p>
 <p>While all three coins (CELL, OZO, QRL) have PQ-ready chains, from what I can see not all have PQ addresses.</p>
