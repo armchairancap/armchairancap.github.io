@@ -31,10 +31,10 @@
 <li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#opinion-on-qlr">Opinion on QLR</a></li>
 </ul>
 </li>
-<li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments-in-x-thread">Comments in X thread</a>
+<li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments-on-comments-in-the-x-thread">Comments on comments in the X thread</a>
 <ul>
 <li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#qan-blockchain-platform-qanx">QAN blockchain platform (QANX)</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#other-mentions">Other mentions</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#other-coins-in-the-x-thread">Other coins in the X thread</a></li>
 </ul>
 </li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#xx-network-xx">xx Network (XX)</a>
@@ -54,10 +54,16 @@
 <li>QRL</li>
 </ul>
 <p>What does that even mean? Nothing, really.</p>
-<p>It's meant to gain followers and have all the hodlers post nonsense comments.</p>
+<p>It's a low-effort post (maybe even an AI-generated shitpost) meant to gain followers and have the shills post their nonsense comments.</p>
+<p>They post a the top three symbols from CMC's list of PQ coins with highest market capitalization, and then those who are involved in PQ-related projects need to explain to "investors" which of them is "the best" and why:</p>
+<p><img decoding="async" loading="lazy" alt="Top CoinMarketCap PQ coins in December 2024" src="https://armchairancap.github.io/assets/images/2024-04-14-cmc-top-pq-coins-58a4dcdb6fdc41a6b1d9824ab9a082d4.png" width="929" height="587" class="img_xHFY"></p>
+<p>And in Altcoin Daily's post CELL is listed a the top - in alphabetical order - but QRL is listed before OZO, which may be due to OZO paying less or nothing for that post.</p>
+<p>But still, what does this mean?</p>
+<p>Every few days I hear some speculator asking how xx Network compares to this or that coin, why xx Network isn't "pumping", and such.</p>
+<p>Everyone should read and answer for themselves, but I admin I haven't done it as well because I thought most of it is nonsense and a waste of time. Fundamentally, privacy means inconvenience and extra cost (in time or hardware or software), so privacy-focused solutions are not easy to sell.</p>
+<p>But now this is a topic that we are expected to have an opinion about, so let's take a look at what these projects are, their claims, are and <em>whether</em> they should be compared with xx Network (and if so, how).</p>
 <div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>"Post-quantum" and "quantum-resistant" means unbreakable by Cryptographically Relevant Quantum Computer (CRQC) systems aka Quantum Computers.
 So PQC means resistant to attacks by known CRQCs.</p></div></div>
-<p>Let's take a look at what these projects, their claims, are and <em>whether</em> they should be compared with xx Network (and if so, how).</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="cellframe-cell">Cellframe (CELL)<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#cellframe-cell" class="hash-link" aria-label="Direct link to Cellframe (CELL)" title="Direct link to Cellframe (CELL)">​</a></h2>
 <p>From their <a href="https://cellframe.net/white-paper/" target="_blank" rel="noopener noreferrer">white paper</a>:</p>
 <blockquote>
@@ -189,7 +195,7 @@ I can't think of non-obvious ways that PQ-compromise of xx Chain would impact th
 <p>Ozone's QRNG sounds like snake oil to me. You can read about it <a href="https://whitepaper.ozonechain.io/quantum-random-numbers" target="_blank" rel="noopener noreferrer">here</a>. The reason I say that is the illustration implies custom hardware, so unless everyone has one, these random numbers may be emitted from a centralized source ("Ozone Foundation" or some 3rd party <a href="https://random.colorado.edu/" target="_blank" rel="noopener noreferrer">beacon</a>?). If it's centralized, it's not good.</p>
 <div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>PolkadotSDK-based chains can include Drand Bridge Pallet, a Drand-to-Substrate bridge.</p><p>There's also <a href="https://supra.com/vrf-product/" target="_blank" rel="noopener noreferrer">dVRF</a>, Supra's decentralized verifiable randomness service, which is mature and used in production by dozens of projects:</p><blockquote>
 <p>Supra dVRF solves on-chain randomness for Web3 at large, not just a few networks. We’re already on 27 networks like Aptos, Arbitrum, Avalanche, Ethereum, Optimism, and Polygon.</p>
-</blockquote><p>It doesn't appear that xx Chain needs this, as there are no applications (such as gambling or gaming) which require such sources of randomness.</p></div></div>
+</blockquote><p>Supra's dVRF is available on Supra's L1, but as you can see from this quote above, other networks/chains use it in absence of a better native dVRF.</p><p>It doesn't appear that xx Chain needs a PQ VRF, as there are no applications (such as gambling or gaming) which require such randomness. When it becomes necessary xx Chain will likely use a PQ DVRF such as Drand Bridge Pallet (if it's PQ or after it becomes PQ).</p></div></div>
 <p>Ozone is EVM compatible and has half a dozen apps (DEX, memes, games) - all unrelated to what xx Network does.</p>
 <p>My take: it's a PQ EVM platform on a small EVM-compatible chain. There are dozens of EVM-compatible chains that are larger and permissionless.</p>
 <p>Ozone's transactions are currently around 4,000/day, while xx Chain has around 600 and many of them are nomination/validation-related, so it has to be said that xx Chain has very few transactions. Why is that?</p>
@@ -197,7 +203,8 @@ I can't think of non-obvious ways that PQ-compromise of xx Chain would impact th
 <p>Block times are 5 and 6 seconds, respectively, but in the case of xx Chain that's not realy pertinent to almost any relevant use case (as I've mentioned, the action is happening on cMixx).</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="opinion-on-qlr">Opinion on QLR<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#opinion-on-qlr" class="hash-link" aria-label="Direct link to Opinion on QLR" title="Direct link to Opinion on QLR">​</a></h3>
 <p>Ozone's PQ-related features look nice, but it's a tiny platform where you may be PQ-ready, but can be excluded or banned at any time. The threat of that is probably higher than the threat of CRQC...</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="comments-in-x-thread">Comments in X thread<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments-in-x-thread" class="hash-link" aria-label="Direct link to Comments in X thread" title="Direct link to Comments in X thread">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="comments-on-comments-in-the-x-thread">Comments on comments in the X thread<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments-on-comments-in-the-x-thread" class="hash-link" aria-label="Direct link to Comments on comments in the X thread" title="Direct link to Comments on comments in the X thread">​</a></h2>
+<p>Shills of course flooded the thread with stupid comments, which I break down in two groups: on-topic (QANX) and off-topic (the rest, as of writing this post).</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="qan-blockchain-platform-qanx">QAN blockchain platform (QANX)<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#qan-blockchain-platform-qanx" class="hash-link" aria-label="Direct link to QAN blockchain platform (QANX)" title="Direct link to QAN blockchain platform (QANX)">​</a></h3>
 <p>One of the comments mentioned this coin.</p>
 <p>I won't waste time on it - <a href="https://learn.qanplatform.com/about-us/company" target="_blank" rel="noopener noreferrer">it's a company owned platform</a> that has to turn a profit (got $15 million from VCs) or else.</p>
@@ -223,7 +230,7 @@ I can't think of non-obvious ways that PQ-compromise of xx Chain would impact th
 <p>It doesn't seem their public network has launched (or they don't update their docs). According to <a href="https://learn.qanplatform.com/about-us/roadmap" target="_blank" rel="noopener noreferrer">their roadmap</a> there's no public mainnet yet and they're still collecting validator applications (there's a Google Docs form on the same page).</p>
 <p>Users interested in xx Network's use case (confidential messaging) won't use this one. But they may get some business from enterprise users running private PQ-based chains.</p>
 <div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>I believe enterprises who want to pay can reach out to the xx Foundation for licensing and support.</p><p>The xx Network stack is possibly less expensive and very permissively licensed.</p><p>As far as chain features are concerned, <a href="https://supra.com/" target="_blank" rel="noopener noreferrer">Supra</a> (which I hold) will cush these guys.</p></div></div>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="other-mentions">Other mentions<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#other-mentions" class="hash-link" aria-label="Direct link to Other mentions" title="Direct link to Other mentions">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="other-coins-in-the-x-thread">Other coins in the X thread<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#other-coins-in-the-x-thread" class="hash-link" aria-label="Direct link to Other coins in the X thread" title="Direct link to Other coins in the X thread">​</a></h3>
 <p>I saw a bunch of coins/chains mentioned in the thread. I checked five, and three of them were random shitposts pumping loser coins that have nothing in terms of PQ readiness.</p>
 <p>Two I've heard of, and was able to find something PQ-related:</p>
 <ul>
