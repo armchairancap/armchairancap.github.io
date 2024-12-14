@@ -30,9 +30,10 @@
 <li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#opinion-on-qlr">Opinion on QLR</a></li>
 </ul>
 </li>
-<li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments">Comments</a>
+<li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments-in-x-thread">Comments in X thread</a>
 <ul>
 <li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#qan-blockchain-platform-qanx">QAN blockchain platform (QANX)</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#other-mentions">Other mentions</a></li>
 </ul>
 </li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#xx-network-xx">xx Network (XX)</a>
@@ -195,7 +196,7 @@ I can't think of non-obvious ways that PQ-compromise of xx Chain would impact th
 <p>Block times are 5 and 6 seconds, respectively, but in the case of xx Chain that's not realy pertinent to almost any relevant use case (as I've mentioned, the action is happening on cMixx).</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="opinion-on-qlr">Opinion on QLR<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#opinion-on-qlr" class="hash-link" aria-label="Direct link to Opinion on QLR" title="Direct link to Opinion on QLR">​</a></h3>
 <p>Ozone's PQ-related features look nice, but it's a tiny platform where you may be PQ-ready, but can be excluded or banned at any time. The threat of that is probably higher than the threat of CRQC...</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="comments">Comments<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments" class="hash-link" aria-label="Direct link to Comments" title="Direct link to Comments">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="comments-in-x-thread">Comments in X thread<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#comments-in-x-thread" class="hash-link" aria-label="Direct link to Comments in X thread" title="Direct link to Comments in X thread">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="qan-blockchain-platform-qanx">QAN blockchain platform (QANX)<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#qan-blockchain-platform-qanx" class="hash-link" aria-label="Direct link to QAN blockchain platform (QANX)" title="Direct link to QAN blockchain platform (QANX)">​</a></h3>
 <p>One of the comments mentioned this coin.</p>
 <p>I won't waste time on it - <a href="https://learn.qanplatform.com/about-us/company" target="_blank" rel="noopener noreferrer">it's a company owned platform</a> that has to turn a profit (got $15 million from VCs) or else.</p>
@@ -221,6 +222,15 @@ I can't think of non-obvious ways that PQ-compromise of xx Chain would impact th
 <p>It doesn't seem their public network has launched (or they don't update their docs). According to <a href="https://learn.qanplatform.com/about-us/roadmap" target="_blank" rel="noopener noreferrer">their roadmap</a> there's no public mainnet yet and they're still collecting validator applications (there's a Google Docs form on the same page).</p>
 <p>Users interested in xx Network's use case (confidential messaging) won't use this one. But they may get some business from enterprise users running private PQ-based chains.</p>
 <div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>I believe enterprises who want to pay can reach out to the xx Foundation for licensing and support.</p><p>The xx Network stack is possibly less expensive and very permissively licensed.</p><p>As far as chain features are concerned, <a href="https://supra.com/" target="_blank" rel="noopener noreferrer">Supra</a> (which I hold) will cush these guys.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="other-mentions">Other mentions<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#other-mentions" class="hash-link" aria-label="Direct link to Other mentions" title="Direct link to Other mentions">​</a></h3>
+<p>I saw a bunch of coins/chains mentioned in the thread. I checked five, and three of them were random shitposts pumping loser coins that have nothing in terms of PQ readiness.</p>
+<p>Two I've heard of, and was able to find something PQ-related:</p>
+<ul>
+<li>Algorand (ALGO) - partially ready (uses FALCON), but VRF <a href="https://algorand.co/technology/post-quantum" target="_blank" rel="noopener noreferrer">is vulnerable</a> and will have to be swapped out (same as PolkadotSDK-based chains). No sign of PQ in wallets (addresses), though.</li>
+<li>Hedera (HDR) - doesn't seem ready in any way. <a href="https://hedera.com/blog/post-quantum-crypto" target="_blank" rel="noopener noreferrer">This post</a> explains that. No signs of any PQ features.</li>
+</ul>
+<p>As you can see, they're very "L1-focused" (similar to the three coins higlighted by Altcoin Daily). Algorand's addresses and signatures may be in trouble and Hedera's probably, too.</p>
+<p>In any case, they don't appear focused on PQ messaging, so who cares.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="xx-network-xx">xx Network (XX)<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#xx-network-xx" class="hash-link" aria-label="Direct link to xx Network (XX)" title="Direct link to xx Network (XX)">​</a></h2>
 <p>First, each stack of xx Network should be separately analyzed. I'm not a cryptographer,</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="xx-chain-xx-token">xx Chain (xx token)<a href="https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily#xx-chain-xx-token" class="hash-link" aria-label="Direct link to xx Chain (xx token)" title="Direct link to xx Chain (xx token)">​</a></h3>
