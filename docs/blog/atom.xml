@@ -2,11 +2,89 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://armchairancap.github.io/blog</id>
     <title>ArmchairAncap Blog</title>
-    <updated>2024-12-14T00:00:00.000Z</updated>
+    <updated>2024-12-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://armchairancap.github.io/blog"/>
     <subtitle>ArmchairAncap Blog</subtitle>
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Why Polkadot governance sucks]]></title>
+        <id>https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks</id>
+        <link href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks"/>
+        <updated>2024-12-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[No, it's not working exceptionally well]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#introduction">Introduction</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#symptoms">Symptoms</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#why-polkadot-governance-sucks">Why Polkadot governance sucks?</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#what-should-polkadot-do">What should Polkadot do?</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#take-away">Take-away</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>I'll make this one short because there aren't many such opinions.</p>
+<p>Polkadot is a DAO, and has governance built-in.</p>
+<p>It is actually very well done and saves a lot of time to anyone building a blockchain-based DAO - xx Network uses it as well.</p>
+<p>What, then, is the problem?</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="symptoms">Symptoms<a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#symptoms" class="hash-link" aria-label="Direct link to Symptoms" title="Direct link to Symptoms">​</a></h2>
+<p>My knowledge of Polkadot is somewhat limited - I haven't participated and used it for years.</p>
+<p>But I've followed it closely this year and I've used Kusama, for example.</p>
+<p>xx Network is also a DAO and uses essentially the same stack, so there isn't much an xx Network user needs to learn infrastructure-wise. What is needed to understand is observation - seeing how it's used, what users think about it, and so on.</p>
+<p>Based on those observations, I've noticed several symptoms:</p>
+<ul>
+<li>Claims that "whale" projects are milking the system by (easily) getting (undeserved) funding</li>
+<li>Opinions that many DAO-funded projects suck</li>
+<li>Dissatisfaction with how the DAO "democracy" works in practice</li>
+<li>Observations on disengaged participation (example: people nominate, but don't vote on anything even as they login to wallet to collect rewards or transfer funds)</li>
+<li>All sorts of stupid ideas are getting traction (and possibly DAO-approved funding - this I estimate based on seeing how much traction uterrly senseless ideas get in the Polkadot community)</li>
+</ul>
+<p>In other words, these are the same weaknesses that we can observe in Western democracies.</p>
+<p>Shockingly, or perhaps not at all, some still claim the DAO is functioning "exceptionally well". I guess I'd claim that as well if I was milking the system to my satisfaction.</p>
+<p>The obvious truth is governance is not functioning well at all.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-polkadot-governance-sucks">Why Polkadot governance sucks?<a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#why-polkadot-governance-sucks" class="hash-link" aria-label="Direct link to Why Polkadot governance sucks?" title="Direct link to Why Polkadot governance sucks?">​</a></h2>
+<p>Here's why:</p>
+<ul>
+<li>the DAO destroys, rather than creates, competition [1]</li>
+<li>the DAO picks winners</li>
+<li>the DAO thereby creates losers (once a winner for is picked, all others are fxxed because unless they're vastly superior they stand no chance of charging for their service and their funding dries up)</li>
+<li>the DAO causes inflation with such unnecessary and excessive spending</li>
+<li>the DAO hurts the ecosystem because it retards free markets that let users vote with their (subscription) tokens. Services that would normally compete and pass their costs (plus some extra value) to users siply don't appear because of this more-or-less "winner takes all" system created by the DAO</li>
+<li>Everyone gets to vote, and that includes self-serving cronies, ignoramuses and people who have no idea about anything (many may be underage, although their stakes are usually (and thanfully) too low to matter)</li>
+</ul>
+<p>[1] There's competition in the Art of Proposals and vote marshaling, all right, just not in projects and services</p>
+<p>My forked (upstream was funded by the DAO, I suppose?) project for <a href="https://armchairancap.github.io/blog/2023/11/05/xx-network-asset-gated-access">token-gated</a> access to Web3 apps is a good example. I think the idea is great and use cases many (as I explain in that blog post). If you look around, you'll see there have been many asks for this functionality. For example, Discord channels could be gated the same way based on one's holdings of tokens, assets or NFTs. Even Web2 forums could use it.</p>
+<p>Yet, no one maintains such an app for Polkadot, and "small" Web3 sites don't even exist. It's a simple app and people funded by the DAO like to apply for $500 grants rather than smaller projects that general users could use to create a "no-code" Web3 experience or bridge Web2 apps to Web3.</p>
+<p>Another example is various "major" Web sites in the Polkadot ecosystem. They're barely useful and often bloated (more "features" means more funds).</p>
+<p>Anyway, how to fix it? The same way it's done in Western democracies: by educating the voter, which is a centuries-long process and not something that will happen in our lifetime.</p>
+<p>For a comparison, I think xx Network works better. It's not good enough, but it's not a disaster either.</p>
+<p>Why is that? I think it's because it has better people, which is how it was bootstrapped. This isn't to say Polkadot has bad people, but it's been a while and they don't seem as engaged in the DAO as the original xx Network team.</p>
+<p>xx Network is more of a constitutional republic, while Polkadot is a democracy. Even though both use the same code, the latter is already corrupt beyond repair. The USA vs. the European Union.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-should-polkadot-do">What should Polkadot do?<a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#what-should-polkadot-do" class="hash-link" aria-label="Direct link to What should Polkadot do?" title="Direct link to What should Polkadot do?">​</a></h2>
+<p>To be honest, I don't know how they can get enough votes to do anything but keep destroying what the founder(s) and early volunteers built.</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>On that note, those who "volunteered" didn't do it for free. Most had interest in making <code>DOT</code> and <code>KSM</code> appreciate in value. Today's DAO leeches are nothing like the early volunteers.</p><p>If you're contributing only as long as they pay you, you're more akin to a bureaucrat or public sector worker. Not everyone is, but most are.</p></div></div>
+<p>Some minor improvements can be made - for example they recently modified inflation rate, which is now less stupid. But I don't think majority of voters would support any proposal that significantly impacts their disproportional or undeserved benefits. It's like expecting public sector unions to support budget cuts.</p>
+<p>Usually a short-term solution - or interim solution - is to have a benevolent populist dictator. Someone like Linus Torvalds, who is liked enough to be given extra power. That's great as long as the person is around, and goes south quickly as soon as he gets replaced by a lesser person.</p>
+<p>In addition to that being a short-term solution, at this point it the DAO can't even do that because there's no mechanism for this to happen. It's wrongly bootstrapped/wired.</p>
+<p>Whether it's done by a dictator or a powerful group, here's what I think would fix a lot of problems:</p>
+<ul>
+<li>Burn all excess treasury funds not required for basic expenses plus some emergency reserve</li>
+<li>Eliminate funding of most projects excluding essential infrastructure (such as a bare bones blockchain explorer) and let them compete for paying customers on their own</li>
+<li>Reorganize funding so that it's split by categories and done only over very short term (3 to 6 months - just enough to let them do a PoC and be able to seek funding). Then modify voting so that those who support funding be mildly on the hook (use long-term conviction proportional to cost of spending they choose to support)</li>
+<li>Strengthen the role of on-chain identity to bring more transparency to decision-making and spending</li>
+<li>Extend unstaking period to months and years, so that it becomes lucrative to vote with higher conviction and divest slower</li>
+</ul>
+<p>Each of these items is impossible to happen, but even if it did, it wouldn't last long: cronies and ingnoramuses would start taking over again, possibly starting at the top (with someone who'd undo everything even faster).</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="take-away">Take-away<a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#take-away" class="hash-link" aria-label="Direct link to Take-away" title="Direct link to Take-away">​</a></h2>
+<p>The same tool used by different people can lead to a very different result.</p>
+<p>The Polkadot DAO is failing, but that doesn't mean it's worse than other crypto projects. Most other projects are much worse, which is why I'm happy to be part of the greater Polkadot ecosystem and xx Network in particular.</p>
+<p>Real and sustainable change requires education, which takes decades and maybe even centuries. We won't live long enough to see it.</p>
+<p>Meanwhile, those of us who care have to do what we can to slow that decline and make our projects stay around long enough until most "DAOists" learn to act in common interest.</p>]]></content>
+        <author>
+            <name>ArmchairAncap</name>
+            <uri>https://github.com/armchairancap</uri>
+        </author>
+        <category label="economics" term="economics"/>
+        <category label="dao" term="dao"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Top PQ crypto coins for 2025 (according to Altcoin Daily)]]></title>
         <id>https://armchairancap.github.io/blog/2024/12/14/top-pq-quantum-resistant-coins-altcoin-daily</id>
@@ -2181,93 +2259,6 @@ LOS ANGELES--(BUSINESS WIRE)--The world’s first quantum-resistant messaging ap
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
         </author>
-        <category label="xx network" term="xx network"/>
-        <category label="defi" term="defi"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What I like about the Wrapped XX coin (WXX)]]></title>
-        <id>https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin</id>
-        <link href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin"/>
-        <updated>2024-04-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[What I like about WXX and what I look forward to]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li><a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#why-its-good">Why it's good</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#why-its-important">Why it's important</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#whats-not-so-good">What's not so good</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#scavengers-welcome">Scavengers welcome</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#more-to-come">More to come</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#wrap-up">Wrap-up</a></li>
-</ul>
-<p>PatCrypt created a great <a href="https://patcrypt.com/wxx-all-you-need-to-know-about-the-wrapped-xx-coin/" target="_blank" rel="noopener noreferrer">post</a> about the Wrapped XX coin aka WXX with the contract address <code>0x171120219d3223e008558654ec3254a0f206edb2</code> (view it on <a href="https://etherscan.io/token/0x171120219d3223e008558654ec3254a0f206edb2" target="_blank" rel="noopener noreferrer">Etherscan</a>).</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-its-good">Why it's good<a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#why-its-good" class="hash-link" aria-label="Direct link to Why it's good" title="Direct link to Why it's good">​</a></h2>
-<p>The main benefits are already called out by Pat:</p>
-<blockquote>
-<ul>
-<li>Compatibility with the major Decentralised Exchanges (DEXs)</li>
-<li>A shorter route to being listed by Centralised Exchanges (CEXs)</li>
-</ul>
-</blockquote>
-<p>There's a lot to like about that, obviously, especially since:</p>
-<ul>
-<li>At least one CEX recently rejected xx coin because "it's a privacy coin" (except that it's not - I wrote about that <a href="https://armchairancap.github.io/blog/2024/03/23/eu-legislation-untenable-for-privacy-coin-users/">here</a>)</li>
-<li>The globalists have been making progress with their plan to "allow but disable" private cryptocurrencies</li>
-<li>Because of the KYC/AML regulations, listing a coin on a CEX has been expensive for years and now it's even worse - it's more expensive and more scrutinized</li>
-</ul>
-<p>Because of that and because xx coin is not a pump-and-dump/meme coin (although anything that's tradeable has people who pump it, and xx coin is no exception), xx coin used to have a hard time getting listed. It's been listed on <a href="https://www.mexc.com/" target="_blank" rel="noopener noreferrer">MEXC</a> for some time, but that was about it.</p>
-<p>I know some vocal MEXC users complain about MEXC (not in the context of xx coin, but in general), but considering it's located in a low-hassle country, I think it's a great exchange and all things considered, less likely to rat on its users than 90% of other CEX (all the EU-based CEX will have to rat on their users once they codify the latest EU regulations.)</p>
-<p>In any case, WXX fixes "all of the above" (challenges): people will be able to get xx coin on centralized and decentralized markets (and anything in between - more on that later).</p>
-<p>Of course, just being available on one popular DEX would be enough, but on-chain DEX are not known for great liquidity and they're (in my opinion anyway) less user-friendly and less liquid, although this last bit may change as more trading moves to DEX due to the fascist laws passed in communist and capitalist jurisdictions alike. We still want and need CEX exchanges, especially in crypto-friendly jurisdictions (go MEXC!).</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-its-important">Why it's important<a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#why-its-important" class="hash-link" aria-label="Direct link to Why it's important" title="Direct link to Why it's important">​</a></h2>
-<p>I haven't traded xx coin, or any coin for that matter, for many years. I haven't (yet) sold any xx coins either. When I have enough for my needs (which I now do), I prefer to do things that interest me - if I have free time I'd rather <a href="https://github.com/armchairancap/xx-haven-container" target="_blank" rel="noopener noreferrer">do something interesting and hopefully useful to the community</a> than trade.</p>
-<p>Why do I care, then?</p>
-<p>Because WXX is good for things I care about, such as privacy and decentralization.</p>
-<p>It is very important that xx coin be easy to trade because - see the post on new EU legislation linked above - xx Network plans to introduce postage (fees for prioritized and/or high volume users of its mixing network layer).</p>
-<p>If you can't buy xx coin, you can't pay for postage (once the feature becomes available). That doesn't mean you wouldn't be able to use xx Network - its mixnet is now completely free to use and I have no reason to think it won't retain a generous free tier even when/if postage kicks in.</p>
-<p>But I want xx Network to attract large users who pay postage, because that creates a virtuous circle: demand for xx coin to pay for mixnet postage creates a demand for coins earned (and sold) by mixnet runners ("validators"), which makes xx Network sustainable for both paid and free users.</p>
-<p>This may seem trivial now (hey, it's free and it's working just fine as-is!), but remember this next time you use Signal and get that donation prompt upon starting the app.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="whats-not-so-good">What's not so good<a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#whats-not-so-good" class="hash-link" aria-label="Direct link to What's not so good" title="Direct link to What's not so good">​</a></h2>
-<p>There isn't much not to like.</p>
-<p>PatCrypt's posts mentions some admin to-do's and the fact that WXX is currently semi-centralized (which is what I mentioned "something in between" a CEX and DEX - even when traded on a DEX, it's still semi-centralized until EVM bridge comes about, which should be shortly).</p>
-<p>A wrapped xx Coin was recently listed on the XRP Ledger (XRPL) where liquidity is thin and it appears there aren't many users. One may be reasonably skeptical about WXX as well, but I am optimistic because ERC20 tokens are everywhere. Anyone who owns more than two coins probably has an ERC20-compatible wallet or a CEX account and can easily access any DEX by simply installing an app. XRPL is accessible as well, but I feel its main user base are Ripple-focused users, which is fine but not as large as these new markets.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="scavengers-welcome">Scavengers welcome<a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#scavengers-welcome" class="hash-link" aria-label="Direct link to Scavengers welcome" title="Direct link to Scavengers welcome">​</a></h2>
-<p>I won't put this under good or bad, it's something that simply is, and can't be judged.</p>
-<p>An immediate effect of WXX is that its existence increases opportunities for trading, because the more markets which also means more opportunities for arbitrage.</p>
-<p>With xx coin available on MEXC, XRPL, WXX (including DEX-es, each of which may be "out of sync" with others) and the fact that only MEXC has its own API while integrations for others already exist (for different ERC20 tokens, but it just takes a search-and-replace), it's no longer prohibitively expensive to build a bot that trades xx coins among several markets. It takes just one MEXC integration and a xx-focused repurposing of ERC20-compatible code for other markets.</p>
-<p>It's kind of silly, but necessary. Scavengers exist because they need to exist. The main benefit for the regular buyer (or seller) is they get close to best price and liquidity regardless of where they buy (or sell) their coin.</p>
-<p>Remember that, initially at least - until an Ethereum bridge is built and WXX decentralized - it may be inconvenient to easily move coins between MEXC, XRPL wrapped coin and WXX coin, but this will get easy for WXX once those to-do's are completed. For people who engage in arbitrage and move a lot of coins around this means arbitrage will remain inconvenient until that EVM bridge becomes available.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="more-to-come">More to come<a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#more-to-come" class="hash-link" aria-label="Direct link to More to come" title="Direct link to More to come">​</a></h2>
-<p>Three things I'd like to mention here:</p>
-<p>Firstly, Pat's article does mention <a href="https://docs.snowbridge.network/" target="_blank" rel="noopener noreferrer">Snowbridge</a>, a trustless Polkadot bridge technology which - once completed - will bridge Substrate (Polkadot, initially) and Ethereum - something I've been looking forward to since last year.</p>
-<p>Snowbridge is now getting attention in the xx community, but I think there still isn't enough appreciation for what had to happen in order to get here: the fact that xx Network picked a Substrate-based chain, which is the only reason why Snowbridge is now relevant to xx Network in the first place.</p>
-<p>They could have picked some cooler "next gen" blockchain design with even faster finality and whatnot, but they decided to build on Substrate where all chains and parachains benefit from network effect.</p>
-<p>Perhaps this isn't the best comparison, but Substrate can be compared to the Linux kernel. Once an improvement is implemented - due to permissive licensing - it becomes a new feature that every Linux application can use - all Substrate-based blockchains ("Linux applications") can easily benefit from it. That's why it will be relatively easy for xx chain to benefit from Snowbridge without spending many months on developing novel code just for your own project.</p>
-<p>(This reminds me - even the development effort for a xx Network EVM bridge (that xx Foundation has awarded a grant for) probably significantly benefits from the ability to reference 3rd party EVM bridge implementations for Substrate chains. That's why that doesn't take quarters, but only months.)</p>
-<p>So again, kudos to David Chaum and the team for making a good choice here. Maybe it wasn't a hard choice - naturally a decentralized mixnet project would pick a well-maintained and popular chain with governance features built-in, rather than a niche or new chain that requires a lot of in-house chain development - but it was still a choice and they chose wisely.</p>
-<p>Secondly, due to network effects of the Substrate chain ecosystem, I think it won't take long for Polkadot to take advantage of Supra's <a href="https://supra.com/news/HyperNova-Consensus/" target="_blank" rel="noopener noreferrer">HyperNova</a>. Punchline:</p>
-<blockquote>
-<p>In short, Supra verifies Ethereum’s L1 consensus cryptographically.</p>
-</blockquote>
-<p>In other words (please visit that link to find out more), Supra's HyperNova <em>does not</em> need staked bridges that create multi-signature transactions.</p>
-<p>The quoted part mentions Ethereum, obviously because that is likely to be the first target for Supra, but the same design applies to other L1 chains.</p>
-<p>HyperNova is a new design and quarters may pass before it becomes available. But once it does, if Polkadot gets integrated, it becomes easy for xx Chain to get integrated as well. That means a Supra-wrapped xx coin could become instantly available on Supra in a decentralized, management-free and derisked (considering it's bridgeless) manner.</p>
-<p>Thirdly, the benefits of Substrate flow in both directions. It is easy for other Substrate projects to connect with xx chain (not just for trading, but for on-chain identity, native assets held, balances, voting history, and other information xx chain holds). You can take a look at the Crust Network (based on a Substrate chain) documentation to see how they have a separate section for integration with Substrate-based chains, for example.</p>
-<p>They recently released Ethereum integrations, but even in that case, it's nice to have a choice and be able to easily integrate semi-natively using the familiar Polkadot SDK. Ethereum bridges have many advantages (see WXX), but also adds a bit of complexity, risk, round-trip-time and cost. It's not the only answer.</p>
-<p>xx Wallet was able to showcase native Crust Network integration by making their application code to load in one's xx wallet. I haven't looked if there are multi-coin wallets for Substrate and how they work, but they could make it easy to do buy xx coin for postage and use the purchased "message tokens" to pay for (xx) mixnet (proxied API) traffic created by Web 3 apps that work on other Substrate chains. It may take a year or two, but it's doable.</p>
-<p>These are just three examples - there must be more - where Substrate (Polkadot SDK) can take care of 80% of the plumbing. It is much appreciated, but still widely underappreciated!</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="wrap-up">Wrap-up<a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#wrap-up" class="hash-link" aria-label="Direct link to Wrap-up" title="Direct link to Wrap-up">​</a></h2>
-<p>WXX makes xx coin available to all ERC20-capable wallets and markets.</p>
-<p>This is a product of hard and smart work by xx Network developers (including the wise choice to use Polkadot SDK) and the wider Substrate and crypto community.</p>
-<p>Also because of Substrate, the best is yet to come.</p>
-<ul>
-<li>an integration with Snowbridge could give xx coin a <em>native and trustless</em> xx-chain-to-Ethereum bridging</li>
-<li>Supra HyperNova - this would also require an xx chain-specific, but not unique, integration and would enable a direct, trustless <em>and bridgeless</em> xx-to-Supra cross-chain interoperability. I plan to keep an eye on HyperNova, especially if Substrate or Polkadot are mentioned</li>
-<li>DEX for native Substrate coins - useful for multi-currency Substrate wallets and shapeshift-like purchases of xx mixnet credits (to pay for postage)</li>
-</ul>]]></content>
-        <author>
-            <name>ArmchairAncap</name>
-            <uri>https://github.com/armchairancap</uri>
-        </author>
-        <category label="cryptocurrency" term="cryptocurrency"/>
         <category label="xx network" term="xx network"/>
         <category label="defi" term="defi"/>
     </entry>
