@@ -11,7 +11,7 @@
 
 
 <script src="https://cdn.counter.dev/script.js" async data-id="83dc700a-b821-4e57-9425-02b8336a9456" data-utcoffset="0"></script><link rel="stylesheet" href="/assets/css/styles.2fac03d5.css">
-<script src="/assets/js/runtime~main.7806a4dc.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.316f8260.js" defer="defer"></script>
 <script src="/assets/js/main.5ff48c42.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard" data-theme="light">
@@ -35,6 +35,7 @@
 <li><a href="#comments-on-comments-in-the-x-thread">Comments on comments in the X thread</a>
 <ul>
 <li><a href="#qan-blockchain-platform-qanx">QAN blockchain platform (QANX)</a></li>
+<li><a href="#quantumevm">QuantumEVM</a></li>
 <li><a href="#other-coins-in-the-x-thread">Other coins in the X thread</a></li>
 </ul>
 </li>
@@ -84,7 +85,7 @@ So PQC means resistant to attacks by known CRQCs.</p></div></div>
 <li>They&#x27;re developing own format of interchangeable tokens (besed on the numbers, such as CF-20, it&#x27;s similar to Ethereum&#x27;s)</li>
 <li>Interoperability protocol, bridging with other blockchains (PolkadotSDK has several and more will be added faster than Cellframe can do it. xx Chain uses two token bridges (XRP and Ethereum))</li>
 </ul>
-<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p><a href="https://cellframe.net/blog/two-way-bridge-mode-dai-usdc-eth-bnb-available-for-withdrawal/" target="_blank" rel="noopener noreferrer">They just got two-way bridging done</a>, while wrapped XX coin is listing on DEXes, so even with that they&#x27;re still building out these relatively basic integrations.</p><p>xx Network doesn&#x27;t even focus on the coin itself and has most of what it needs (chain integrations-wise). Additionally, it costs relatively little to develop, test and maintain.</p></div></div>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p><a href="https://cellframe.net/blog/two-way-bridge-mode-dai-usdc-eth-bnb-available-for-withdrawal/" target="_blank" rel="noopener noreferrer">They just got two-way bridging done</a>, while wrapped XX coin is listing on DEXes (WXX(ERC20), WXX(BEP20)), so even with that they&#x27;re still building out these relatively basic integrations while Substrate-based coins do this with relative ease.</p><p>xx Network doesn&#x27;t even focus on the coin itself and has most of what it needs (chain integrations-wise). Additionally, it costs relatively little to develop, test and maintain.</p></div></div>
 <p>As you can see the main <a href="https://cellframe.net/changelog/" target="_blank" rel="noopener noreferrer">issue</a> I have with Cellframe is they are reinventing the wheel.</p>
 <p>Examples from two recent releases, 5.3-327 and 5.3-277:</p>
 <ul>
@@ -205,7 +206,7 @@ I can&#x27;t think of non-obvious ways that PQ-compromise of xx Chain would impa
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="opinion-on-qlr">Opinion on QLR<a href="#opinion-on-qlr" class="hash-link" aria-label="Direct link to Opinion on QLR" title="Direct link to Opinion on QLR">​</a></h3>
 <p>Ozone&#x27;s PQ-related features look nice, but it&#x27;s a tiny platform where you may be PQ-ready, but can be excluded or banned at any time. The threat of that is probably higher than the threat of CRQC...</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="comments-on-comments-in-the-x-thread">Comments on comments in the X thread<a href="#comments-on-comments-in-the-x-thread" class="hash-link" aria-label="Direct link to Comments on comments in the X thread" title="Direct link to Comments on comments in the X thread">​</a></h2>
-<p>Shills of course flooded the thread with stupid comments, which I break down in two groups: on-topic (QANX) and off-topic (the rest, as of writing this post).</p>
+<p>Shills of course flooded the thread with stupid comments, which I break down in two groups: on-topic (QANX, QuantumEVM) and off-topic (the rest, as of writing this post).</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="qan-blockchain-platform-qanx">QAN blockchain platform (QANX)<a href="#qan-blockchain-platform-qanx" class="hash-link" aria-label="Direct link to QAN blockchain platform (QANX)" title="Direct link to QAN blockchain platform (QANX)">​</a></h3>
 <p>One of the comments mentioned this coin.</p>
 <p>I won&#x27;t waste time on it - <a href="https://learn.qanplatform.com/about-us/company" target="_blank" rel="noopener noreferrer">it&#x27;s a company owned platform</a> that has to turn a profit (got $15 million from VCs) or else.</p>
@@ -231,6 +232,10 @@ I can&#x27;t think of non-obvious ways that PQ-compromise of xx Chain would impa
 <p>It doesn&#x27;t seem their public network has launched (or they don&#x27;t update their docs). According to <a href="https://learn.qanplatform.com/about-us/roadmap" target="_blank" rel="noopener noreferrer">their roadmap</a> there&#x27;s no public mainnet yet and they&#x27;re still collecting validator applications (there&#x27;s a Google Docs form on the same page).</p>
 <p>Users interested in xx Network&#x27;s use case (confidential messaging) won&#x27;t use this one. But they may get some business from enterprise users running private PQ-based chains.</p>
 <div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>I believe enterprises who want to pay can reach out to the xx Foundation for licensing and support.</p><p>The xx Network stack is possibly less expensive and very permissively licensed.</p><p>As far as chain features are concerned, <a href="https://supra.com" target="_blank" rel="noopener noreferrer">Supra</a> (which I hold) will cush these guys.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="quantumevm">QuantumEVM<a href="#quantumevm" class="hash-link" aria-label="Direct link to QuantumEVM" title="Direct link to QuantumEVM">​</a></h3>
+<p>This is the same thing as QANON... sorry, QANX: Ethereum with PQ patches.</p>
+<p>xx Network isn&#x27;t in PQ EVM or blockchain business, so there&#x27;s noth much to compare, but aside from that, they don&#x27;t have anything in place: it seems they&#x27;re trying to ICO now, so they may be a year from a functioning decentralized mainnet, and even then they won&#x27;t have anything similar to cMixx.</p>
+<p>I commented <a href="https://x.com/armchairancap/status/1868500204464546272" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="other-coins-in-the-x-thread">Other coins in the X thread<a href="#other-coins-in-the-x-thread" class="hash-link" aria-label="Direct link to Other coins in the X thread" title="Direct link to Other coins in the X thread">​</a></h3>
 <p>I saw a bunch of coins/chains mentioned in the thread. I checked five, and three of them were random shitposts pumping loser coins that have nothing in terms of PQ readiness.</p>
 <p>Two I&#x27;ve heard of, and was able to find something PQ-related:</p>
@@ -804,6 +809,10 @@ Because of that, two months ago I put a small amount of fiat into some other, ne
 <p>That first statement about xx Chain adddresses being the same across all Substrate chains isn&#x27;t entirely correct as stated above - that was purposedly simplified.</p>
 <p>What&#x27;s valid across most Substrate chains is your regular wallet pass phrase and private key(s). SS58 addresses are different for every chain, but can be derived from the same pass phrase or private key(s).</p>
 <p>Why should we care? Because you can have a Substrate wallet that uses a <em>single</em> pass phrase for (probably) <em>any dApp</em> in the Polkadot ecosystem.</p>
+<p>Consider this simple pitch from <a href="https://www.subwallet.app/" target="_blank" rel="noopener noreferrer">SubWallet</a>:</p>
+<blockquote>
+<p>Manage multiple seed phrases with only one master password. SubWallet supports 150+ networks, 450+ tokens, and 80+ dApps.</p>
+</blockquote>
 <p>An xx Network address looks differently from its Polkadot &quot;representation&quot;, but these are - and must be, to prevent confusion and loss - because these are different SS58 networks. That is amazing.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="xx-chain-can-integrate-with-many-polkadot-projects">xx chain can integrate with many Polkadot projects<a href="#xx-chain-can-integrate-with-many-polkadot-projects" class="hash-link" aria-label="Direct link to xx chain can integrate with many Polkadot projects" title="Direct link to xx chain can integrate with many Polkadot projects">​</a></h3>
 <p>Because of the two earlier points, Substrate L1 and L2 chains and apps can be easily interconnected.</p>
