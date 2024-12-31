@@ -4,10 +4,68 @@
         <title>ArmchairAncap Blog</title>
         <link>https://armchairancap.github.io/blog</link>
         <description>ArmchairAncap Blog</description>
-        <lastBuildDate>Tue, 17 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Dec 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Notes before the change of minimum validator stake on xx Chain]]></title>
+            <link>https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change</link>
+            <guid>https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change</guid>
+            <pubDate>Tue, 31 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Why the new 15K XX minimum is necessary and still not enough]]></description>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-changed-how-and-why">What changed, how and why</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#why-is-15k-better-than-1k">Why is 15K better than 1K</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-now">What now</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-has-to-be-done">What has to be done</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#take-aways">Take-aways</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-changed-how-and-why">What changed, how and why<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-changed-how-and-why" class="hash-link" aria-label="Direct link to What changed, how and why" title="Direct link to What changed, how and why">​</a></h2>
+<p>Those who follow xx Network are likely aware of the <a href="https://forum.xx.network/t/revised-increase-min-staking/7045" target="_blank" rel="noopener noreferrer">changes</a> to the minimum validator stake.</p>
+<p>Until era 1140 (today), validators could start validating with only 1,000 XX (less than $50).</p>
+<p>The intent to introduce changes and "return" to the old limit were first approved in a referendum, and then a separate democracy vote approved the change to chain variables, with a scheduled task set to increase the minimum stake to 15,000 XX. The first referendum also approves additional hikes in 2025.</p>
+<p>How it was before:</p>
+<ul>
+<li>14,0000 XX</li>
+<li>When XX token was worth 4-5 times as much</li>
+</ul>
+<p>Why was it reduced to 1,000 XX? Because several loud socialists in the community (who don't know anything about economics) made more noise than the rest.</p>
+<p>With the new hike the minimum stake is "higher", but only in XX coins. It's still some 80% lower than the already low stake that the network used to have before.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-is-15k-better-than-1k">Why is 15K better than 1K<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#why-is-15k-better-than-1k" class="hash-link" aria-label="Direct link to Why is 15K better than 1K" title="Direct link to Why is 15K better than 1K">​</a></h2>
+<p>Because xx Network is as Proof of Stake network.</p>
+<p>Validators must have a lot at stake to demonstrate their commitment to good, secure validation. It's nothing new.</p>
+<p>The new minimum stake will make it harder (more expensive) to scam nominators. Starting with tomorrow's era it will cost 15 times as much to stand up a bunch of nodes, wait until they're nominated and elected, and then hike commission from the initial "below 20%" standard to 30% or 40% until nominators figure it out. Once they do, you spin up a new node with just $50 on it and start again.</p>
+<p>It will also make node hoarding more expensive. You can still run a 20 node validator farm and undermine the security of the network, but for new adversaries that becomes 15 times more expensive.</p>
+<p>The hike doesn't "solve" either of these problems, but it makes such behavior more expensive.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-now">What now<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-now" class="hash-link" aria-label="Direct link to What now" title="Direct link to What now">​</a></h2>
+<p>The xx socialists claim 15,000 XX is already unbearable for the "poor validators" who haven't been making profit and now won't be able to afford 14,000 XX to continue validating.</p>
+<p>First, that's false, because they can keep going as long as they don't <strong>stop</strong> validating.</p>
+<p>Second, if it's not sustainable, the solution isn't to lower the security of the network.</p>
+<p>Tomorrow's Phragment election will be the first one which will prevent <em>new</em> entrants, but all the existing ones will be able to continue.</p>
+<p>Of course, the scammers have their little VM-based nodes ready to go: among 24 nodes currently in Waiting, only three seem regulars. I checked all of them and 21 had 1,010 XX <em>or less</em> on them.</p>
+<p>Waiting area during era 1140 (top):</p>
+<p><img decoding="async" loading="lazy" alt="Waiting area in era 1140 page 1" src="https://armchairancap.github.io/assets/images/2024-12-31-xx-chain-era-1140-waiting-01-25a8a1487e6eef911c1b01383b69d83d.png" width="1443" height="886" class="img_xHFY"></p>
+<p>Waiting area (bottom):</p>
+<p><img decoding="async" loading="lazy" alt="Waiting area in era 1140 page 2" src="https://armchairancap.github.io/assets/images/2024-12-31-xx-chain-era-1140-waiting-02-6b588a844d1bad75df12dd09141d5797.png" width="1443" height="886" class="img_xHFY"></p>
+<p>They don't have to get elected by tomorrow - they just need to be there and not stop validating before they get elected.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-has-to-be-done">What has to be done<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-has-to-be-done" class="hash-link" aria-label="Direct link to What has to be done" title="Direct link to What has to be done">​</a></h2>
+<p>xx Network suffers from the low price of the token which makes validation unprofitable.</p>
+<p>That cannot (or at least: should not) be fixed by compromising the security of the network.</p>
+<p>But the community is disengaged (the same problem seen in other DAOs <a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks">such as Polkadot</a>) and 90% of active community members are either "degens" (price-focused speculators) or socialists, making any improvements difficult.</p>
+<p>The xx Foundation and Technical Committee members are staying out of these (seemingly "non-fundamental") governance discussions which is appropriate, but the end result is not satisfactory.</p>
+<p>Validator slots should be shrunk, but the groups I mentioned are against because it's (supposedly) "bad PR". By that logic adding 10 more slots should help (after all, there's as many as 24 nodes in waiting!), but they don't suggest that. I wonder why.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="take-aways">Take-aways<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#take-aways" class="hash-link" aria-label="Direct link to Take-aways" title="Direct link to Take-aways">​</a></h2>
+<p>As we are about to enter era 1141, the hike seems entirely justified and obviously helpful - it doesn't need to "solve" anything, it just needs to make the undermining of security more expensive, which it does by a factor of 15.</p>
+<p>What else should be done?</p>
+<ul>
+<li>Validator slots should be cut by 10 or 20 to ensure nodes require at least 300K XX to get elected. Now a handful has less than 100 K XX. The network doesn't need 370 nodes in the first place, so there should be no second thoughts about this and yet here we are with dozens of people running many nodes with 1K XX validator stake on each...</li>
+<li>A xx Postage bounty should be created and released as soon as ongoing bounties are delivered, to ensure real demand for tokens in second half of 2025. A RFC is on the forum and just needs to be worked on and released.</li>
+</ul>
+<p>Aside from that, governance needs to be improved to create more engagement both internally (validators, nominators), but also externally (with builders). Most of that is not happening because of this stalemate between a disengaged majority, a loud (but incompetent) minority of validators, and an unopinionated Foundation. I hope this will be resolved and improved in 2025.</p>]]></content:encoded>
+            <category>xx network</category>
+            <category>xx chain</category>
+        </item>
         <item>
             <title><![CDATA[How to buy WXX(BRC20)]]></title>
             <link>https://armchairancap.github.io/blog/2024/12/17/buying-wxx-bep20-wrapped-xx-coin</link>
@@ -299,6 +357,9 @@ So PQC means resistant to attacks by known CRQCs.</p></div></div>
 <p>Here's what <a href="https://nvlpubs.nist.gov/nistpubs/ir/2024/NIST.IR.8547.ipd.pdf" target="_blank" rel="noopener noreferrer">current draft</a> of this deprecation plan says (as of 2024/12/14):</p>
 <p><img decoding="async" loading="lazy" alt="ECDSA depreciation schedule - draft" src="https://armchairancap.github.io/assets/images/2024-04-14-ecdsa-depreciation-schedule-draft-8325a94b8952ac07c48c28294a068f33.png" width="873" height="410" class="img_xHFY"></p>
 <p>Up to 11 years to go, and that's <strong>if</strong> you depend on ECDSA and must use it. xx Chain <em>does not have to</em> use ECDSA signatures.</p>
+<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>Bitcoin uses [256-bit ECDSA](<a href="https://en.bitcoin.it/wiki/Elliptic_Curve_Digital_Signature_Algorithm" target="_blank" rel="noopener noreferrer">https://en.bitcoin.it/wiki/Elliptic_Curve_Digital_Signature_Algorithm</a>:</p><blockquote>
+<p>For bitcoin these are Secp256k1 and SHA256(SHA256()) respectively.</p>
+</blockquote></div></div>
 <p>The <a href="https://www.theqrl.org/" target="_blank" rel="noopener noreferrer">web site</a> says the their chain uses XMSS, a NIST-approved post-quantum secure digital signature scheme.</p>
 <p>Similarly to Ozone Chain (below), they use lattice-key storage.</p>
 <p>QRL uses <a href="https://github.com/tevador/RandomX" target="_blank" rel="noopener noreferrer">RandomX</a>, a proof of work (PoW) algorithm based on random code execution.</p>
@@ -2104,103 +2165,6 @@ LOS ANGELES--(BUSINESS WIRE)--The world’s first quantum-resistant messaging ap
 <p>Furthermore, xx Haven provides unique, reusable identities (bossCompartmentalisedDisownment in the first screenshot), so each network identity can be reused without disclosing the participant's IP address and/or true identity. This may be useful in situations where a participant wishes to be recognized - for example, a designated identity may be reused across events to provide support or engage in 1-on-1 chat with participants for follow up.</p>]]></content:encoded>
             <category>xx network</category>
             <category>apps</category>
-        </item>
-        <item>
-            <title><![CDATA[SecureDrop keeps themselves busy reinventing the wheel]]></title>
-            <link>https://armchairancap.github.io/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not</link>
-            <guid>https://armchairancap.github.io/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not</guid>
-            <pubDate>Wed, 08 May 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[SecureDrop tries to reinvent the wheel instead of integrating decentralized messengers]]></description>
-            <content:encoded><![CDATA[<p><a href="https://x.com/armchairancap/status/1589835968911413249" target="_blank" rel="noopener noreferrer">I've said it already</a> so I'll just rephrase: it takes three PhDs to use SecureDrop - one admin, one journalist and one user.</p>
-<p>But you don't know what you don't know, so instead of fixing the complicated mess that (current) SecureDrop is - which could be done by including <strong>any</strong> viable open source decentralized messenger into their packaged solution - they're coming up with <a href="https://github.com/freedomofpress/securedrop-protocol" target="_blank" rel="noopener noreferrer">a new protocol</a> of their own. Of course.</p>
-<p>What does it do?</p>
-<blockquote>
-<p>What is implemented here is a small-scale, self-contained, anonymous message box, where anonymous parties (sources) can contact and receive replies from trusted parties (journalists).</p>
-</blockquote>
-<p>Where's the server?</p>
-<blockquote>
-<p>Server: For this project, a server might be a physical dedicated server housed in a trusted location, a physical server in an untrusted location, or a virtual server in a trusted or untrusted context. Besides the initial setup, all the connections to the server have to happen though the Tor Hidden Service Protocol.</p>
-</blockquote>
-<p>Fine, I'll just set up my own Hidden Service.</p>
-<p>But, does Source need a PhD?</p>
-<blockquote>
-<p>Source(s): No on-device persistence shall be required for a source to interact with the system; they should be able to conduct all communications using only a single, theoretically-memorizable passphrase. The source uses Tor Browser to preserve their anonymity.</p>
-</blockquote>
-<p>Just using Tor Browser properly is very hard. Haven users don't need to use Tor, but they may if they wish. Because with Haven, Tor is optional so it's much harder to use Tor incorrectly if either party does choose to use it for secure direct messaging.</p>
-<p>I'd even say that modern messaging apps like xx Network's Haven almost <em>cannot</em> be used incorrectly. Choose a strong password and don't have a spyware infested browser or OS. That's basically it.</p>
-<p>But this is SecureDrop, so here we go again... Start by subscribing to Udemy's "Python from Zero to Hero"...</p>
-<div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># python3 source.py -h</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">usage: source.py [-h] [-p PASSPHRASE] -a {fetch,read,reply,submit,delete} [-i ID] [-m MESSAGE] [-f FILES [FILES ...]]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">options:</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  -h, --help            show this help message and exit</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  -p PASSPHRASE, --passphrase PASSPHRASE</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        Source passphrase if returning</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  -a {fetch,read,reply,submit,delete}, --action {fetch,read,reply,submit,delete}</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        Action to perform</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  -i ID, --id ID        Message id</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  -m MESSAGE, --message MESSAGE</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        Plaintext message content for submissions or replies</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  -f FILES [FILES ...], --files FILES [FILES ...]</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                        List of local files to submit</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="how-it-could-be-done">How it could be done<a href="https://armchairancap.github.io/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not#how-it-could-be-done" class="hash-link" aria-label="Direct link to How it could be done" title="Direct link to How it could be done">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="pull-method">Pull method<a href="https://armchairancap.github.io/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not#pull-method" class="hash-link" aria-label="Direct link to Pull method" title="Direct link to Pull method">​</a></h3>
-<p>In this approach Source shares files over a Tor Hidden Service and informs a Journalist to download the file.</p>
-<p>This doesn't require <em>any</em> development.</p>
-<ul>
-<li>Journalist publishes their Haven nick (e.g. MrTriggerHappyJourno)</li>
-<li>Source runs owns <a href="https://github.com/armchairancap/xx-haven-container" target="_blank" rel="noopener noreferrer">Haven container</a> or accesses other party's (e.g. public) Haven instance to create their own identity (DrDeepThroat)</li>
-<li>Source initiates chat with Journalist using Haven by contacting them directly and inviting them to personal chat channel with DrDeepThroat and MrTriggerHappyJourno as the only participants</li>
-<li>If the Source decides to share their files, they start Onion container with Hidden (Web) Service and share the link to the Journalist in Haven private chat</li>
-</ul>
-<p>I provide a walk-through and sample configuration files below.</p>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="push-method">Push method<a href="https://armchairancap.github.io/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not#push-method" class="hash-link" aria-label="Direct link to Push method" title="Direct link to Push method">​</a></h3>
-<p>This approach follows SecureDrop's approach where the "file upload" site is operated by Journalist. That seems like a very risky idea to me - Sources would better off uploading files to one of decentralized S3 services - but that's how SecureDrop does it.</p>
-<p>In this approach they would still use a decentralized secure messenger (Haven from xx Network or some other) and the same Web server app Secure Drop already has.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="walk-through-for-pull-method">Walk-through for Pull method<a href="https://armchairancap.github.io/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not#walk-through-for-pull-method" class="hash-link" aria-label="Direct link to Walk-through for Pull method" title="Direct link to Walk-through for Pull method">​</a></h2>
-<p>I think it's easier to use Haven and Pull method than SecureDrop (Push method) and I'll show you why.</p>
-<p>With Docker installed, the Source downloads this repository from Tor Browser or over SOCKS5 proxy (using git cli) and starts all the services they'll need.</p>
-<div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">git clone https://github.com/armchairancap/xx-haven-container</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">cd xx-haven-container/tor</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">docker compose up</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>Haven is now running on localhost (temporary VM) and Caddy provides HTTPS proxy at <a href="https://localhost/" target="_blank" rel="noopener noreferrer">https://localhost:443</a> to Source. This takes care of secure messaging and metadata shredding.</p>
-<p>If you want to know more, see <a href="https://armchairancap.github.io/docs/haven-user-guide/get-started">this guide</a> or fire up your own instance.</p>
-<p><img decoding="async" loading="lazy" src="https://armchairancap.github.io/assets/images/2024-05-08-00-xx-network-haven-localhost-service-0f44be2e019041b1586305ca378ef85e.png" width="577" height="427" class="img_xHFY"></p>
-<p>This list below shows all services in this Docker Compose.</p>
-<p>The configuration files can be in line with best practices and thereby require <strong>zero configuration</strong> by either Source (they use Haven and Web server) or Journalist (they use own instance of Haven).</p>
-<ul>
-<li>Caddy - HTTPS proxy for Haven</li>
-<li>NGINX - Web server that runs my Tor Hidden (Web) Service</li>
-<li>Haven - local (personal) instance of Haven (to create Haven identity and chat with Journalist)</li>
-<li>Alpine/Tor - Tor server that exposes Hidden (Web) Service at a <code>.onion</code> address</li>
-</ul>
-<div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ docker ps -a</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">CONTAINER ID   IMAGE</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">52b873713f26   caddy                        </span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">324711b42905   nginx:latest  </span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">5e3054ec8d21   ghcr.io/armchairancap/haven:latest</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">023a0df1a5ed   alpine:latest </span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>Tor is running in Alpine and the Source can get our Hidden Service address from Container ID for <code>alpine:latest</code> like so:</p>
-<div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ docker exec -it 023a0df1a5ed cat /var/lib/tor/hidden_service/hostname</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">6x366z3rjmkx4ebtlpbq2hyoqng2yzy46zjtivydo4xovfj5xbk7zuid.onion</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># alternatively</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ sudo cat tor-service/hostname</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>The <code>hostname</code> file is in the <code>tor-service</code> directory (relative to repo clone location: <code>./xx-haven-container/tor/tor-service/</code>).</p>
-<p>That's all it takes to visit the service on Tor - use Tor Browser to access that link.</p>
-<p>But, what is our NGINX service sharing/serving?</p>
-<p>The two test files I put in the <code>tor-docs</code> subdirectory in the place where I run <code>docker compose up</code>:</p>
-<div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ sudo ls  ./tor-docs/</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">file.txt  index.html</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>Actually, <code>index.html</code> isn't even necessary - it's there to make this demo simpler - by being able to view index.html which links to file.txt.</p>
-<p>In any case, our Source shares 6x366z3rjmkx4ebtlpbq2hyoqng2yzy46zjtivydo4xovfj5xbk7zuid.onion with his Journalist and that's it.</p>
-<p><img decoding="async" loading="lazy" src="https://armchairancap.github.io/assets/images/2024-05-08-01-hidden-web-service-fa141ad4ccc6056969c60f16a7483791.png" width="692" height="207" class="img_xHFY"></p>
-<p>The Journalist downloads the file over Tor and the Source can see that in Tor logs (in Docker Compose console).</p>
-<p><img decoding="async" loading="lazy" src="https://armchairancap.github.io/assets/images/2024-05-08-02-get-files-from-hidden-web-service-437ebc659403e13c96ed5239339ff80b.png" width="1053" height="249" class="img_xHFY"></p>
-<p>After the Journalist confirms they got the file in Haven chat channel, the Source uses CTRL+C to stop Docker service and removes everything (the entire ./xx-haven-container/ directory or - even better - the entire temporary VM if they had one).</p>
-<div class="theme-admonition theme-admonition-warning admonition_UIiK alert alert--warning"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent__ZrN"><p>Don't perform this step if you want to reuse your Onion address or Docker Compose example. (Of course, you may, and create another set of Tor and Haven identities next time you use this stack.)</p></div></div>
-<div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># press CTRL-C to stop docker-compose</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># sudo rm -rf ./tor-*</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>With Tor identity removed, next time the Sources wishes to use the same stack they have a new Onion address while Haven identity could be restored if they backed it up (by exporting it from Haven Web UI to JSON file) and stored in a secure location.</p>
-<p>Back to those file names: our Source could share a direct link to the file (6x366z3rjmkx4ebtlpbq2hyoqng2yzy46zjtivydo4xovfj5xbk7zuid.onion/file.txt) and file.txt could be encrypted if you wanted the extra security - the Source may share that password with the Journalist in their private Haven chat channel.</p>
-<p>The password could be shared with the Journalist in Haven, but if the file is randomly named there's no risk of anyone guessing this file name on a Hidden Service address with directory listing disabled (it is disabled by default on NGINX).</p>
-<p>To take that approach, remove index.html and move the content file to a random name:</p>
-<div class="language-sh codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-sh codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># use CTRL+C to stop docker compose</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ openssl rand -hex 50</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">cd7457899fcd7ea28f09b8fd7eec090f9207634501ee910c3a58b3b7bb35e68e8ec17b05a7e1626059a089cd7318ec69589a</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ sudo rm ./tor-docs/index.html</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ sudo mv ./tor-docs/file.txt ./tor-docs/cd7457899fcd7ea28f09b8fd7eec090f9207634501ee910c3a58b3b7bb35e68e8ec17b05a7e1626059a089cd7318ec69589a</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ docker compose start</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>All that's necessary here is to put your content in ./tor-docs/. There's no configuration of any kind. For "production" purposes a project could further improve configuration files included, of course.</p>
-<ul>
-<li>caddy_config/ - auto-configured</li>
-<li>caddy_data/ - auto-configured</li>
-<li>Caddyfile - 3-line template file for reverse proxy on <code>localhost</code>, preconfigured</li>
-<li>docker-compose.yml - Docker Compose file, preconfigured</li>
-<li>tor-config/ - Tor Hidden Service configuration file (for NGINX), preconfigured</li>
-<li>tor-docs/  - file(s) shared over Hidden Service (file.txt, etc.)</li>
-<li>tor-service/ - Tor Hidden Service identity file (hostname, pub/priv key) - auto-generated if missing</li>
-</ul>
-<p>Now, this isn't "more secure" than their latest PoC, but is it worse?</p>
-<p>It took me two hours to put it together without writing any code and anyone who uses this is much less likely to make a mistake while using this approach.</p>
-<p>Find my PoC configuration files <a href="https://github.com/armchairancap/xx-haven-container/" target="_blank" rel="noopener noreferrer">here</a>. (Credits: I used <a href="https://github.com/ha1fdan/hidden-service-docker" target="_blank" rel="noopener noreferrer">hidden-service-docker</a> for Tor and NGINX.)</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="summary">Summary<a href="https://armchairancap.github.io/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
-<p>SecureDrop wants to reinvent their own wheel despite the fact that there are several good decentralized, secure messengers.</p>
-<p>Normally, secure drops start with secure messaging and they'd be better off if they simply picked one of existing options.</p>
-<p>Once that's taken care of, file upload/download is no longer difficult when done on Onion network.</p>
-<p>I wouldn't say these are "solved problems", but the point here isn't that xx Network's Haven "solved" the problem of secure messaging (maybe it did, maybe it didn't - <a href="https://xx.network/whitepapers/" target="_blank" rel="noopener noreferrer">see for yourself</a>). It is that SecureDrop very likely can't solve it <em>better</em> than other decentralized messengers.</p>
-<p>They ought to stop dreaming about their own "protocol" and do what they're supposed to do which is making it easy to share files in private.</p>]]></content:encoded>
-            <category>xx network</category>
-            <category>tor</category>
         </item>
     </channel>
 </rss>
