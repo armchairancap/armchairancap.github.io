@@ -17,20 +17,16 @@
 <li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-changed-how-and-why">What changed, how and why</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#why-is-15k-better-than-1k">Why is 15K better than 1K</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-now">What now</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-has-to-be-done">What has to be done</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-else-needs-to-be-done">What else needs to be done</a></li>
 <li><a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#take-aways">Take-aways</a></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-changed-how-and-why">What changed, how and why<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-changed-how-and-why" class="hash-link" aria-label="Direct link to What changed, how and why" title="Direct link to What changed, how and why">​</a></h2>
 <p>Those who follow xx Network are likely aware of the <a href="https://forum.xx.network/t/revised-increase-min-staking/7045" target="_blank" rel="noopener noreferrer">changes</a> to the minimum validator stake.</p>
 <p>Until era 1140 (today), validators could start validating with only 1,000 XX (less than $50).</p>
-<p>The intent to introduce changes and "return" to the old limit were first approved in a referendum, and then a separate democracy vote approved the change to chain variables, with a scheduled task set to increase the minimum stake to 15,000 XX. The first referendum also approves additional hikes in 2025.</p>
-<p>How it was before:</p>
-<ul>
-<li>14,0000 XX</li>
-<li>When XX token was worth 4-5 times as much</li>
-</ul>
-<p>Why was it reduced to 1,000 XX? Because several loud socialists in the community (who don't know anything about economics) made more noise than the rest.</p>
-<p>With the new hike the minimum stake is "higher", but only in XX coins. It's still some 80% lower than the already low stake that the network used to have before.</p>
+<p>The intent to introduce changes and "return" to the old limit were first approved in a referendum, and then a separate democracy vote approved the same change to chain variables deployed as a scheduled task set to increase the minimum stake to 15,000 XX on January 1, 2025. The first referendum also approves additional hikes in 2025 as necessary.</p>
+<p>The minimum used to be 14,0000 XX back in 2021 when XX token was worth 4-5 times as much.</p>
+<p>Why was it reduced to 1,000 XX? Because several loud community members who don't know anything about economics made more noise than the rest.</p>
+<p>With the new hike the minimum stake is slightly higher, but only in XX coins. In US dollars, it's still almost 80% lower than the already low stake that the network used to have before.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-is-15k-better-than-1k">Why is 15K better than 1K<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#why-is-15k-better-than-1k" class="hash-link" aria-label="Direct link to Why is 15K better than 1K" title="Direct link to Why is 15K better than 1K">​</a></h2>
 <p>Because xx Network is as Proof of Stake network.</p>
 <p>Validators must have a lot at stake to demonstrate their commitment to good, secure validation. It's nothing new.</p>
@@ -38,30 +34,30 @@
 <p>It will also make node hoarding more expensive. You can still run a 20 node validator farm and undermine the security of the network, but for new adversaries that becomes 15 times more expensive.</p>
 <p>The hike doesn't "solve" either of these problems, but it makes such behavior more expensive.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-now">What now<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-now" class="hash-link" aria-label="Direct link to What now" title="Direct link to What now">​</a></h2>
-<p>The xx socialists claim 15,000 XX is already unbearable for the "poor validators" who haven't been making profit and now won't be able to afford 14,000 XX to continue validating.</p>
+<p>Some of the same xx community ignoramuses claim 15,000 XX is already unbearable for the "poor validators" who haven't been making profits from validation and now won't be able to afford 14,000 XX to be able to continue validating.</p>
 <p>First, that's false, because they can keep going as long as they don't <strong>stop</strong> validating.</p>
-<p>Second, if it's not sustainable, the solution isn't to lower the security of the network.</p>
-<p>Tomorrow's Phragment election will be the first one which will prevent <em>new</em> entrants, but all the existing ones will be able to continue.</p>
-<p>Of course, the scammers have their little VM-based nodes ready to go: among 24 nodes currently in Waiting, only three seem regulars. I checked all of them and 21 had 1,010 XX <em>or less</em> on them.</p>
+<p>Second, if validating is not sustainable, destroying security of the network isn't a good way to fix that problem.</p>
+<p>Tomorrow's Phragment election will be the first one which will prevent <em>new</em> entrants, but all the existing ones will be able to continue with their sub-15K XX stake.</p>
+<p>Of course, the scammers have their little VM-based nodes ready to go: among the 24 nodes currently in Waiting only three seem regulars. I checked each prospective validator's wallet: all but three had 1,010 XX <em>or less</em> staked!</p>
 <p>Waiting area during era 1140 (top):</p>
 <p><img decoding="async" loading="lazy" alt="Waiting area in era 1140 page 1" src="https://armchairancap.github.io/assets/images/2024-12-31-xx-chain-era-1140-waiting-01-25a8a1487e6eef911c1b01383b69d83d.png" width="1443" height="886" class="img_xHFY"></p>
 <p>Waiting area (bottom):</p>
 <p><img decoding="async" loading="lazy" alt="Waiting area in era 1140 page 2" src="https://armchairancap.github.io/assets/images/2024-12-31-xx-chain-era-1140-waiting-02-6b588a844d1bad75df12dd09141d5797.png" width="1443" height="886" class="img_xHFY"></p>
-<p>They don't have to get elected by tomorrow - they just need to be there and not stop validating before they get elected.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-has-to-be-done">What has to be done<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-has-to-be-done" class="hash-link" aria-label="Direct link to What has to be done" title="Direct link to What has to be done">​</a></h2>
-<p>xx Network suffers from the low price of the token which makes validation unprofitable.</p>
-<p>That cannot (or at least: should not) be fixed by compromising the security of the network.</p>
-<p>But the community is disengaged (the same problem seen in other DAOs <a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks">such as Polkadot</a>) and 90% of active community members are either "degens" (price-focused speculators) or socialists, making any improvements difficult.</p>
-<p>The xx Foundation and Technical Committee members are staying out of these (seemingly "non-fundamental") governance discussions which is appropriate, but the end result is not satisfactory.</p>
-<p>Validator slots should be shrunk, but the groups I mentioned are against because it's (supposedly) "bad PR". By that logic adding 10 more slots should help (after all, there's as many as 24 nodes in waiting!), but they don't suggest that. I wonder why.</p>
+<p>As they've already started validating but haven't been elected, I guess they may not be electable. Since they have no sizable nominators, I doubt any of those 21 can be elected anyway.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-else-needs-to-be-done">What else needs to be done<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#what-else-needs-to-be-done" class="hash-link" aria-label="Direct link to What else needs to be done" title="Direct link to What else needs to be done">​</a></h2>
+<p>xx Network suffers from the price of the token which makes validation unprofitable. That cannot (or at least: should not) be fixed by compromising the security of the network.</p>
+<p>But the community is disengaged (I wrote about the same problem seen in other DAOs <a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks">such as Polkadot</a>) and 90% of active community members are either "degens" (price-focused speculators) or economic ignoramuses, which makes any improvements difficult.</p>
+<p>The xx Foundation and Technical Committee members are staying out of these (seemingly "non-fundamental") governance discussions which is appropriate, but the end result is not satisfactory because meaningful improvements cannot happen in such environment. And more needs to be done.</p>
+<p>Validator slots should be shrunk, but the groups I mentioned are against because it's (supposedly) "bad PR". By that logic adding 10 more slots should help (after all, there's as many as 24 nodes in waiting!), but they don't suggest that. I wonder why that is.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="take-aways">Take-aways<a href="https://armchairancap.github.io/blog/2024/12/31/xx-network-minimum-validator-stake-change#take-aways" class="hash-link" aria-label="Direct link to Take-aways" title="Direct link to Take-aways">​</a></h2>
 <p>As we are about to enter era 1141, the hike seems entirely justified and obviously helpful - it doesn't need to "solve" anything, it just needs to make the undermining of security more expensive, which it does by a factor of 15.</p>
 <p>What else should be done?</p>
 <ul>
-<li>Validator slots should be cut by 10 or 20 to ensure nodes require at least 300K XX to get elected. Now a handful has less than 100 K XX. The network doesn't need 370 nodes in the first place, so there should be no second thoughts about this and yet here we are with dozens of people running many nodes with 1K XX validator stake on each...</li>
+<li>Validator slots should be cut by 10 or 20 slots to ensure nodes require at least 300 K XX to get elected. Now a handful of nodes has less than 100 K XX (probably due to the pool scammers reshuffling those nodes which dropped), although more recently it was around 225 K XX. The network didn't need 370 nodes in the first place and they shouldn't have been added, so there should be no second thoughts about making necessary reductions and yet here we are, with dozens of people running many nodes with 1K XX validator stake on each...</li>
 <li>A xx Postage bounty should be created and released as soon as ongoing bounties are delivered, to ensure real demand for tokens in second half of 2025. A RFC is on the forum and just needs to be worked on and released.</li>
+<li>Various governance improvements are necessary</li>
 </ul>
-<p>Aside from that, governance needs to be improved to create more engagement both internally (validators, nominators), but also externally (with builders). Most of that is not happening because of this stalemate between a disengaged majority, a loud (but incompetent) minority of validators, and an unopinionated Foundation. I hope this will be resolved and improved in 2025.</p>]]></content>
+<p>Governance needs to be improved to create more engagement both internally (validators, nominators), but also externally (with builders). That is mostly happening because of this stalemate between a disengaged majority, a loud (but grossly incompetent) minority of validators, and an unopinionated Foundation. I hope this will be resolved and improved in 2025.</p>]]></content>
         <author>
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
