@@ -67,9 +67,9 @@ Those farm runners <em>usually</em>, but not always, have all of their nodes loc
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="possible-improvements-and-take-aways">Possible improvements and take-aways<a href="https://armchairancap.github.io/blog/2025/01/04/xx-network-initial-validator-list-for-due-dilligence#possible-improvements-and-take-aways" class="hash-link" aria-label="Direct link to Possible improvements and take-aways" title="Direct link to Possible improvements and take-aways">​</a></h3>
 <p>I may make additional improvements such as:</p>
 <ul>
-<li>consider history of last 7 eras</li>
-<li>eliminate nodes with higher than 30% commission in any of recent 180 eras</li>
-<li>implement finer grading on on-chain ID (not just binary, similar to how Explorer rates validators in its metrics)</li>
+<li>consider points from last 7 eras</li>
+<li>eliminate nodes with higher than 30% commission in any of most recent 180 eras</li>
+<li>implement finer evaluation of on-chain ID (not just a binary Yes|No, but more similar to how Explorer rates validators in its metrics - maybe something like a scale from 1 to 5)</li>
 <li>look into each nominator (wallet size, on-chain ID, number of nodes nominated by the validator...)</li>
 </ul>
 <p>Even without those improvements, it's obvious that only 100 or so validators are worth nominating. Or, said differently, there are close to 200 that are not (this figure includes self-sufficient validators which aren't necessary malicious, but from a <em>nominator's</em> perspective, if a node runner is self-staked to 400,000 XX and takes a 40% commission, they're <em>not nomination-worthy</em>).</p>
