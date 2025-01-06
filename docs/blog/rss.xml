@@ -4,10 +4,106 @@
         <title>ArmchairAncap Blog</title>
         <link>https://armchairancap.github.io/blog</link>
         <description>ArmchairAncap Blog</description>
-        <lastBuildDate>Sat, 04 Jan 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Jan 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[An attempt to address validator centralization problem]]></title>
+            <link>https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool</link>
+            <guid>https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool</guid>
+            <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Plan B to annoy and deter]]></description>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#introduction">Introduction</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#plan-b-vs-plan-a">Plan B vs Plan A</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#success-criteria">Success criteria</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#how-its-going-to-work">How it's going to work</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#process">Process</a></li>
+</ul>
+</li>
+<li><a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#participation">Participation</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#ethics-of-blocking-and-not">Ethics of blocking (and not)</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#will-it-work">Will it work?</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>Recently I've written about various governance issues related to xx Network and other similar DAOs, such as Polkadot.</p>
+<p>One big problem - not yet critical, but certainly one of the more significant problems on xx Network - is the issue of centralization and validator pools.</p>
+<p>If you're interested, skim through these.</p>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2024/12/10/xx-referendum-id-27-min-validator-stake">xx Network referendum (ID 27) on hiking the minimum validator stake</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/01/04/xx-network-initial-validator-list-for-due-dilligence">First pass of nomination-worthy xx Network validators (2025/01/04)</a></li>
+<li><a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks">Why Polkadot governance sucks</a></li>
+</ul>
+<p>A way to fix some of these problems <em>within the community</em> and without attempting to use the useless Democracy feature or hope that the Foundation does something was proposed <a href="https://armchairancap.github.io/blog/2024/11/28/xx-validators-shall-we-play-a-game">in this post</a>. I'll refer to it as Plan A.</p>
+<p>I'm pleased to report that zero (0) people joined my attempt to execute Plan A. (Just as expected, I might add - it's not that different from Polkadot governance issues described above.)</p>
+<p>This is about my next attempt and this time I'll do it myself because both those who are paid to do something about it and xx Network governance have failed me.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="plan-b-vs-plan-a">Plan B vs Plan A<a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#plan-b-vs-plan-a" class="hash-link" aria-label="Direct link to Plan B vs Plan A" title="Direct link to Plan B vs Plan A">​</a></h2>
+<p>With Plan A, I tried to fund others to block IPs of pool nodes. That was actually a great plan, but the community sucks and/or is disengaged.</p>
+<p>With Plan B, I'm just going to do it myself. The idea is the same: annoy and economically hurt centralizing sock-puppet node farmers. To do that, I need to build a farm of blocking validator nodes.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="success-criteria">Success criteria<a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#success-criteria" class="hash-link" aria-label="Direct link to Success criteria" title="Direct link to Success criteria">​</a></h2>
+<p>I won't have enough nodes to make a big impact, so the effects of this won't be significant.</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>This is one of the reasons Plan A was great - it seeked to pay other validators who already have validator nodes ready.</p><p>If the Foundation had any sense, they would have not just rejected pools, but also fund a validator compensation program to pay everyone to execute Plan A on their behalf.</p></div></div>
+<p>But I also don't <em>need</em> to make a big impact. It's enough to get noticed, so that is key: get noticed and raise awareness about the problem.</p>
+<p>If I make some pool runners give up or change node names to "hide" them, that would be even better.</p>
+<p>Blocking and annoying centralizing pools can't <em>fix</em> the problem: the moment I stop doing this, they'll start coming back. It has to be fixed through the currently failing governance and the Foundation.</p>
+<p>I don't run either of those, so all I can do is make noise about outside the community, because inside I've already tried and failed.</p>
+<p>I may run this experiment for weeks or months, depending on how I feel about it.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="how-its-going-to-work">How it's going to work<a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#how-its-going-to-work" class="hash-link" aria-label="Direct link to How it's going to work" title="Direct link to How it's going to work">​</a></h2>
+<ul>
+<li>I will stand up one or more validator node(s)</li>
+<li>Validator commission will be low (I don't know how low, but likely single-digit)</li>
+<li>Validator nodes will block all <strong>obvious</strong> pool members (<code>MONEYTEAM</code>, etc.) so that they fail cMix rounds where my pool nodes participate</li>
+<li>(TBD) Block all <strong>non-obvious</strong> pools. It takes time and effort to find them, so this is a low-priority item now. I'll go for the low-hanging fruit first.</li>
+</ul>
+<p>Now, one node out of 370 won't matter. At most it will result in slightly more failed rounds (in pre-comp stage, for now at least) than normal and be barely noticeable.</p>
+<p>But if I get to four active nodes, that's more than one percent of all validators and may become annoying to poo runners. Whether or not I'll get there depends on how many nominations I can get.</p>
+<p>Eight nodes would be great, but that needs 1.7 MXX so it's harder to achieve. It may be possible if I target just one of the obvious pools (rather than all).</p>
+<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>The new node(s) will have the on-chain ID <code>ARMCHAIRANCAP/{NODE_NAME}</code> and be nominated by <code>ARMCHAIRANCAP</code> and/or its proxy wallet <code>ARMCHAIRANCAP/ArmchairAncap-Proxy-Wallet</code> (<code>6VMBPjeLHTM5qerw2zJCHs9t3VyeChf2MiE35MesLRxkb1wW</code>).</p><p>If I make any changes, I'll update this information.</p></div></div>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="process">Process<a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#process" class="hash-link" aria-label="Direct link to Process" title="Direct link to Process">​</a></h3>
+<p>I will first stand up one node and run it for an era or two to calibrate it (see how much it earns, etc.).</p>
+<p>Then I'll start blocking pools, observe my own earnings, the blocked pools' earnings and adjust my validator commission so that I can break even on hosting costs.</p>
+<p>I figure that if my nodes fail 25% of all rounds I could break even. Obviously:</p>
+<ul>
+<li>My oppportunity cost is the loss of profits which I would make by normally validating and nominating</li>
+<li>I can't have 16 nodes that do that because I can't nominate 16 nodes on my own (that would take close to 3 MXX in nominations)</li>
+<li>Even with a very low comission, my nodes may not yield enough to compensate for failed rounds, so I I may or may not attract other nominators</li>
+<li>Because there won't be much (or any) profit, I'll sell all earnings the day they're made to pay for hosting</li>
+</ul>
+<p>If my node(s) profit rate for nominators be very low (e.g. 8% APR), then they're unlikely to attract any nominators used to 16% or even higher APR.</p>
+<p>Maybe I'll get to two or four or more nodes, but it's not likely.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="participation">Participation<a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#participation" class="hash-link" aria-label="Direct link to Participation" title="Direct link to Participation">​</a></h2>
+<p>In Plan A, I wanted to pay people to block pools. That didn't work, but I'll be checking my <a href="https://armchairancap.github.io/xx-directory#armchairancaps-channels">chat space</a> every now and then, to see if anyone wants to reach out.</p>
+<p>Space participants may be asked to <a href="https://armchairancap.github.io/blog/2024/11/28/xx-validators-shall-we-play-a-game#how-to-sign-your-wallet-address">sign their Haven handle</a> using their address in xx Network wallet, so that I don't have to guess how many XX tokens you have or if you really are a validator.</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>Why do I need to know how many tokens you have?</p><p>I actually don't care, but if you feel the need to discuss something from a validator or nominator perspective, I'll probably ask you to sign your Haven identify from your wallet, so that we can see if you're actually who you are or just an airdrop guy with 147.2753 XX in your wallet.</p></div></div>
+<p>Here's what I'm interested in:</p>
+<ul>
+<li>Prospective nominators (especially with 1 MXX or more) which would allow me to run 8 or more nodes</li>
+<li>Help with identifying non-obvious pool runners</li>
+<li>Validators and nominators interested in discussing ideas for fixing this problem</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="ethics-of-blocking-and-not">Ethics of blocking (and not)<a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#ethics-of-blocking-and-not" class="hash-link" aria-label="Direct link to Ethics of blocking (and not)" title="Direct link to Ethics of blocking (and not)">​</a></h2>
+<ul>
+<li>
+<p>Is it ethical to block pools? Absolutely! They have negative effect on the security of the network.</p>
+</li>
+<li>
+<p>All validators should run less nodes than a cMix round has, which is five. If I get enough nominations, should I run more than four nodes? I think as long as it is obvious that <em>others</em> do it without declaring it (run more than 4 nodes, that is), there's no harm in me doing it transparently and with the sole purpose of stopping it. At any rate, I'd like to know what arguments those who don't think centralized pools are bad may have against my pool.</p>
+</li>
+<li>
+<p>Is it ethical that the Foundation and the Technical Committee are not addressing this problem? I would say not, especially when it comes to <em>paid</em> officers of the Foundation.</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="will-it-work">Will it work?<a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#will-it-work" class="hash-link" aria-label="Direct link to Will it work?" title="Direct link to Will it work?">​</a></h2>
+<p>It doesn't matter. To me, the question is "should I try?" and the answer is "of course!"</p>
+<p>That said, if it doesn't work out, this is probably the last thing I'll try before I become a "passive supporter" and move on to participating in functioning communities. I don't <em>have</em> to be here!</p>
+<p>The Foundation, the Technical Committee and xx coin holders have the right and responsibility to manage the network. The Foundation should actively fight pools and use any means necessary to ban all wallets that belong to individuals with five or more nodes. Sadly, they're not doing it. (I would be less surprised if they banned my pool and I don't mind - that would bring my experiment to conclusion sooner.)</p>
+<p>Depending on how this turns out (I don't mean "whether I find any nominators", but whether this issue gets addressed in the DAO or by the Foundation) this may be the last thing I will do for the project with own money and time.</p>]]></content:encoded>
+            <category>xx network</category>
+            <category>xx chain</category>
+            <category>economics</category>
+        </item>
         <item>
             <title><![CDATA[First pass of nomination-worthy xx Network validators (2025/01/04)]]></title>
             <link>https://armchairancap.github.io/blog/2025/01/04/xx-network-initial-validator-list-for-due-dilligence</link>
@@ -1984,236 +2080,6 @@ If bots work well, 30 days or longer shouldn't be a problem.</p></div></div>
 <li>All other apps that use xx Network as "transport" could use Premium tier, but currently Worldcoin seems to be the most significant integration.</li>
 <li>Postage won't make xx Network expensive to use. It will make xx Network deliver more value</li>
 <li>Until there's a way to <em>reserve</em> throughput, apps with high reliability expectations should have a way to fallback to Tor or direct access when uptime is more precious than privacy</li>
-</ul>]]></content:encoded>
-            <category>xx network</category>
-        </item>
-        <item>
-            <title><![CDATA[xx Network client uses CTIDH PQ algo now]]></title>
-            <link>https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh</link>
-            <guid>https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh</guid>
-            <pubDate>Thu, 06 Jun 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[xx Network client replaces SIDH with CTIDH]]></description>
-            <content:encoded><![CDATA[<ul>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#introduction">Introduction</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#ctidh">CTIDH</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#why-xx-network-developers-picked-the-vulnerable-sidh">Why xx Network developers picked the vulnerable SIDH</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#but-where-is-this-xx-messenger">But, <em>where</em> is this xx Messenger?</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#timelines-and-additional-sources-some-of-disinformation">Timelines and additional sources (some of disinformation)</a>
-<ul>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#signal-ceo">Signal CEO</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#techloretech">techlore.tech</a>
-<ul>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#techlore-discussion-forum-tip">Techlore discussion forum tip</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#xx-chain-scam-signal-phone-numbers-good">xx chain scam, Signal phone numbers good</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#take-aways">Take-aways</a></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>I'm not a cryptography expert, so all I can do is rehash information from trusted sources (and you may verify it if you wish).</p>
-<p>What value does rehashing content that I myself can't verify add? Usually not much (so I don't do it) but:</p>
-<ul>
-<li>This one improves discoverability</li>
-<li>It curates some information that I find valuable</li>
-<li>It can't post this where I should, so I am blogging about it here</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="ctidh">CTIDH<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#ctidh" class="hash-link" aria-label="Direct link to CTIDH" title="Direct link to CTIDH">​</a></h2>
-<p>So the news - to me - is that xx Network client switched to CTIDH. I didn't know that until today.</p>
-<blockquote>
-<p>[xx Network client] switched to CTIDH after a <a href="https://eprint.iacr.org/2022/1038" target="_blank" rel="noopener noreferrer">vulnerability</a> was found for SIDH. Users interested in PQ messaging should use this branch.</p>
-</blockquote>
-<p>Source: <a href="https://git.xx.network/elixxir/docs/-/commit/46eb7f16d270d2616fe990cbcb5f485f0567e968" target="_blank" rel="noopener noreferrer">this commit</a></p>
-<p>Where can people find easy-to-digest information about CTIDH? Go <a href="https://ctidh.isogeny.org/" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<p>What cryptographic primitives does xx Network client use? Current list from <a href="https://git.xx.network/elixxir/docs/-/commits/master/end_to_end.md" target="_blank" rel="noopener noreferrer">the edited page</a> that still mentions SIDH s:</p>
-<ul>
-<li>XChaCha20: Length is 256 bits. Used for encrypting message payloads.</li>
-<li>Blake2b: Length is 256 bits. Used as part of key generation, key expansion, identity generation, and identification codes. Used to combine Diffie–Helman and SIDH keys after key integration.</li>
-<li>HMAC-SHA256: Length is 256 bits. Message HMACs.</li>
-<li>Diffie–Hellmen: Length is 3072 bits. Discrete log-based component of key negotiation.</li>
-</ul>
-<p>Note that the page still mentions SIDH for PQ and below that is a note that it was replaced by CTIDH is below it. This is so that if you have a client with an older build, you know that you should use a newer client if you care about latest PQ encryption.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-xx-network-developers-picked-the-vulnerable-sidh">Why xx Network developers picked the vulnerable SIDH<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#why-xx-network-developers-picked-the-vulnerable-sidh" class="hash-link" aria-label="Direct link to Why xx Network developers picked the vulnerable SIDH" title="Direct link to Why xx Network developers picked the vulnerable SIDH">​</a></h2>
-<p>They didn't.</p>
-<p>xx Network picked SIDH at the time it was <em>not</em> known to be vulnerable and they did it because it was evaluated and found to be suitable.</p>
-<p>One reason particularly stands out to me because it alone - given that SIDH used to be recommended by experts in the field - made it very desirable for use in PQ private messaging.</p>
-<blockquote>
-<p>the primary reason is the key sizes as they fit into a single packet</p>
-</blockquote>
-<p>Source: <a href="https://forum.xx.network/t/paper-an-efficient-key-recovery-attack-on-sidh-preliminary-version-affects-xx-messenger-quantum-security/6835/3" target="_blank" rel="noopener noreferrer">xx Network forum</a></p>
-<p>As you can see the SIDH vulnerability paper was published <em>after</em> xx Messenger was released.</p>
-<p>You can read that entire thread for additional information and context, including this part:</p>
-<blockquote>
-<p>This has <strong>no impact on the privacy of cMix</strong>.</p>
-</blockquote>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="but-where-is-this-xx-messenger">But, <em>where</em> is this xx Messenger?<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#but-where-is-this-xx-messenger" class="hash-link" aria-label="Direct link to but-where-is-this-xx-messenger" title="Direct link to but-where-is-this-xx-messenger">​</a></h2>
-<p>It came out early and it used xx Network in a way that's not efficient by current xx Network standards (now the recommended way is <a href="https://git.xx.network/elixxir/xxdk-wasm" target="_blank" rel="noopener noreferrer">xxDK</a>).</p>
-<p>As direction of development changed towards a less generic, more Web3-oriented applications, xx Messenger wasn't updated, but it was still considered not at risk and it wasn't promoted either. It would have needed total overhaul (front-end for Web3, back-end for xxDK) and while the source code is still available, the application itself was pulled (or allowed to expire, I'm not sure) on iOS. I haven't checked for Android.</p>
-<p><a href="https://phoenixx.io/" target="_blank" rel="noopener noreferrer">Phoenixx.io</a> has been developing a modern mobile-compatible client for cMix network. It's supposed to come out in H2 of 2024 and a beta desktop version has been available for a while.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="timelines-and-additional-sources-some-of-disinformation">Timelines and additional sources (some of disinformation)<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#timelines-and-additional-sources-some-of-disinformation" class="hash-link" aria-label="Direct link to Timelines and additional sources (some of disinformation)" title="Direct link to Timelines and additional sources (some of disinformation)">​</a></h2>
-<p>Again, for discoverability and curation, I want to share a few more links.</p>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="signal-ceo">Signal CEO<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#signal-ceo" class="hash-link" aria-label="Direct link to Signal CEO" title="Direct link to Signal CEO">​</a></h3>
-<p>Signal was the first PQ messenger. That's according to Signal, as you can see in this <a href="https://x.com/armchairancap/status/1761279358319366506" target="_blank" rel="noopener noreferrer">piece of fake news</a> by the Signal CEO:</p>
-<p><img decoding="async" loading="lazy" alt="Signal CEO says theirs is the first PQ messaging application" src="https://armchairancap.github.io/assets/images/2024-06-06-signal-first-pq-fake-news-c68cde75a80ce46c6546747de2722e64.png" width="601" height="394" class="img_xHFY"></p>
-<ul>
-<li>
-<p>Source: <a href="https://www.bleepingcomputer.com/news/security/signal-adds-quantum-resistant-encryption-to-its-e2ee-messaging-protocol/" target="_blank" rel="noopener noreferrer">Bleeping Computer</a></p>
-</li>
-<li>
-<p>Fact: xx Messenger came out <a href="https://web.archive.org/web/20220125171829/https://www.businesswire.com/news/home/20220125005773/en/Private-Messaging-App-Launches-on-Quantum-Resistant-Decentralized-xx-network" target="_blank" rel="noopener noreferrer">in late January 2022</a></p>
-</li>
-<li>
-<p>Fact: SIDH key recovery attack paper received by publisher <a href="https://eprint.iacr.org/2022/975" target="_blank" rel="noopener noreferrer">on July 30, 2022</a></p>
-</li>
-</ul>
-<blockquote>
-<p>January 25, 2022 10:30 AM Eastern Standard Time
-LOS ANGELES--(BUSINESS WIRE)--The world’s first quantum-resistant messaging app, xx messenger, launched on the xx network today.</p>
-</blockquote>
-<p>The above is just FYI - don't mention this to any open-minded people like those who run Techlore.tech.</p>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="techloretech">techlore.tech<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#techloretech" class="hash-link" aria-label="Direct link to techlore.tech" title="Direct link to techlore.tech">​</a></h3>
-<p>I've said at the top that I can't post a simple comment on CTIDH update where I'd like to. I meant I'd like to visit techlore.tech and share an update.</p>
-<p>I'll use this post to say a few words about that community of independent thinkers.</p>
-<p>Last February I head over there, register and, in a topic related to Wickr alternatives, mention <strong>two</strong> applications that use xx Network's cMix (not just xx Messenger):</p>
-<ul>
-<li>Speakeasy/Haven - as a modern (xxDK mentioned above) version but not yet for mobile</li>
-<li>xx Messenger - as a mobile app that (at the time) was still available on iOS</li>
-</ul>
-<p>Since I'm following xx Network closely, I <em>know</em> that xx Messenger isn't maintained, I know <em>why</em> (for the reasons explained above), so I mention that Phoenixx.io plans to launch a modern mobile messenger and that Speakeasy may also become available for mobile.</p>
-<p>But, in one comment I make a mistake and cite that false statement by the Signal CEO and also say that Signal <em>has</em> metadata that has been disclosed to law enforcement and assist in identifying users (not the content of Signal messages). A minor mistake - which I admitted and rephrased - was that I said that Signal had in the past disclosed users' IP addresses, but of course they wouldn't do that as law enforcement comes to them asking about the use of Signal (they likely already have users' IP address). I stick to the statement that metadata had been disclosed and that IP addresses <em>could</em> be as well.</p>
-<p>Members and the owner respond with dismissive comments, insults, accusations and foul language.</p>
-<p>Guy nicknamed TechFounder <a href="https://cc.bingj.com/cache.aspx?q=site%3adiscuss.techlore.tech+%22xx+network%22&amp;d=4678435270362092&amp;mkt=en-WW&amp;setlang=en-US&amp;w=CQQ_JiUp0zhPgYEILFIgyomLftTED_lL" target="_blank" rel="noopener noreferrer">goes first</a>:</p>
-<blockquote>
-<p>Where’s their Post-Quantum encryption documentation? Has it been auditied (sic!)/proven it actually protects against those attacks?</p>
-</blockquote>
-<p>Gee, indeed, where could it be possibly found? Maybe by searching the Internet for 'xx Network' or 'xx Messenger'?</p>
-<blockquote>
-<p>You didn’t provide anything useful for anyone, just for your ego saying that your obscure messenger it’s better than Signal when it clearly isn’t.</p>
-</blockquote>
-<p>I suspect that's what triggered them: I pointed out that the big news about Signal being the first with PQ was really a piece of fake news since xx Messenger (and possibly other) PQ messengers have been out there for a while. I did <em>not</em> claim xx Messenger was better at all.</p>
-<p>She didn't say Signal was the first <em>major</em> PQ messenger and it wasn't on X/Twitter - her statement was posted on Mastodon - so she wasn't limited by the maximum number of characters per post so that she couldn't qualify her statement. To me, that's a problem and simply pointing that out ought to be useful to the community because it says something about the person who runs that shop. Not that she's compromised or anything that bad, but if you can't trust 100% of what a person says, it may be the time to start scrutinizing every word that comes out of their mouth.</p>
-<p>One may say it's an innocent mistake despite not being limited by word count on X - one word less or more, what's the big deal? She's not a semi-literate, misspelling computer geek familiar with only computer languages. She <a href="https://en.wikipedia.org/wiki/Meredith_Whittaker#Early_life_and_education" target="_blank" rel="noopener noreferrer">knows better</a>.</p>
-<blockquote>
-<p>Whittaker completed her bachelor's <strong>degree in rhetoric</strong> at University of California, Berkeley</p>
-</blockquote>
-<p>Or maybe she was indeed precise and accurately stated that Signal was the first to add PQ encryption to Signal. xx Network was the first to add it to xx Messenger. Everyone is right!!!</p>
-<p>And what about TechFounder's obscurity comment? Of course, what can possibly be more obscure to people actively engaged in cryptography and privacy than work of Dr. Chaum?</p>
-<p>But not everyone at Techlore.tech is incompetent and dismissive. Another user - Karner - obviously performed due diligence. Their expert opinion:</p>
-<blockquote>
-<p>You’re referring to an obscure blockchain-based scam-based messaging platform that has no users and uses a broken cryptosystem (SIDH)…</p>
-</blockquote>
-<p>All right, I'm promoting scams which I guess makes me a scammer (or a useful idiot at best). That's a promising line of attack against my claim that xx Messenger was PQ before Signal!</p>
-<p>Never mind that I didn't even mention xx coin. But now that I am blogging on my personal blog everyone can check my X posts (tweets) and blog posts here and easily find dozens of occurrences where I encouraged and invited people to "invest" in xx coin and all the claims it's going to moon. Good luck with that!</p>
-<p>Also never mind that although SIDH - one of the pieces in that stack - was found to be vulnerable, xx developers estimated cMix was still fine.</p>
-<p>Then <a href="https://discuss./t/wickr-messaging-is-no-longer-available-as-of-31-12-2023/6576" target="_blank" rel="noopener noreferrer">ThiccRaiden</a> (claims to accept any pronouns in his/her/their profile - must be very nice, I thought) says to me:</p>
-<blockquote>
-<p>You join the forum, literally make shit up and then backpedal to ‘well it’s hypothetically possible,’ while promoting a random messaging app</p>
-</blockquote>
-<p>(The stuff I "made up" was the IP misstatement mentioned earlier, which I rephrased and which didn't impact the validity of my claim about Signal's access to that metadata - they may not <em>retain</em> it, but they do have it, as does AWS.)</p>
-<p>I respond to ThiccRaiden's rude message by saying that I don't care about the rudeness, but I won't respond in kind and if the site owner moderates, they should apply the same rules to all members.</p>
-<p>By now I've been called a scammer, poster of useless information (spammer?), and liar. What a hearty, warm welcome!</p>
-<p>The site owner completely ignores all that and doubles down on ThiccRaiden's message of ignorance and FUD:</p>
-<blockquote>
-<p>the Android App hasn’t been updated since August of 2022. Not touching this with a 50ft pole.</p>
-</blockquote>
-<p>Let's unpack that:</p>
-<ul>
-<li>
-<p><strong>xx Messenger is obscure</strong>. False. It wasn't a Tier 1 - let's say it wasn't even Tier 2 - messaging application, but that doesn't matter. It was very likely the first PQ messenger, by early 2024 it was out there with PQ for years before other "alternatives to Wickr", cMix that it uses was created by some of the top people in the field and we know it wasn't obscure because the app had many downloads. Not only are/were there cMix messaging apps in ongoing development, but application interfaces are being implemented for "application messages" from other projects as well.</p>
-</li>
-<li>
-<p><strong>Saying that Signal has users' identifiable metadata is "making shit up"</strong>. Is that true? Yes. Signal operates Signal gateways. We know they have at least some MD on (date of user's last use).</p>
-</li>
-</ul>
-<p>Some may have seen this slide which says that Signal can provide "last date of a user's connectivity to the service".</p>
-<p><img decoding="async" loading="lazy" alt="Signal and user metadata" src="https://armchairancap.github.io/assets/images/2024-06-06-techlore-signal-metadata-7c494b2cfddc58255c520bbd6084ff2b.png" width="1431" height="635" class="img_xHFY"></p>
-<ul>
-<li><strong>Saying that it's hypothetically possible is back-pedalling</strong>. It's not just "hypothetically" possible, it's simply "pending a search warrant". It's not even Signal that owns Signal gateway nodes - it's the freaking AWS!</li>
-</ul>
-<p>If law enforcement delivers a search warrant to Signal, Signal gives what they have and law enforcement finds you used Signal yesterday. Then they also find that among 15 suspected friends of yours only one has also used Signal yesterday - how hard is it to guess which of the 15 may be the guy you used Signal to communicate with?</p>
-<p>If Signal retains only "date" (no hour, no second), could AWS be asked to provide their firewall logs to help LE narrow that down a bit? Yes, but only theoretically, so don't worry about it!</p>
-<p>Oh, no, they in fact do provide more than just a "date". Oops!</p>
-<p><img decoding="async" loading="lazy" alt="Signal metadata in response to search warrant" src="https://armchairancap.github.io/assets/images/2024-06-06-techlore-signal-metadata-response-to-search-warrant-183fcac74c9a0a5887be2286702b96f2.png" width="638" height="249" class="img_xHFY"></p>
-<p>Millisecond precision. That's <a href="https://signal.org/bigbrother/cd-california-grand-jury/" target="_blank" rel="noopener noreferrer">from here</a>.</p>
-<p>How about this scenario:</p>
-<ul>
-<li>LE asks Signal for a timestamp and gets it with millisecond precision</li>
-<li>LE asks AWS to give list of IPs accessing Signal gateways through AWS firewall during a 200 millisecond interval surrounding the timestamp provided by Signal</li>
-</ul>
-<p>Is that only theoretical? How many IP addresses would AWS return? 50? How many from a small country? I'd say just one.</p>
-<ul>
-<li>
-<p><strong>xx Messenger hasn't been touched in a year</strong>. I know that, I know why, and that's why in my original message I said that and also gave links for Speakeasy/Haven and the Phoenixx app (at the time called Echoexx and available for alpha testing). But why not ignore all that and make a completely biased and ignorant comment (not that I care, but they purportedly do, being big on education and stuff).</p>
-</li>
-<li>
-<p><strong>xx Messenger is vulnerable</strong> (I don't have the exact wording). When I mentioned xx Network's PQ encryption, they laser-focused on trashing xx Network because of SIDH and completely ignored that I showed that the Signal CEO in fact lied when she said they came up with PQ first, and that SIDH was not vulnerable when xx Messenger adopted it. Now that SIDH has been replaced CTIDH, I wanted to reflect on that thread.</p>
-</li>
-<li>
-<p><strong>xx Messenger is a scam</strong>. This is hilarious. xx Messenger wasn't a blockchain-based app, it couldn't connect to any blockchain whatsoever, and even to this day xx Network's cMix is free for use. You don't need any coins, I even <a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#why-its-important">blogged about that here</a>. But there's also a subtler, Signal-related point that I want to make at the bottom of this post.</p>
-</li>
-</ul>
-<p>Some of their comments are still online:</p>
-<p><img decoding="async" loading="lazy" alt="Warm welcome by ThiccRaiden" src="https://armchairancap.github.io/assets/images/2024-06-06-techlore-abuse-01-a1d1b11d4d8fb5446fd3bc328dfab973.png" width="766" height="348" class="img_xHFY"></p>
-<p>Nice people, right? Well, <a href="https://www.techlore.tech/about" target="_blank" rel="noopener noreferrer">they say this about themselves</a>:</p>
-<blockquote>
-<p>We're a small team educating people</p>
-</blockquote>
-<p>When you see "don't make shit up" in response to your civil and on-point comment, you know you're being educated!</p>
-<p>It's a trap!</p>
-<p><img decoding="async" loading="lazy" alt="Warm welcome by Karner" src="https://armchairancap.github.io/assets/images/2024-06-06-techlore-abuse-02-d50129d473697a87d16cf24e3469b70a.png" width="737" height="158" class="img_xHFY"></p>
-<p>This is the owner's comment that followed (in which he didn't even comment on what I said about the unnecessarily abusive language in several earlier comments):</p>
-<p><img decoding="async" loading="lazy" alt="Warm welcome by Henry Fischer" src="https://armchairancap.github.io/assets/images/2024-06-06-techlore-admin-01-006e7ea2d59a0258e921458fd075fd01.png" width="752" height="566" class="img_xHFY"></p>
-<p>His vision (also from the About page):</p>
-<blockquote>
-<p>We envision a world where technology works for us, not against us—and we want to prove to people they can make a real impact for themselves and others</p>
-</blockquote>
-<p>That's very funny because I just recalled that, <em>after</em> the abuse that followed my comment on xx Network applications as possible alternatives to Wickr, I spent three hours creating (in the appropriate section) a post with xx Network resources, and answering questions from members who were interested in it. Making an impact, contributing, discussing with other knowledge-thirsty individuals, helping your fellow men better themselves - that's what it's all about, right?</p>
-<p>And where's that topic?</p>
-<p>Oh, it's nowhere!</p>
-<p>They simply deleted my account, responses from the Wickr thread and all the content I'd created (even from the other generic topic), so it's all gone now. They also wiped my xx Network topic from archive.org. "We care a lot!"</p>
-<p>Since only the quoted parts of my messages survive and they deleted all my responses while leaving their own comments and attacks online, I think it's perfectly appropriate to post about my Techlore experience here where they can't censor and delete me.</p>
-<h4 class="anchor anchorWithStickyNavbar_U9DT" id="techlore-discussion-forum-tip">Techlore discussion forum tip<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#techlore-discussion-forum-tip" class="hash-link" aria-label="Direct link to Techlore discussion forum tip" title="Direct link to Techlore discussion forum tip">​</a></h4>
-<p>Only ever make positive comments about Signal and don't double-down on them if you want to last.</p>
-<p>That's my "lesson learned" from the short and miserable experience I had on that site.</p>
-<p>I just checked on archive.org and found that penguin_terminal echoed my thoughts in <a href="https://web.archive.org/web/20231205214557/https://discuss.techlore.tech/t/signal-usernames-are-finally-coming/6069" target="_blank" rel="noopener noreferrer">this</a> comment made in 2023:</p>
-<p><img decoding="async" loading="lazy" alt="penguin_terminal on Singal metadata" src="https://armchairancap.github.io/assets/images/2024-06-06-techlore-signal-metadata-by-penguin_terminal-05236500f3107cbb24544dd2e56c9c67.png" width="742" height="296" class="img_xHFY"></p>
-<p>I didn't think of this part:</p>
-<blockquote>
-<p>your ISP reports you to the authorizes when logs show you accessing servers used by Signal.</p>
-</blockquote>
-<p>Once your friendly government offices gets the "date" from Signal, they can ask the local telco or ISP for the hour, time and millisecond. Not that Signal already doesn't give that, but getting it locally is easier and they can get your phone number or fixed line subscription details in the same go. Nice!</p>
-<p>Like me, he got "corrected" another Signal fan, Tech-Tropper:</p>
-<blockquote>
-<p>This is absolutely theoretical and wrong.</p>
-</blockquote>
-<p>Eh? Why? Here's why Session sucks (according to Tech-Tropper):</p>
-<blockquote>
-<p>Besides, Session does not have PERFECT SECRECY. Just take your recovery code and login in with another device. You will see the messages sent in the last week.</p>
-</blockquote>
-<p>It's simple - they "just take your recovery code". Scientists estimate that 94% of Session users have their recovery code on a yellow Post-it note on the side of their refrigerator.</p>
-<p>One last thing about that Wickr thread and techlore.tech I want to say is about that "not touching this with a 50ft pole" by the site owner. Does this make any sense to you:</p>
-<ul>
-<li>The guy kept using Signal without PQ encryption (simply because Signal <strong>did not have any</strong>) for years. He presumably still uses it, despite Signal having his phone number, responds to warrants, while both Signal and AWS have access to his metadata</li>
-<li>But xx Messenger is a disaster because SIDH was found to be vulnerable. Never mind that there's no evidence that the app was exploited or even exploitable.</li>
-</ul>
-<p>I don't know what's wrong with people on that site and I won't speculate about it.</p>
-<p>I'm just happy that they deleted my account before I wasted too much time there.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="xx-chain-scam-signal-phone-numbers-good">xx chain scam, Signal phone numbers good<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#xx-chain-scam-signal-phone-numbers-good" class="hash-link" aria-label="Direct link to xx chain scam, Signal phone numbers good" title="Direct link to xx chain scam, Signal phone numbers good">​</a></h2>
-<p>I want to elaborate on that scam accusation and the parallels with Signal, as I said I'd do at the bottom of this post.</p>
-<p>On Techlore forums they justify Signal's "need" for phone numbers as the only way to prevent spam.</p>
-<p>Ugh, okay, but that's a "in order to save the village, we had to destroy it" kind of measure for a <em>privacy</em>-related application!</p>
-<p>xx Network is still <a href="https://armchairancap.github.io/blog/2024/04/06/i-like-wrapped-xx-coin#why-its-important">completely free and will introduce API limiting only for power users and only when postage becomes available</a>, you don't need a phone number <em>and</em> you can use a network-native, decentralized identity. This has worked this way since 2022. Phoenixx also implements ENS-related identity (ENS).</p>
-<p>xx Network is open to spam, that's true. If it was spammed, postage would probably be implemented sooner. But if you don't know a person's xx Network identity (which you can't unless they give it to you), there's no way to spam them in the first place so spam is still not a problem.</p>
-<p>If you now consider just the privacy aspect here: which of these is a bigger honeypot and potential (privacy) scam here?</p>
-<p>One app has your phone number and some metadata.</p>
-<p>The other doesn't know anything about you, its gateways are decentralized in dozens of jurisdictions, there's nowhere to "register" your data and there's no plan for the average user to ever needing to pay anything.</p>
-<p>I don't think either of the platforms is a "scam", but it's easy to see which one is designed for privacy and why having a coin users don't ever have to buy beats collecting phone numbers.</p>
-<p>One of them is a major honeypot, that's for sure.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="take-aways">Take-aways<a href="https://armchairancap.github.io/blog/2024/06/06/xx-network-client-switches-to-pq-ctidh#take-aways" class="hash-link" aria-label="Direct link to Take-aways" title="Direct link to Take-aways">​</a></h2>
-<ul>
-<li>xx Network client now uses CTIDH</li>
-<li>Don't believe everything you read on Techlore</li>
 </ul>]]></content:encoded>
             <category>xx network</category>
         </item>
