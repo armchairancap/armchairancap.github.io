@@ -28,6 +28,7 @@
 <p>I want to see the first node work properly, which may require some troubleshooting once next era begins.</p>
 <p>I plan to let this node run for 1-2 eras to calibrate it and estimate its earnings.</p>
 <p>In parallel, I'll gather a list of pool nodes my node will be blocking. Their IPs will be published in a Github repository together with instructions on how those who may be interested can block and unblock such nodes on their node and. This will also serve as my main transparency tool for ethical nominators.</p>
+<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>Update: I checked and concluded it's not advisable to publish IPs, so the repository will start with on-chain node names and cMix IDs. See Updates below for repository information.</p></div></div>
 <p>Then blocking will be introduced and I'll find an apropriate level of validator commission for my node.</p>
 <p>Finally, the node will have its on-chain identity and link to this blog published and unblock nominations.</p>
 <p>Depending on nominations (or a lack thereof), I may nominate the second node myself.</p>
@@ -40,9 +41,12 @@
 <p>I'll post small updates on the first node below, and a new post once there's some progress regarding next steps above.</p>
 <p>Follow me on <a href="https://x.com/armchairancap" target="_blank" rel="noopener noreferrer">X</a> or revisit this blog for updates on this matter.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="appendix-a---updates">Appendix A - Updates<a href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected#appendix-a---updates" class="hash-link" aria-label="Direct link to Appendix A - Updates" title="Direct link to Appendix A - Updates">​</a></h2>
-<ul>
-<li>Coming soon</li>
-</ul>]]></content>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="update-1">Update 1<a href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected#update-1" class="hash-link" aria-label="Direct link to Update 1" title="Direct link to Update 1">​</a></h3>
+<p>I encountered minor problems (firewall, of course) and it took me 30 minutes to start, but the node is performing well.</p>
+<p>Additional nodes may be deployed sooner than expected.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="update-2">Update 2<a href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected#update-2" class="hash-link" aria-label="Direct link to Update 2" title="Direct link to Update 2">​</a></h3>
+<p>I put online a guide for blocking large centralized pools. Find it at <a href="https://github.com/armchairancap/xx-pool-notes" target="_blank" rel="noopener noreferrer">https://github.com/armchairancap/xx-pool-notes</a>.</p>
+<p>I plan to use it myself, but anyone who finds validation with 5 or more nodes objectionable can use it as a guide to easy and safe blocking of such bad actors.</p>]]></content>
         <author>
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
