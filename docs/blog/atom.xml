@@ -2,11 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://armchairancap.github.io/blog</id>
     <title>ArmchairAncap Blog</title>
-    <updated>2025-01-06T00:00:00.000Z</updated>
+    <updated>2025-01-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://armchairancap.github.io/blog"/>
     <subtitle>ArmchairAncap Blog</subtitle>
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First anti-pool pool node elected]]></title>
+        <id>https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected</id>
+        <link href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected"/>
+        <updated>2025-01-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[First anti-pool node has been elected, see what happens next]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>As described <a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool">here</a>, xx Network community has a socialism problem, so Plan B is needed.</p>
+<p>To that end I'm standing up own validator nodes that block pool nodes on xx Network.</p>
+<p>It took me longer than planned, but <a href="https://wallet.xx.network/#/staking/query/6ZtD5PG1AEHiKiVWWGJkLU9jG4wemR7kzwVJVxcRf7pmVNYp" target="_blank" rel="noopener noreferrer">the first node</a> has been elected for era 1162 (which starts in approximately four hours).</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="details">Details<a href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected#details" class="hash-link" aria-label="Direct link to Details" title="Direct link to Details">​</a></h2>
+<p>Nomination of the node is curretly disabled, because:</p>
+<ul>
+<li>The node has no details on its focus on blocking other validators (and earning less than usual)</li>
+<li>I don't know if it can actually work (we'll find out once next era begins)</li>
+</ul>
+<p>The second node is <code>6VwagCwDNYm7TqeBESxEwW6C7PG21zybos645GwetmZ154nE</code>, currently in Waiting.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="next-steps">Next steps<a href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected#next-steps" class="hash-link" aria-label="Direct link to Next steps" title="Direct link to Next steps">​</a></h2>
+<p>I want to see the first node work properly, which may require some troubleshooting once next era begins.</p>
+<p>I plan to let this node run for 1-2 eras to calibrate it and estimate its earnings.</p>
+<p>In parallel, I'll gather a list of pool nodes my node will be blocking. Their IPs will be published in a Github repository together with instructions on how those who may be interested can block and unblock such nodes on their node and. This will also serve as my main transparency tool for ethical nominators.</p>
+<p>Then blocking will be introduced and I'll find an apropriate level of validator commission for my node.</p>
+<p>Finally, the node will have its on-chain identity and link to this blog published and unblock nominations.</p>
+<p>Depending on nominations (or a lack thereof), I may nominate the second node myself.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="economics">Economics<a href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected#economics" class="hash-link" aria-label="Direct link to Economics" title="Direct link to Economics">​</a></h2>
+<p>Ideally I will block as many pool nodes as possible while staying at ~15% yield, but if I cannot block all of them I'll block as many as I can while making the pool nomination-worthy.</p>
+<p>The idea is to grow the pool rather than block all pools right away. With just one or two validators, you can't block 50 validators and expect to be nomination-worthy. But I can have a low commission (say, 5%), block 10 validators, and remain commission worthy, and grow to more nodes which can then block more pool members.</p>
+<p>After deducting my expenses, all earnigns will be unbound and sold at market price so that I can fund as many nodes as possible for as long as the community allows pools to operate (including my own). I've never sold xx coins I earned (which is why I have enough to nominate nodes on my own), but I can't scale the pool without funding its operations.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="summary">Summary<a href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
+<p>The xx Network community is dominated by a cohort of "Marxxists" and a Validator Industrial Complex, so ethical community members have to find a way to stop them.</p>
+<p>I'll post small updates on the first node below, and a new post once there's some progress regarding next steps above.</p>
+<p>Follow me on <a href="https://x.com/armchairancap" target="_blank" rel="noopener noreferrer">X</a> or revisit this blog for updates on this matter.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="appendix-a---updates">Appendix A - Updates<a href="https://armchairancap.github.io/blog/2025/01/23/xx-network-armchairancap-pool-elected#appendix-a---updates" class="hash-link" aria-label="Direct link to Appendix A - Updates" title="Direct link to Appendix A - Updates">​</a></h2>
+<ul>
+<li>Coming soon</li>
+</ul>]]></content>
+        <author>
+            <name>ArmchairAncap</name>
+            <uri>https://github.com/armchairancap</uri>
+        </author>
+        <category label="xx network" term="xx network"/>
+        <category label="xx chain" term="xx chain"/>
+        <category label="economics" term="economics"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An attempt to address validator centralization problem]]></title>
         <id>https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool</id>
@@ -85,7 +129,7 @@
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="ethics-of-blocking-and-not">Ethics of blocking (and not)<a href="https://armchairancap.github.io/blog/2025/01/06/xx-network-armchairancap-pool#ethics-of-blocking-and-not" class="hash-link" aria-label="Direct link to Ethics of blocking (and not)" title="Direct link to Ethics of blocking (and not)">​</a></h2>
 <ul>
 <li>
-<p>Is it ethical to block pools? Absolutely! They have negative effect on the security of the network.</p>
+<p>Is it ethical to block pools? Absolutely! They have a negative effect on the security of the network.</p>
 </li>
 <li>
 <p>All validators should run less nodes than a cMix round has, which is five. If I get enough nominations, should I run more than four nodes? I think as long as it is obvious that <em>others</em> do it without declaring it (run more than 4 nodes, that is), there's no harm in me doing it transparently and with the sole purpose of stopping it. At any rate, I'd like to know what arguments those who don't think centralized pools are bad may have against my pool.</p>
@@ -427,7 +471,9 @@ Those farm runners <em>usually</em>, but not always, have all of their nodes loc
 <li>All sorts of stupid ideas are getting traction (and possibly DAO-approved funding - this I estimate based on seeing how much traction uterrly senseless ideas get in the Polkadot community)</li>
 </ul>
 <div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p><a href="https://polkadot.subsquare.io/referenda/603?tab=call" target="_blank" rel="noopener noreferrer">This proposal proposed a bounty to fund a lawsuit</a> against a <a href="https://dablock.com/interviews/polkadot-whale-theory-giotto-de-filippi-opengov-space-monkeys/" target="_blank" rel="noopener noreferrer">"notable"</a> community member Giotto De Filippi who scammed the DAO with a fake memecoin proposal that was funded with 1 MM DOT.</p><p>Clowns...</p><p>Sadly, it didn't pass - probably because most of those with fat DOT wallets wouldn't want undue attention and similar reactions to their own proposals...
-::</p><p>In other words, these are the same weaknesses that we can observe in Western democracies.</p><p>Shockingly, or perhaps not at all, some still claim the DAO is functioning "exceptionally well". I guess I'd claim that as well if I was milking the system to my satisfaction.</p><p>The obvious truth is governance is not functioning well at all.</p><h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-polkadot-governance-sucks">Why Polkadot governance sucks?<a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#why-polkadot-governance-sucks" class="hash-link" aria-label="Direct link to Why Polkadot governance sucks?" title="Direct link to Why Polkadot governance sucks?">​</a></h2><p>Here's why:</p><ul>
+::</p><p>Here's <a href="https://forum.polkadot.network/t/proposal-to-revise-the-current-staking-system/10749/39" target="_blank" rel="noopener noreferrer">another</a> gem:</p><blockquote>
+<p>Literally every 3 days I have to vote on 20-30 new proposals. This is just so time consuming, so I just open the ICP voting webtab on a side screen, vote “YES” on the about 25 new proposals about every 3 days, not even read the stuff anylonger, while continuing doing other work on my main screen.</p>
+</blockquote><p>In other words, these are the same weaknesses that we can observe in Western democracies.</p><p>Shockingly, or perhaps not at all, some still claim the DAO is functioning "exceptionally well". I guess I'd claim that as well if I was milking the system to my satisfaction.</p><p>The obvious truth is governance is not functioning well at all.</p><h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-polkadot-governance-sucks">Why Polkadot governance sucks?<a href="https://armchairancap.github.io/blog/2024/12/15/why-polkadot-governance-sucks#why-polkadot-governance-sucks" class="hash-link" aria-label="Direct link to Why Polkadot governance sucks?" title="Direct link to Why Polkadot governance sucks?">​</a></h2><p>Here's why:</p><ul>
 <li>the DAO destroys, rather than creates, competition [1]</li>
 <li>the DAO picks winners</li>
 <li>the DAO thereby creates losers (once a winner for is picked, all others are fxxed because unless they're vastly superior they stand no chance of charging for their service and their funding dries up)</li>
@@ -2069,93 +2115,6 @@ If bots work well, 30 days or longer shouldn't be a problem.</p></div></div>
 <p>Dr. Chaum's decisions to not create a privacy coin and to focus on specific (and high-value) use cases such as messaging and voting were in hindsight perfect. The choice of blockchain platform (Polkadot/Substrate) - whether due to luck or wisdom or a combination of both - also seems better than Nym's Cosmos, so I expect less hurdles and faster progress with xx Network's Web3 integrations.</p>
 <p>Personally I'm comfortable with design choices, target markets and other details of xx Network.</p>
 <p>Nym looks like a decent platform, but they've made some less than ideal choices.</p>]]></content>
-        <author>
-            <name>ArmchairAncap</name>
-            <uri>https://github.com/armchairancap</uri>
-        </author>
-        <category label="xx network" term="xx network"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Worldcoin and xx Network postage]]></title>
-        <id>https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage</id>
-        <link href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage"/>
-        <updated>2024-08-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Thoughts on Worldcoin integrations and xx Network postage]]></summary>
-        <content type="html"><![CDATA[<p><strong>DISCLAIMER:</strong> this is not investment advice. I've no idea what will happen and I don't recommend anything.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
-<p>xx Network has been around for years and has users, but not very many because:</p>
-<ul>
-<li>many Web3 and coin projects suffer from Not Invented Here syndrome (<a href="http://localhost:3000/blog/2024/05/08/can-securedrop-reinvent-the-wheel-probably-not" target="_blank" rel="noopener noreferrer">example</a>)</li>
-<li>many projects don't know about xx Network</li>
-<li>several smart projects know and appreciate xx Network but they're are still in the process of integrating with xx Network (or the other way around)</li>
-</ul>
-<p>Worldcoin is one of those smart projects in "the other way around" situation - xx Network is creating integrations for Worldcoin and this is work in progress (and progressing well).</p>
-<p>Specifically, there are three Worldcoin Foundation grants that were awarded to xx Network-affiliated developers. You can read or listen about it in this interesting interview with <a href="https://patcrypt.com/worldcoin-xx-network-collaboration-interview-with-mario-yaksetig/" target="_blank" rel="noopener noreferrer">one of the developers</a>.</p>
-<p>Meanwhile, Worldcoin is doing their thing. Today I saw <a href="https://worldcoin.org/blog/announcements/worldcoin-mimos-partnership-bring-digital-proof-humanness-malaysia" target="_blank" rel="noopener noreferrer">this</a>:</p>
-<blockquote>
-<p>MIMOS Berhad, the applied research and development arm of the Malaysian Government, has signed an MoU with the Worldcoin Foundation, Tools for Humanity (TFH) and MyEG, a leading e-government services provider, to integrate Worldcoin technology into the country’s digital infrastructure.</p>
-</blockquote>
-<blockquote>
-<p>The intent of the MoU is to leverage the Worldcoin protocol and TFH technologies to improve ongoing and future work related to digital credentials. In doing so, it validates the importance of digital proof of humanness in the age of AI.</p>
-</blockquote>
-<p>Hmm, wait, how many people live in Malaysia? 34 million.</p>
-<p>Whoa - xx coin will go to the moon!!!</p>
-<p>No, it won't. But fine - let's talk about postage!</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="postage">Postage<a href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage#postage" class="hash-link" aria-label="Direct link to Postage" title="Direct link to Postage">​</a></h2>
-<p>I've blogged about "postage", which is how xx Network plans to charge for its Premium tier suitable for power users.</p>
-<p>Where will the collected postage go? Mostly to the validators - server operators on xx Network - and (if I recall correctly) part of it goes to the xx Foundation.</p>
-<p>Does that mean that the price of xx coin will moon? Of course not.</p>
-<p>We don't know if those Worldcoin apps in Malaysia will actually be released. It's just an MoU.</p>
-<p>Even if they make it, we don't know if they'll <em>choose</em> to use Worldcoin's privacy features that rely on xx Network. The Malaysian integrators <em>could</em> choose to not use them at all and I'd say this may be the most likely outcome in this particular country.</p>
-<p>We don't know how many apps will be developed, and how frequently they'll be used.</p>
-<p>We also don't know if the apps will <em>need</em> access to Premium tier. Each individual user probably won't need it and postage measures access by each individual user. An app can have 5 million users and as long as each sends or receives several messages per minute, none of them will need to pay postage.</p>
-<p>Are the chances of Worldcoin apps using xx Network's Premium tier nil, then?</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-pay-postage">Why pay postage<a href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage#why-pay-postage" class="hash-link" aria-label="Direct link to Why pay postage" title="Direct link to Why pay postage">​</a></h2>
-<p>While only a very small percentage of Worldcoin (or other platform's) users will require access to Premium (or "unlimited" aka "best effort") tier, anyone who charges for their application or service or wants to prevent <em>another</em> paying user (or all the free users) from hogging them out, may want to ask users to subscribe to the Premium tier if it's affordable enough.</p>
-<p>I'm not making this up to spread the idea that massive demand for xx coin is inevitable or just around the corner.</p>
-<p>What I'm saying is I expect postage will be inexpensive enough to be purchased for "just in case" situations.</p>
-<p>When you think about it, that's almost the opposite from "xx coin will moon" - the idea here isn't to create scarcity and get rich off the appreciating xx coin. On the contrary!</p>
-<p>The way markets work is: if you want more of something, you pay for it just enough to make the seller willing to satisfy that demand.</p>
-<p>If xx Network's message mixing service (cMix) works well for you, there's no "reason" to pay anything. (But you have the option to donate to the Foundation if so inclined).</p>
-<p>But the presence of a Free Tier also means that everyone gets the same rights.</p>
-<p>Someone can stand up 500 containers in AWS and spam the network all day long just because. Or simply try to freeload as much as possible.</p>
-<p>If this happens at scale, quality of service as experienced by Free tier users may be impacted.</p>
-<p>If you are getting paid for the app you sell or rely on xx Network at scale, then it may be wise to avoid such congestions where a busy day for Free tier users translates into a busy day for your Support staff. It's better to pay some postage just in case of accidental or malicious congestions.</p>
-<p>As users pay for Postage, decentralized nodes that participate on the network ("validators") earn more xx coins which means more nodes can come online without diluting any node's daily earnings and at the same time improves network throughput.</p>
-<p>Demand for xx coin may result in its price going up, but I would not expect significant impacts from demand for postage because as long as <em>similar</em> services exist, no one will pay 3x premium for xx Network. They may pay a 10% or even 110% more, but not for very long.</p>
-<p>In addition to this "just in case I need it" scenario, there may be high volume users who prefer to use Premium tier on a regular basis.</p>
-<p>A power user who sends thousands of messages every day (example: IoT feed or remote camera that chunks images into many "text" messages) could set up multiple identities to stay within the Free tier limit, or make his life simpler and pay a small premium for 1-2 thousand messages above the cut-off message limit for the Premium tier.</p>
-<p>How will postage work? You may view a draft of high-level design for v1.0 features <a href="https://patcrypt.com/plans-for-postage-v1-announced/" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<p>As you can see in that document, users will also be throttled per smaller units of time, so that no one can overload the network by exhausting their daily quota within 15 minutes.</p>
-<p>We can also see that in v1.0 there will be no "reserved capacity" which some users would probably like to have. Examples:</p>
-<ul>
-<li>Elections: with 5 million voters and (only) 3 hours to vote, you may want to prepay for 600 messages per second during voting hours on the election day. xx Network would then lower its Free tier throughput from (let's say) 7 to 5 messages per client per minute and drop total Free tier throughput per second by 600 messages per second. But this isn't easy. We may need smart contracts (to reserve time) which Polkadot SDK has, but xx Network hasn't yet activated on its Substrate-based xx chain. And there's another problem: speculators could front-run legitimate buyers as election dates are known in advance and often hard-coded in legislative acts</li>
-<li>Any user with "guaranteed minimum" requirements. Even if you need to send just 1 message per minute (which well within the Free tier - there's 1,440 minutes in a day) - you may want to pay postage in order to able to send at least one message per minute</li>
-</ul>
-<p>When you consider all these niche scenarios, it's easy to see how this gets complicated quickly. I've no idea what's the best way to go about it in Postage v2 or later, but for thousands of users with custom requirements, Smart Contracts maybe the way to go as all mixing nodes can easily look them up on xx chain.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="node-operators-and-permissionless-postage">Node operators and permissionless postage<a href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage#node-operators-and-permissionless-postage" class="hash-link" aria-label="Direct link to Node operators and permissionless postage" title="Direct link to Node operators and permissionless postage">​</a></h2>
-<p>If you need guaranteed throughput for your clients, you can strike a deal whereby an operator gives you a dedicated, guaranteed fraction of their node's connections. You'd have to approach them on xx Network Discord and so on, but in theory that's possible.</p>
-<p>No one needs to know, you get guaranteed throughput when everyone else may be timing out while connecting to xx Network gateways. Can that be done?</p>
-<p>Not for very many messages and users, but it's certainly viable for either Free or Premium tiers. I can reserve 10kB/s for your client IP or throttle everyone else but your IP, for example.</p>
-<p>Any node operator could make such side deals on their own for users <em>who don't mind to always connect to the same gateways</em>. That decreases user's privacy, so that's a trade-off which may or may not matter.</p>
-<p>Another trade-off is if the network is overloaded, that node may be able to accept your messages just fine, but still unable to complete mixing them with other (random) groups of nodes out there, so it's not guaranteed to work in terms of actually sending messages.</p>
-<p>I conclude this would be possible but not very valuable for either the node operators ("validators") or users. The Premium Tier is expected to be cheap enough to make these laborious workarounds unnecessary and unattractive financially, technically, and privacy-wise.</p>
-<p>One use case for this may be local elections, where the government stands up 3-4 nodes and limits access to in-country IPs. As noted above that would impact - maybe even compromise (I'm not qualified to tell) - privacy, but not the integrity of messages (protected by PQC), but it would also make DDoS attacks on that day much harder to execute - any in-country IP addresses could be shut down in minutes, while foreign IP addresses wouldn't be allowed to connect to those gateway nodes. I can't estimate the impact of this approach so I wouldn't recommend it, but there may be similar use cases where having your own node on the network could be beneficial.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="final-thoughts">Final thoughts<a href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage#final-thoughts" class="hash-link" aria-label="Direct link to Final thoughts" title="Direct link to Final thoughts">​</a></h2>
-<p>I don't expect Worldcoin's integrations in Malaysia will result in much demand on xx Network <em>when</em> postage becomes available. For Malaysia, I wouldn't be surprised if the government mandated that all Worldcoin-integrated apps include various gov-mandated data gathering add-ons.</p>
-<p>But what excites me is that similar integrations will sooner or later happen in some other country. A Worldcoin-integrating app developer <em>may</em> also choose to enable xxNetwork-related privacy features. If that sounds unlikely to you, please see the interview with Mario and the voting integration (one of the three grants). Even Malaysia may want to enable anonymity in a Worldcoin voting app and disable it in other domestic Worldcoin applications.</p>
-<p>Postage v1.0 may not be able to satisfy all use cases right away. DoS-style attacks by sock-puppet accounts could cause issues even to users of the Premium tier, but xx Network has world-class developers who are no doubt aware of all these things and will make recommendations related to privacy, security, performance and reliability expectations.</p>
-<p>Postage v1.0 may become available a few months from now and it is one of the features essential for monetization of xx Network's mixing services.</p>
-<p>Other apps rely on donations, subscriptions, or may be VC-backed and don't need to charge just yet.</p>
-<p>xx Network is integrated with a blockchain service and very unique in that regard. Rewards - and later postage - are sent and received on a blockchain. For messaging, servers that pass and mix messages are operated by individuals from many countries and they're currently rewarded for their "mixing", but there's only a free tier so rewards aren't as impactful and demand for coins is lower because there aren't real life use cases for it. Postage will improve and better align users' and operators' incentives.</p>
-<p>My take:</p>
-<ul>
-<li>Worldcoin in Malaysia won't make xx coin "go to the moon"</li>
-<li>Benefits of xx Network integrations with Worldcoin are real. Potential for adoption is real. When the first integrated implementation happens xx Network traffic could see a significant increase</li>
-<li>All other apps that use xx Network as "transport" could use Premium tier, but currently Worldcoin seems to be the most significant integration.</li>
-<li>Postage won't make xx Network expensive to use. It will make xx Network deliver more value</li>
-<li>Until there's a way to <em>reserve</em> throughput, apps with high reliability expectations should have a way to fallback to Tor or direct access when uptime is more precious than privacy</li>
-</ul>]]></content>
         <author>
             <name>ArmchairAncap</name>
             <uri>https://github.com/armchairancap</uri>
