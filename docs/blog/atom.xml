@@ -22,7 +22,11 @@
 <li><a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#why-do-all-this">Why do all this?</a>
 <ul>
 <li><a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#supra-dexes">Supra DEXes</a></li>
-<li><a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#xx-coin-and-supra-ecosystem">xx coin and Supra ecosystem</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#xx-coin-and-supra-ecosystem">xx coin and Supra ecosystem</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#suprans">SupraNS</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#how-to-buy-supra">How to buy Supra</a></li>
@@ -31,7 +35,7 @@
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
 <p>StarKey wallet is the native wallet for Supra L1.</p>
 <p>xx coin is the native token of xx Network, a L1 network with integrated mixnet services for post-quantum privacy.</p>
-<p>WXX is an xx Foundation-issued, Ethereum-wrapped ERC20 token. It is also used on Uniswap DEX.</p>
+<p>WXX is an XX Foundation-issued, Ethereum-wrapped ERC20 token. It is also used on Uniswap DEX.</p>
 <p>This post explores StarKey for xx coin users (and speculators).</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="non-native-tokenscoinsnfts-in-starkey">Non-native tokens/coins/NFTs in StarKey<a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#non-native-tokenscoinsnfts-in-starkey" class="hash-link" aria-label="Direct link to Non-native tokens/coins/NFTs in StarKey" title="Direct link to Non-native tokens/coins/NFTs in StarKey">​</a></h2>
 <p>Supra StarKey is expanding its token support and currently support for 20 or so is natively built-in. What about the smalle ones, such as xx coin?</p>
@@ -97,6 +101,8 @@
 <li>Dexlyn: <a href="https://dexlyn.com/" target="_blank" rel="noopener noreferrer">https://dexlyn.com/</a></li>
 <li>Aptos: <a href="https://aptos.dev/" target="_blank" rel="noopener noreferrer">https://aptos.dev/</a></li>
 </ul><p>Next key step for Delxyn - in the context of this post - is to add support for arbitrary DIY pairs and pools. To trade WXX on Dexlyn DEX we'd need to wrap it, and trade <code>dexWXX/dexUSDC</code>.</p><p>For Aptos, it's to launch.</p></div></div>
+<p>Later on when arbitrary pairs become available, we should be able to wrap WXX on Supra into something like <code>dexWXX</code> and trade/swap/send/receive natively on Supra L1.</p>
+<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>In a week or so EVM will be available on Supra testnet.</p><p>Technically savvy folks could take the WXX contract (published by the XX Foundation) and release <code>$SXX</code> (Supra-wrapped XX on Supra L1) on Supra testnet.</p></div></div>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="xx-coin-and-supra-ecosystem">xx coin and Supra ecosystem<a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#xx-coin-and-supra-ecosystem" class="hash-link" aria-label="Direct link to xx coin and Supra ecosystem" title="Direct link to xx coin and Supra ecosystem">​</a></h3>
 <p>Supra is just getting started. It's 10 weeks old.</p>
 <p>What's coming soon is:</p>
@@ -105,27 +111,29 @@
 <li>Bridgeless (yes, bridgeless) cross-chain swapping on Supra. When a Substate chain (probably Polkadot or Kusama) becomes supported, xx Network could be supported as well, but xx Network would have to update chain to support latest and greatest Substrate SDK features</li>
 </ul>
 <p>Either of these would be a huge improvement over WXX.</p>
-<p>In the first case, with an <code>SXX</code> (Supra-wrapped xx token) it would take seconds to exit to native xx tokens. And cost almost nothing. Sound good?</p>
+<p>In the first case, with an <code>SdexXX</code> (assuming this be the name of a xx ERC-20 token created on Supra L1 using the same contract that was used for WXX) it would take seconds to exit to native xx tokens. And it'd cost almost nothing. Sound good?</p>
 <p>In the second case, <code>WXX</code> would become redundant and xx Network wouldn't even <em>need</em> a bridge.</p>
+<h4 class="anchor anchorWithStickyNavbar_U9DT" id="suprans">SupraNS<a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#suprans" class="hash-link" aria-label="Direct link to SupraNS" title="Direct link to SupraNS">​</a></h4>
 <p>Another interesting thing is SupraNS, the official Supra name system, i.e. "Supra's ENS". It's <a href="https://suprans.id/names" target="_blank" rel="noopener noreferrer">here</a> and requires Supra tokens to register. It's much cheaper than ENS, which is great, but because it just launched there's no wallet that supports it.</p>
 <div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>StarKey will likely be the first to support SupraNS.</p></div></div>
 <p>With SupraNS support in StarKey it will be easier to send tokens to Supra wallet.</p>
+<p>Later on, when SupraNS allows for more entries (such as URLs and maybe arbitrary fields), we may be able to add things like nicknames from xx Network Haven (the reference quantum-resistant messaging app).</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="how-to-buy-supra">How to buy Supra<a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#how-to-buy-supra" class="hash-link" aria-label="Direct link to How to buy Supra" title="Direct link to How to buy Supra">​</a></h2>
-<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>This is not a recommendation or advice.</p></div></div>
-<p>If you want to play with Supra tokens, SupraFS or Dexlyn DEX, today you need just some 2 dollars. Registering a SupraNS name now takes 1-40 SUPRA (depending on length) and transaction fees are low.</p>
-<p>If you want to play with this stuff (e.g. SupraNS), you need to fund your StarKey with either <code>$USDC</code> (ERC-20) (and get <code>dexUSDC</code>) or <code>$SUPRA</code>:</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>This is not a recommendation or advice.</p><p>If you don't want to use Dexlyn and only want to try <code>WXX</code> in StarKey, you don't even need Supra. You just need <code>WXX</code> and <code>$ETH</code> for transaction fees. This will use Ethereum L1 so it won't be particularly interesting, exciting, fast, or cheap.</p></div></div>
+<p>If you want to play with Supra tokens, SupraNS or Dexlyn DEX, today you need just 2 dollars.</p>
+<p>Registering a SupraNS name now takes 1-40 SUPRA (depending on name length) and transaction fees are low as shown above.</p>
+<p>If you want to play with this stuff (e.g. SupraNS), you need to fund your StarKey with either <code>$USDC</code> (ERC-20; add it through Manage Tokens). You can use <code>$USDC</code> to swap to <code>dexUSDC</code> and/or <code>$SUPRA</code>. Or you can use just <code>$SUPRA</code>.</p>
 <ul>
 <li><code>$USDC</code> to <code>$SUPRA</code> - Dexlyn has instructions on how to fund <code>$dexUSDC</code> with <code>$USDC</code> over their Ethereum bridge. This is possible, but slightly complicated. I'd just buy $SUPRA and send it to my StarKey.</li>
 <li>Supra tokens get be swapped for <code>dexUSDC</code> on Dexlyn DEX at <a href="https://app.dexlyn.com/" target="_blank" rel="noopener noreferrer">https://app.dexlyn.com/</a></li>
-<li>Native <code>$SUPRA</code> - buy it on MEXC (most xx users have an account there)<!-- -->
+<li>Native <code>$SUPRA</code> - buy it on MEXC (most xx users have an account there) and withdraw it to your StarKey<!-- -->
 <ul>
-<li>You can also get <code>$SUPRA</code> at Houdini, SimpleSwap, and few other CEX (see CoinMarketCap or CoinGecko).</li>
+<li>You can also get <code>$SUPRA</code> from Houdini, SimpleSwap, and few other CEX (see CoinMarketCap or CoinGecko)</li>
 </ul>
 </li>
 </ul>
-<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>If you want to try out existing dexUSDC-Supra Liquidity Pool, you need to stake it with more than $2, so I don't recommend this. It's no longer playing, but speculating/investing or whatever you want to call it.</p></div></div>
-<p>Once you have <code>$SUPRA</code> you can register SupraFS names and buy/sell <code>$dexUSDC</code>. You can also pay for Supra L1 transaction fees (which you need to send <code>WXX</code> out).</p>
-<p>If you don't want to use Dexlyn and only want to try <code>WXX</code> in StarKey, you need just Supra for <code>WXX</code> transaction fees.</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>If you want to try out existing dexUSDC-Supra Liquidity Pool, you need to stake it with more than $2, so I don't recommend this.</p><p>That's no longer playing, but speculating/investing or whatever you want to call it.</p></div></div>
+<p>Once you have <code>$SUPRA</code> you can register SupraFS names and buy/sell <code>$dexUSDC</code>. You can also pay for Supra L1 transaction fees.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="next-steps">Next steps<a href="https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet#next-steps" class="hash-link" aria-label="Direct link to Next steps" title="Direct link to Next steps">​</a></h2>
 <p>That's not all! Supra has <strong>quite a few</strong> other tricks up their sleeve! Follow <a href="https://x.com/SUPRA_Labs" target="_blank" rel="noopener noreferrer">SupraLabs on X</a> to see what they're up to.</p>
 <p>If you're a Supra user interested in privacy, you can <a href="https://x.com/xx_network" target="_blank" rel="noopener noreferrer">follow xx Network</a> to learn how StarKey and dApps could use xx Networks' mixnet (cmix) to provide privacy for its users./</p>
