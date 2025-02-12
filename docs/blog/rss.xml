@@ -4,10 +4,92 @@
         <title>ArmchairAncap Blog</title>
         <link>https://armchairancap.github.io/blog</link>
         <description>ArmchairAncap Blog</description>
-        <lastBuildDate>Sun, 09 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 12 Feb 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Two xx validator nodes added to pool-blocking pool]]></title>
+            <link>https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes</link>
+            <guid>https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes</guid>
+            <pubDate>Wed, 12 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[I could do other things, but I have to do this...]]></description>
+            <content:encoded><![CDATA[<ul>
+<li><a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#introduction">Introduction</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#two-new-nodes-added">Two new nodes added</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#blocking-related-update">Blocking-related update</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#whats-next-and-closing-thoughts">What's next and closing thoughts</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#pool-and-blocking">Pool and Blocking</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#community">Community</a></li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>Because of gross incompetence in XX Community (not all of them, but more than enough to paralyze any corrective action in the DAO), the network is suffering from pool infestation.</p>
+<p>I recently started "validating with a twist" (more about that <a href="https://armchairancap.github.io/blog/2025/01/27/xx-network-armchairancap-pool-blocking-update">here</a> and earlier posts), and block validator pools using my own pool.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="two-new-nodes-added">Two new nodes added<a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#two-new-nodes-added" class="hash-link" aria-label="Direct link to Two new nodes added" title="Direct link to Two new nodes added">​</a></h2>
+<p>Today I've got two more nodes online, so now I have five.</p>
+<p>This is already one node too many - considering that cMix (mixnet) group size is five - but that is the very problem the XX Network community won't do anything about.</p>
+<p>I tried to talk some sense into them, but they won't listen so now I'm just one of several centralized pools who run more nodes than it takes to form a random mixnet group.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="blocking-related-update">Blocking-related update<a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#blocking-related-update" class="hash-link" aria-label="Direct link to Blocking-related update" title="Direct link to Blocking-related update">​</a></h2>
+<p>In line with the original purpose, the new nodes are blocking a pool I already target on the older three nodes.</p>
+<p>Those leeches recently added their 9th node, so I've added the node IP to the firewall on the older three nodes, and it's included in the new nodes as well.</p>
+<p>Now it's "5 vs. 9" - I'm catching up on them!</p>
+<p>But... does it work?</p>
+<p>Some examples of the failed joint rounds (you can verify in XX Network Dashboard) for one of the nodes (moneyteam_03) in past 24 hours.</p>
+<div class="language-raw codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-raw codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">                               Failed Rounds Report                               </span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">┏━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">┃ Round ID  ┃ Time of Failure     ┃ cMix ID                                      ┃</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">┡━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ 322464432 │ 2025-02-11 10:31:50 │ eXRzev8PC/OXj669SLGwy2zQmr6p8uCmPy0oF03AfiwC │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ 322478666 │ 2025-02-11 11:43:40 │ eXRzev8PC/OXj669SLGwy2zQmr6p8uCmPy0oF03AfiwC │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ 322479295 │ 2025-02-11 11:46:51 │ Y8w3UyE3OiOUxbmG7s1XLDB2MNoEstdz1GsKJBn2KgMC │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ 322479671 │ 2025-02-11 11:48:41 │ eXRzev8PC/OXj669SLGwy2zQmr6p8uCmPy0oF03AfiwC │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ 322690399 │ 2025-02-12 05:31:53 │ eXRzev8PC/OXj669SLGwy2zQmr6p8uCmPy0oF03AfiwC │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ 322690811 │ 2025-02-12 05:33:57 │ KCxKE6EHI1LeHcWVLU0c7ww8SCBK6PzUyDBPLWx6lpQC │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ 322700352 │ 2025-02-12 06:21:17 │ NfQj+32d+ZO44mk2z8e3qHQ+g1Wa7x40cuyR0lUoj4kC │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ 322703825 │ 2025-02-12 06:38:28 │ NfQj+32d+ZO44mk2z8e3qHQ+g1Wa7x40cuyR0lUoj4kC │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ 322714252 │ 2025-02-12 07:29:55 │ jBRTuDxyR8q0hAIN6T24nyqK/cBMOhiITIAeLQpEF5YC │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">└───────────┴─────────────────────┴──────────────────────────────────────────────┘</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>The same node diminished earnings of the pool I currently target by 420 points (last 24 hours).</p>
+<div class="language-raw codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-raw codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">                                   Failed Rounds Count                                   </span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">┃ cMix ID                                      ┃ Failed Rounds Count ┃ cMix Points Lost ┃</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ Y8w3UyE3OiOUxbmG7s1XLDB2MNoEstdz1GsKJBn2KgMC │ 8                   │ 80               │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ eXRzev8PC/OXj669SLGwy2zQmr6p8uCmPy0oF03AfiwC │ 7                   │ 70               │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ itrNbIlTQwJfD4SKB6dCQM/qJOpblYZzXgMp10QGKWgC │ 7                   │ 70               │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ NfQj+32d+ZO44mk2z8e3qHQ+g1Wa7x40cuyR0lUoj4kC │ 7                   │ 70               │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ jBRTuDxyR8q0hAIN6T24nyqK/cBMOhiITIAeLQpEF5YC │ 6                   │ 60               │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ KCxKE6EHI1LeHcWVLU0c7ww8SCBK6PzUyDBPLWx6lpQC │ 5                   │ 50               │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ g8N1Fkf9gOCifXl+10LqohyiR5zN5PI94jKQlQutnDgC │ 2                   │ 20               │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">│ Total MONEYTEAM cMix Point Loss              │                     │ 420              │</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">└──────────────────────────────────────────────┴─────────────────────┴──────────────────┘</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>As I now have 5 nodes and previously the average has been around 500 cMix points per node per day, total damage should be around 2,000-2,500 per day starting today.</p>
+<p>Another way to check: look up a random pool node such as <a href="https://dashboard.xx.network/nodes/Y8w3UyE3OiOUxbmG7s1XLDB2MNoEstdz1GsKJBn2KgMC" target="_blank" rel="noopener noreferrer">MONEYTEAM_03</a> in the XX Dashboard:</p>
+<ul>
+<li>Select the week of Jan 13-20 (before I started) - precomp timetout <strong>3.80%</strong></li>
+<li>Go to the week of Feb 10-17 - precomp timeout <strong>6.00%</strong></li>
+</ul>
+<p>Charts for the same <a href="https://wallet.xx.network/#/staking/query/6YqoMdc4Rpg6zCWdq6xDnkEEjFUizArqJmjvduQLSZavXbM8" target="_blank" rel="noopener noreferrer">validator</a> in the XX Wallet show they're losing up to 2,000 points per day:</p>
+<p><img decoding="async" loading="lazy" alt="What happened in era 1162" src="https://armchairancap.github.io/assets/images/2025-02-12-xx-blockhard-moneyteam-03-a0a33a147581f3cb2289f0d2461c4b2b.png" width="711" height="888" class="img_xHFY"></p>
+<p>I wonder if they wonder what happened in era 1162.... (My first nodes were elected, that's what happened.)</p>
+<p>Comparing Rewards &amp; Slashes with earlier eras, their nodes lose about 12 xx per node (165 xx in era 1141, 153 in era 1172) or over 100 xx per day (since they have nine nodes now).</p>
+<p>Estimate of Moneyteam losses in xx tokens:</p>
+<table><thead><tr><th>Daily per node</th><th>Daily per pool</th><th>Monthly</th></tr></thead><tbody><tr><td>15</td><td>135</td><td>4050</td></tr></tbody></table>
+<p>They've added just one more node recently (I discovered that only yesterday) and I've added two today, so starting today their losses from my blocking should be 30-40% higher.</p>
+<p>And <strong>just as importantly</strong>: nominators who look for nodes to nominate now see <strong>this pool has below-average performance</strong>.</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>Some nominators may and will switch to other nodes and that includes other pools.</p><p>But I'll target other pools as well, so let them jump around every era if they don't mind! Or they can nominate a reputable non-pool validator and take it easy.</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="whats-next-and-closing-thoughts">What's next and closing thoughts<a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#whats-next-and-closing-thoughts" class="hash-link" aria-label="Direct link to What's next and closing thoughts" title="Direct link to What's next and closing thoughts">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="pool-and-blocking">Pool and Blocking<a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#pool-and-blocking" class="hash-link" aria-label="Direct link to Pool and Blocking" title="Direct link to Pool and Blocking">​</a></h3>
+<p>The next is one more node when I have time, to get to six elected, and then add another pool to my blocking list.</p>
+<p>With six nodes I'll start gathering aggregate damaage as I hope to hit 3,000 cMix points per day in damage.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="community">Community<a href="https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes#community" class="hash-link" aria-label="Direct link to Community" title="Direct link to Community">​</a></h3>
+<p>The tragedy of this situation is while my anti-pool pool works extremely well, to highlight the disaster those xx Network Marxists (how about "Marxxists"?) have created I need to grow my pool and amplify the problem which I'm trying to solve.</p>
+<ul>
+<li>I don't cause any timeouts (as they happen in pre-computation stage)</li>
+<li>Blocking causes all nodes (including mine) involved in randomly-selected cMix groups formed to process rounds to fail, failing to earn</li>
+<li>Other mixnet rounds with nodes I don't target work as usual</li>
+<li>The more nodes I run, the more economically unattractive centralized pooling becomes, but also the more xx coins I have to sell to fund my own pool, which depresses the price for everyone.</li>
+</ul>
+<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>The longer the community takes to do something about it, the more nodes I create and the more xx coins I sell on MEXC.</p></div></div>
+<p>As a reminder, the Marxxists have fought against:</p>
+<ul>
+<li>Hiking the minimum validator share (now only 15,000 XX or US$500 - the clowns to keep the old minimum that was 1/15th of that amount), which made it easy for pools to stand up many nodes on the cheap (and it still does)</li>
+<li>Public announcement that pools (of over 4 nodes) are <strong>not</strong> welcome on xx Network</li>
+<li>Any "soft" KYC to be able to encourage - merely <em>encourage</em>! - nominators to nominate validator nodes who are <strong>not</strong> owned by the same owner</li>
+<li>Refused to consider any other action such as shrinking the number of validator slots, beause we don't need 370 - 300 or 250 would do, it's just a matter of right-sizing when/if necessary</li>
+</ul>
+<p>Alternatively, they could have come with own, better ideas and they've had <strong>years</strong> to do it.</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>As an example, we could have even introduced community- and privacy-friendly permissioned validation in which new validators would be approved based on a community vote and simple attestation done by a 3rd party registrar. Or even self-attestation.</p><p>No documents required, just an on-chain vote. Yeah, no. One of the most idiotic arguments they had was "validators deserve the right to privacy".</p></div></div>
+<p>Instead, when cMix users wonder about the risks of having the same pool owner mixing their entire round, the Marxxists be like that famous Border Czar:</p>
+<p><img decoding="async" loading="lazy" alt="Marxxists&amp;#39; in action" src="https://armchairancap.github.io/assets/images/2025-02-12-xx-marxxists-do-nothing-00d2d3f49b9668dcf292fbf414aeb29b.jpg" width="663" height="376" class="img_xHFY"></p>
+<p>It's one thing to be unable to fix a problem because it's hard, and entirely another to willingly make it worse by rejecting all proposals becuase "there's no problem to be solved".</p>
+<p>What's even more laughable, yesterday they told me my <em>three</em> nodes were a problem, but all the pools out there have been running for years at 100% commission and they're not a problem.</p>
+<p><img decoding="async" loading="lazy" alt="Marxxists&amp;#39; double standards" src="https://armchairancap.github.io/assets/images/2025-02-12-xx-marxxists-415428a4b688723ef0e577ad1a683850.jpg" width="581" height="499" class="img_xHFY"></p>
+<p>Because they fought against any and all meaningful improvements, now I can run a large pool just like everyone does so here I am with five active validator nodes...</p>
+<p>One my two new nodes was elected with just a 140K XX stake on it. That's what makes it possible to easily stand up and elect a bunch of nodes.</p>
+<p>One of the suggestions I made was to slash my validator addresses 100%.</p>
+<p>Five nodes times 20K XX is 100K xx which is now about US$3,500. If they want to take that step and slash one of few validators that care, be my guest!</p>
+<p>I recognize this isn't the best use of my time so I could use some help to leave this failing community. Slashing my validator wallets 100% would help me more much than it helps the project, so bring it!</p>]]></content:encoded>
+            <category>xx network</category>
+        </item>
         <item>
             <title><![CDATA[How to add WXX (ERC-20) xx coin to Supra StarKey]]></title>
             <link>https://armchairancap.github.io/blog/2025/02/09/xx-coin-in-supra-starkey-wallet</link>
@@ -2077,101 +2159,6 @@ If bots work well, 30 days or longer shouldn't be a problem.</p></div></div>
 </ul>
 <p>If you use a non-Mozilla browser you can copy the link and add it to Tribler as usual.</p>
 <p>I haven't had time to do a Chromium-based extension yet.</p>]]></content:encoded>
-            <category>xx network</category>
-        </item>
-        <item>
-            <title><![CDATA[xx Haven with Tribler]]></title>
-            <link>https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler</link>
-            <guid>https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler</guid>
-            <pubDate>Tue, 29 Oct 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Some ideas for Haven-Tribler integrations]]></description>
-            <content:encoded><![CDATA[<ul>
-<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#whats-tribler">What's Tribler?</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#whats-haven">What's Haven?</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#what-integrations-and-why">What integrations, and why?</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#integrations">Integrations</a>
-<ul>
-<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#pros-and-cons-of-diy-approaches">Pros and cons of DIY approaches</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#do-we-actually-need-any-integration">Do we actually need any integration?</a></li>
-</ul>
-</li>
-<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#security-concerns">Security concerns</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#summary">Summary</a></li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="whats-tribler">What's Tribler?<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#whats-tribler" class="hash-link" aria-label="Direct link to What's Tribler?" title="Direct link to What's Tribler?">​</a></h2>
-<p>It's an app for Tor-like Torrent-based file sharing that doesn't suck like Tor does.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="whats-haven">What's Haven?<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#whats-haven" class="hash-link" aria-label="Direct link to What's Haven?" title="Direct link to What's Haven?">​</a></h2>
-<p>It's a privacy-focused, decentralized chat and messaging Web app on xx Network's cMixx mixnet.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-integrations-and-why">What integrations, and why?<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#what-integrations-and-why" class="hash-link" aria-label="Direct link to What integrations, and why?" title="Direct link to What integrations, and why?">​</a></h2>
-<p>Let's see about the whys first: you need to find torrents that you want to download.</p>
-<p>Tribler has internal search feature but it's not that good yet.</p>
-<p>So you go out on the Web to find torrents, which means one or more of the following:</p>
-<ul>
-<li>Being tracked on Torrent search Web sites</li>
-<li>Monetary (and sometimes privacy) cost of subscribing to VPN service</li>
-<li>Using Tor to hide your activity</li>
-<li>Registering at Torrent sharing private Web sites or chats</li>
-<li>Using some password-protected site where you're registered with a fake or real identity</li>
-</ul>
-<p>Is there a better way? I think there is: one UI with Haven and Tribler:</p>
-<ul>
-<li>Someone posts RSS feed into a private (or public) Haven Space ("chat channel")</li>
-<li>Users copy links and download them using Tribler</li>
-</ul>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="integrations">Integrations<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#integrations" class="hash-link" aria-label="Direct link to Integrations" title="Direct link to Integrations">​</a></h2>
-<p>Ideally, Haven could run inside of Tribler. But the Tribler project would have to make that happen. Alternatively, someone could create and maintain a patch. Not very good.</p>
-<p>Another way is to create a small patch to Tribler menus and run Haven in an iFrame.</p>
-<p>Another way is to run Tribler in a Haven iFrame. That's easier, but you have to create a small patch for Haven, which some privacy-sensitive people may not like.</p>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="pros-and-cons-of-diy-approaches">Pros and cons of DIY approaches<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#pros-and-cons-of-diy-approaches" class="hash-link" aria-label="Direct link to Pros and cons of DIY approaches" title="Direct link to Pros and cons of DIY approaches">​</a></h3>
-<p>A Haven iFrame in Tribler chat menu is available <a href="https://github.com/armchairancap/xx-tribler-haven/releases/tag/v1.0" target="_blank" rel="noopener noreferrer">here</a>. I call this attempt v1.0.</p>
-<p>You click on the chat cloud icion and Haven opens in the main pane (iFrame).</p>
-<p><img decoding="async" loading="lazy" alt="Tribler with a Haven iFrame" src="https://armchairancap.github.io/assets/images/tribler-with-haven-iframe-50fa42fec60a59cda3a52ce625ba3dbd.png" width="931" height="360" class="img_xHFY"></p>
-<ul>
-<li>Step 1: join a Haven Space ("chat channel")</li>
-<li>Step 2: find a magnet link</li>
-<li>Step 3: paste it into "Add torrent"</li>
-</ul>
-<p>The bad:</p>
-<ul>
-<li>every time the user navigates away from the chat menu, Haven state is lost and user cannot access Haven again without logging in</li>
-</ul>
-<p>The good:</p>
-<ul>
-<li>every time the user navigates away from the chat menu, Haven state is lost and user cannot access Haven again without logging in</li>
-</ul>
-<p>Do you see what I mean? If your use case is "get into a Haven Space, get one link, copy it to Tribler and leave Haven", this is actually a good approach. All it takes to secure access to Haven is to navigate away: you won't leave Haven iFrame open because in order to use that Magnet link you'll have to leave it. Just make sure your Haven profile password is strong!</p>
-<p>Note that this only hides your Haven identity, Spaces, and chat data, while Tribler UI is still running and downloaded data is on disk.</p>
-<p>The second approach I tried - a Tribler iFrame in Haven - works the other way around, except there's no state in Tribler (it's a server-based application with a Web UI) so if you download multiple torrents or like to chat with Space members as you download, this may be better for you.</p>
-<p><img decoding="async" loading="lazy" alt="Haven with a Tribler iFrame" src="https://armchairancap.github.io/assets/images/haven-with-tribler-iframe-c8ad47f0ddb017cf455472d09dd1c2fd.png" width="1544" height="654" class="img_xHFY"></p>
-<p>Join a channel, get your links, download them in Tribler and watch/manage downloads as they go.</p>
-<p>In this approach there's a small patch to Haven which seems low-risk to me if you're the only user of your Haven instance: you own the Haven instance and you own the Tribler instance as well, so as long as you're not concerned about Tribler in a Haven iFrame, I think patching Haven and using it this way is fine.</p>
-<p>I'm working on finalizing these small patches in another release at the same location as v1.0.</p>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="do-we-actually-need-any-integration">Do we actually need any integration?<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#do-we-actually-need-any-integration" class="hash-link" aria-label="Direct link to Do we actually need any integration?" title="Direct link to Do we actually need any integration?">​</a></h3>
-<p>That's a good question. If you don't use both of these applications at the same time often, it's probably best to use them separately and avoid complications.</p>
-<p>As an example of yet other approaches, I've built a simple browser extension which downloads selected (Magnet) links using Tribler: very easy to use, no patches required. But you can't see or control what's going on with downloads without going to another tab or window with Tribler UI.</p>
-<p>I couldn't load Haven in this "preview" version of Firefox (WASM issues), but this is how simple the extension is: select a Magnet link in Haven chat and use the extension to initiate Tribler download.</p>
-<p><img decoding="async" loading="lazy" alt="Download with Tribler Extension" src="https://armchairancap.github.io/assets/images/haven-with-browser-extension-2d8b862c5e70c1b64e4d73c74ac38513.png" width="1317" height="757" class="img_xHFY"></p>
-<p>This can work anywhere including the "Haven with a Tribler iFrame" approach because it simply talks to the Tribler API and Tribler UI doesn't need to be visible. It saves some copy-and-paste even if Tribler runs in the same browser tab as Haven. I've posted a proof-of-concept version <a href="https://github.com/armchairancap/magnet-link-downloader-tribler-firefox" target="_blank" rel="noopener noreferrer">here</a> - see the link for the details.</p>
-<p>If you're a security freak, I won't try to persuade you to use these iFrame approaches.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="security-concerns">Security concerns<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#security-concerns" class="hash-link" aria-label="Direct link to Security concerns" title="Direct link to Security concerns">​</a></h2>
-<p>It is possible that the app in iFrame does something to its parent frame. If you worry about that, of course just run the apps separately or even in different VMs.</p>
-<p>In the "Haven with a Tribler iFrame" approach we could tighten the iFrame CORS, and also properly integrate applications so that we don't have to skip authentication from <code>localhost</code> clients on Tribler (which I currently do). I'll post the patches in the repo for easy reviewing. Risk of someone else accessing your instance of Tribler on <code>localhost</code> (where Haven is running) through Haven iFrame should be extremely low, though.</p>
-<p>And this instance of Tribler should not listen on public IPs - simply close off its Web UI and IP ports.</p>
-<p>If you want to let others access Haven on the same computer, you could simply start another container binding a public IP and port. The same goes for extra Tribler instances.</p>
-<p>In a crazy mix-up setup you could run a "groupware edition" of Haven-Tribler compose.yaml:</p>
-<ul>
-<li>Haven-Tribler setup for multiple users (who all share same Tribler and can be in the same channel if they're all focused on same content)</li>
-<li>One Web server gateway sharing static content (Tribler download directory) for authenticated downloads</li>
-</ul>
-<p>That would be as secure as the stupidest downloader.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="summary">Summary<a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler#summary" class="hash-link" aria-label="Direct link to Summary" title="Direct link to Summary">​</a></h2>
-<p>Haven provides private and confidential access to Magnet links that can be used in Tribler: free access, post-quantum E2EE, and metadata shredding eliminate the need to use Tor, VPNs or privacy-leaking Web sites.</p>
-<p>Among DIY approaches at lightweight integration:</p>
-<ul>
-<li>For single-torrent and one-off use, Tribler with a Haven iFrame is a good approach which forces inconvenience (and results in good SecOps)</li>
-<li>For parallel use (Haven + Tribler) and multiple downloads, I like Haven with a Tribler iFrame because it gives me full control over Tribler</li>
-<li>For "hidden Tribler" we can run Haven + browser extension that hooks into the Tribler API, but you'd want extra controls and visibility into downloads, which means either occasional access to Tribler UI or a fat extension with some Tribler indicators similar to "Down Them All" or such (which is complex).</li>
-</ul>]]></content:encoded>
             <category>xx network</category>
         </item>
     </channel>
