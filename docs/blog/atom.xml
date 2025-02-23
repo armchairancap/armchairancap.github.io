@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://armchairancap.github.io/blog</id>
     <title>ArmchairAncap Blog</title>
-    <updated>2025-02-12T00:00:00.000Z</updated>
+    <updated>2025-02-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://armchairancap.github.io/blog"/>
     <subtitle>ArmchairAncap Blog</subtitle>
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Buy my SupraNS names]]></title>
+        <id>https://armchairancap.github.io/blog/2025/02/23/supra-suprans-names-for-sale</id>
+        <link href="https://armchairancap.github.io/blog/2025/02/23/supra-suprans-names-for-sale"/>
+        <updated>2025-02-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SupraNS names available for purchase]]></summary>
+        <content type="html"><![CDATA[<p>I've registered a few SupraNS names to keep them until those who want them decide to buy them... or not.</p>
+<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>SupraNS is the officicial name system of the Supra network.</p><p>Its function is similar to what ENS does on the Ethereum network: initially it will be used for wallet address aliasing.</p><p>You can find more about it at the link below and in the official documentation (linked from the site below).</p></div></div>
+<p>Currently Supra has just one wallet, StarKey, and StarKey is about to add SupraNS support for addresses in coming days or weeks.</p>
+<p>At that time SupraNS names will become useful. Currently they have just one use: speculation, which is what I've been doing.</p>
+<p>Another important feature that's still missing is the ability to transfer SupraNS registration ownership.</p>
+<p>Because of that there are no marketplaces for SupraNS trading either, but that's precisely why I listed mine on a Web site: I've no idea when that may become available which is why I'm posting those SupraNS names on a Web site.</p>
+<p>See the list of my SupraNS names at <strong><a href="https://suprans.name/" target="_blank" rel="noopener noreferrer">https://SupraNS.name</a></strong>. Screenshot:</p>
+<p><img decoding="async" loading="lazy" alt="SupraNS screenshot" src="https://armchairancap.github.io/assets/images/2025-02-23_suprans_name-968d5a98fbeee8cc9fc0661349f350e6.png" width="460" height="338" class="img_xHFY"></p>
+<p>By now you may beginning to wonder how can one sell a SupraNS name when transfer isn't possible. I plan to use escrow service provided by someone in the Supra community, and will commit to transferring the name if the agreed-upon payment is promptly made to the person who helps with escrow.</p>
+<p>Transfers can't happen before the API becomes available, but prices may be agreed upon and funds transferred <em>before</em> SupraNS becomes popular and before Internet auctions become available.</p>
+<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>The site has the prices, too, but those are not fixed (as explained on the site).</p><p>I'll probably use them as initial prices in auctions on a SupraNS marketplace.</p></div></div>
+<p>To be honest, I don't think the prices of SupraNS names will be anywhere close to Solana's (let alone Ethereum's), but that's not relevant.</p>
+<p>Initially SupraNS registrations were very cheap. After the first 10,000 registrations were reached the doubled the prices and they'll hike them again after 15,000 registrations which should happen within days of StarKey adding support for SupraNS. Now most StarKey users have no idea about SupraNS.</p>
+<p>I would definiively recommend SupraNS to StarKey users and to anyone who runs a business on Supra because it's a useful feature. It's been useful on all chains and it will be on this one as well. But speculating in hem may be risky.</p>
+<p>For that same reason I'm not going to hype these or claim that these "may" become a source of huge profits (10-baggers!). I don't think that will happen. Buy 'em if you need 'em.</p>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>I actually have more than those that I've listed at SupraNS.name, but for various reasons I'm not rushing to sell them.</p><p>More on that and other SupraNS topics in a future blog post when SupraNS becomes trade-able.</p></div></div>]]></content>
+        <author>
+            <name>ArmchairAncap</name>
+            <uri>https://github.com/armchairancap</uri>
+        </author>
+        <category label="supra" term="supra"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Two xx validator nodes added to pool-blocking pool]]></title>
         <id>https://armchairancap.github.io/blog/2025/02/12/xx-anti-pool-pool-adds-two-nodes</id>
@@ -2206,41 +2234,5 @@ If bots work well, 30 days or longer shouldn't be a problem.</p></div></div>
         <category label="xx network" term="xx network"/>
         <category label="haven" term="haven"/>
         <category label="speakeasy" term="speakeasy"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Good Hacktoberfest 2024]]></title>
-        <id>https://armchairancap.github.io/blog/2024/11/01/my-hacktober-2024-activites</id>
-        <link href="https://armchairancap.github.io/blog/2024/11/01/my-hacktober-2024-activites"/>
-        <updated>2024-11-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[My Hacktoberfest 2024 activities]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://hacktoberfest.com/" target="_blank" rel="noopener noreferrer">Hacktoberfest 2024</a> is over so here's what I did:</p>
-<ul>
-<li>Added search function, keywords and front matter to 67 pages on <a href="https://learn.xx.network/" target="_blank" rel="noopener noreferrer">https://learn.xx.network/</a>. Usability, SEO, etc.</li>
-<li>Repurposed existing sample code for Kusama to create <a href="https://github.com/armchairancap/polkadot-js-tokengated-website" target="_blank" rel="noopener noreferrer">token-gated site for xx coins</a> which can help anyone who wants to build toke-gated sites. Note that this works only for xx coin, but assets aka NFTs on xx chain would need additional work as asset (NFT) lookups are more complicated.</li>
-<li>Published two simple PoCs for Haven-Tribler integration<!-- -->
-<ul>
-<li>one runs Haven in a Tribler chat frame (I tagged it "v1.0") - more secure, but less convenient (as always...)</li>
-<li>another runs Tribler in a Haven iFrame ("v2.0")</li>
-<li>both can be found <a href="https://github.com/armchairancap/xx-tribler-haven?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">here</a> and there's a <a href="https://armchairancap.github.io/blog/2024/10/29/xx-haven-with-tribler">blog post</a> about the motivation, use cases and approaches</li>
-</ul>
-</li>
-<li>Published a toy extension for Firefox - see the Tribler-with-Haven blog post for more, and a screenshot is below.</li>
-<li>Updated User and Admin guides to <a href="https://armchairancap.github.io/docs/category/xx-network-haven-users-guide" target="_blank" rel="noopener noreferrer">xx Network Haven</a></li>
-</ul>
-<p>Apart from the "common good" contributions (xx Network Learn, etc), the rest was centered around exploring Haven integrations with Tribler.</p>
-<p>This screenshot sums it all up - Tribler in Haven iFrame (aka my "v2.0") - and the toy Firefox extension in action!</p>
-<p><img decoding="async" loading="lazy" alt="Firefox extension to ease download in Haven-Tribler environment" src="https://armchairancap.github.io/assets/images/2024-11-01-xx-haven-firefox-extension-tribler-16440fdd5773b6866f7382cf6af80dc4.png" width="1434" height="938" class="img_xHFY"></p>
-<ul>
-<li>Find a Magnet link in a Haven space</li>
-<li>Select the link, right-click on it and use the Firefox extension download it from Tribler</li>
-<li>Watch download progress without switching to other (browser) tabs or windows</li>
-</ul>
-<p>If you use a non-Mozilla browser you can copy the link and add it to Tribler as usual.</p>
-<p>I haven't had time to do a Chromium-based extension yet.</p>]]></content>
-        <author>
-            <name>ArmchairAncap</name>
-            <uri>https://github.com/armchairancap</uri>
-        </author>
-        <category label="xx network" term="xx network"/>
     </entry>
 </feed>
