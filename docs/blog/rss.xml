@@ -119,15 +119,16 @@
 <p>This below is Spot. Selling at scale starts at 14:26.</p>
 <p><img decoding="async" loading="lazy" alt="Supra/USDT Spot Market Screenshot" src="https://armchairancap.github.io/assets/images/2025-03-26_04_dex_perps_02-46eec843acbde9d3fbec8d3f03faa8a9.png" width="1124" height="466" class="img_xHFY"></p>
 <p>Perps dump first, Spot follows. Seven percent drop (or over 200% profit, if you're leveraged 40x), on no news - the price even (almost) reocvered hours later.</p>
-<p>Am I "sure" this is manipulation? Of course I'm not. As we've said, they don't have to tell us anything.</p>
-<p>"If you don't want to play in our casino, go elsewhere" is the message. Fair enough! Maybe I'll take my ball and go elsewhere!</p>
-<p>We've seen enough to know that they're often up to no good.</p>
-<p>Even without any forensic evidence related to Market M-ing and such, evidence of dark UI patterns exist and is plentiful.</p>
-<p>For example, you can see Futures from Spot, but you can't see Spot markets from Futures page.</p>
+<p>Am I "sure" this is manipulation? Of course I'm not. As we've said, we have no way to know and they don't have to tell us anything...</p>
+<p>"If you don't want to play in our casino, go elsewhere" is the message. Enough people want to play in these casinos that there's no reason for them to improve.</p>
+<p>I've seen enough to know that they're often up to no good.</p>
+<p>Even without any forensic evidence related to the weird Market M-ing and such, evidence of dark UI patterns exist and is plentiful.</p>
+<p>For example, you can see Futures from Spot.</p>
 <p><img decoding="async" loading="lazy" alt="MEXC Perps link" src="https://armchairancap.github.io/assets/images/2025-03-26_07_dark_ui-2ba7b6dca46d116638ced0d9b9a83e37.png" width="1051" height="273" class="img_xHFY"></p>
-<p>Enter Futures... It's one way street - no link back to Spot!</p>
+<p>But you can't see Spot markets from Futures page... Surprise, surprise...</p>
+<p>It's a one-way street - no link back to Spot!</p>
 <p><img decoding="async" loading="lazy" alt="MEXC Perps page" src="https://armchairancap.github.io/assets/images/2025-03-26_07_dark_ui_perps-54cfb761a24a168b9d0163ae7b45ba07.png" width="1029" height="223" class="img_xHFY"></p>
-<p>As soon as you switch, "Las Vegas experience" kicks in - there are constant promotions for reckless behavior (high leverage, commission free trading), there are casino-like pop-ups, etc.</p>
+<p>And as soon as you enter, "Las Vegas experience" kicks in - there are constant promotions for reckless behavior (high leverage, commission free trading), there are casino-like pop-ups, etc.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="dexes">DEXes<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#dexes" class="hash-link" aria-label="Direct link to DEXes" title="Direct link to DEXes">​</a></h2>
 <p>I've used the early ones on bitcoin network and it was <strong>bad</strong>! I remember how we'd see a sell order, submit our matching buy order and then wait, and wait, awnd wait - usually for more than 1 hour - before we could see our order on chain (6 confirmations, remember?). Anyone who saw your order in mempool could front-run you if they wanted to pay a slightly higher transaction fee.</p>
 <p>Things are better now. This aren't "latest and greatest", but they're recent enough (2025). The first is DEX share in Spot volumes.</p>
