@@ -46,28 +46,30 @@
 <p>Another special circumstance is Supra is a good L1 platform for DEX markets, so I also have - all Supra holders and stakers <em>should have</em> - a conflict of interest in their mind.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="current-supra-listing-cexes">Current Supra-listing CEXes<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#current-supra-listing-cexes" class="hash-link" aria-label="Direct link to Current Supra-listing CEXes" title="Direct link to Current Supra-listing CEXes">​</a></h2>
 <p>I don't expect to add anything new here, as cryptocurrency DEXes have been around for a decade or more, and pragmatic arguments against CEXes have been around longer.</p>
-<p>Briefly, from the viewpoint explained above (meaning: pragmatic, Supra-specific arguments from an enterprise POV)...</p>
+<p>Briefly, from the viewpoint explained above (meaning: pragmatic, Supra-specific arguments from an enterprise POV), this is what's wrong with CEXes (especially the unregulated ones):</p>
 <ul>
 <li>Lack of transparency: this is really the worst part</li>
 <li>Poor business practices: we don't know who and how (why, because no transparency) not only in terms of transparency, but also in terms of governance</li>
-<li>Leverage (Futures): this isn't bad in itself, but I think it's a major tool used in market manipulation</li>
+<li>Leverage (Futures): this isn't bad in itself (it also exists on regulated CEXes, and on DEXes), but I think it's a major tool used in market manipulation because it's likely used <em>against retail users</em> on unregulated CEXes</li>
 </ul>
-<p>Regarding the lack of transparency, folks on X like to make fun of crypto/DeFi fans saying the folks who claimed zero regulation was good, start whining when their altcoin gets smashed on the same markets. I agree with them:</p>
+<p>Regarding the lack of transparency, folks on X like to make fun of crypto/DeFi fans saying cypherpunks, who claimed zero regulation was good, start whining when their altcoin gets smashed on the same markets. I agree with them:</p>
 <ul>
 <li>I may decide to participate in a zero-regulation market (a DEX, for example) and I won't whine if lose</li>
 <li>Zero-regulation (or "extremely lax" regulation) CEX could work if these exchanges voluntarily shared data that should be shared. But they don't share anything of substance, while regulated CEXes probably collect and share too much, which increases costs for no benefit to users. There's nothing "in-between" which is a shame</li>
 </ul>
 <div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>CEXes also have some good sides and advantages. For example, most of these are still true:</p><ul>
-<li>Low latency, very suitable for <em>frequent</em> trading (exchange)</li>
+<li>Low latency, very suitable for <em>frequent</em> trading</li>
 <li>Better features for advanced traders (such as leverage, automation, APIs, clients)</li>
-<li>Convenience</li>
+<li>Convenience (in some cases)</li>
 </ul><p>CEXes still command close to 80% of crypto spot trading and there's nothing wrong with using them. People say "not your private keys not your coins", but I would guess more people lost their coins in self-custody than at CEXes.</p></div></div>
+<p>Now I'll give some anecdotal examples of how unregulated CEXes suck.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="governance">Governance<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#governance" class="hash-link" aria-label="Direct link to Governance" title="Direct link to Governance">​</a></h3>
 <p>Transparency is sometimes legally mandated, but for unregulated exchanges it's merely a choice.</p>
 <p>There's nothing that prevents them from busting manipulators, reporting money launderes, and such. From what I can tell the unregulated CEXes where Supra is listed are doing the bare minimum.</p>
 <p>Another area of governance is operations. If you work for a regulated FSI player you're simply <em>not allowed</em> to do certain things the weird or wrong way. There are checks and checks of checks.</p>
-<p>For example, using plain text passwords could be grounds for dismissal, and you'll get discovered because Ops don't run Security. But the ByBit guy transferred $1.5B to the North Korean hackers because ByBit used a DIY workflow "invented" by ByBit. Had they followed practices in place in the UK or US, it'd be slower, safer and more expensive. They probably didn't like the speed and cost and thought they were smarter than hackers...</p>
-<p>This argument applies to DEXes as well (were bugs may go undetected due to corner cutting in development, operations or auditing), but it's not an argument against <em>regulated</em> CEXes. Unfortunately no Western CEX list Supra at this time, so there's no "better" CEX to go to.</p>
+<p>For example, using plain text passwords could be grounds for dismissal, and you'll get discovered because in the regulated world Operations are not in charge of Security - there's a Security team who audits and checks Operations. But the ByBit guy transferred $1.5B to the North Korean hackers because ByBit used a DIY workflow "invented" by ByBit where security practices failed. Had they followed established practices in place in the UK or US, they'd work slower, safer and more expensively. They probably didn't like the speed and cost of the more "regulated" approach and thought they were smarter... Fortunately ByBit - and with it its Supra users - survived (for now).</p>
+<p>This argument applies to DEXes as well (were bugs may go undetected due to corner cutting in development, operations or auditing), but it's not an argument against <em>regulated</em> CEXes.</p>
+<p>Unfortunately, no Western (regulated) CEX list Supra at this time, so there's no "better" CEX we can go to.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="market-m-ing">Market M-ing<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#market-m-ing" class="hash-link" aria-label="Direct link to Market M-ing" title="Direct link to Market M-ing">​</a></h3>
 <p>One example of poor transparency is market making (or manipulating... ). You can't even know which it is.</p>
 <p>Consider this screenshot of trades in SUPRA/USDT (Spot) taken yesterday.</p>
