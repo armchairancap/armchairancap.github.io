@@ -71,24 +71,43 @@
 <p>This argument applies to DEXes as well (were bugs may go undetected due to corner cutting in development, operations or auditing), but it's not an argument against <em>regulated</em> CEXes.</p>
 <p>Unfortunately, no Western (regulated) CEX list Supra at this time, so there's no "better" CEX we can go to.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="market-m-ing">Market M-ing<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#market-m-ing" class="hash-link" aria-label="Direct link to Market M-ing" title="Direct link to Market M-ing">​</a></h3>
-<p>One example of poor transparency is market making (or manipulating... ). You can't even know which it is.</p>
+<p>One example of poor transparency is market making (or manipulating...  - with unregulated CEXes you can't even know which it is).</p>
 <p>Consider this screenshot of trades in SUPRA/USDT (Spot) taken yesterday.</p>
 <p><img decoding="async" loading="lazy" alt="Market M-ing at a CEX yesterday" src="https://armchairancap.github.io/assets/images/2025-03-26_02_dex_mm-df7fa6e0f0995c1d2cbd72eac64be57c.png" width="437" height="426" class="img_xHFY"></p>
-<p>This is <em>not</em> normal. A market maker would create buy and sell orders and let others take them.</p>
-<p>But we see here both buys and sells are happening, and only of these particular orders:</p>
+<p>This is <em>not</em> normal. A market <strong>maker</strong> would create buy and sell orders and let others <strong>take</strong> them.</p>
+<p>But we can see here both buys and sells are happening and only of these particular orders:</p>
 <ul>
-<li>Are there no other buyers/sellers whose order would be in this list</li>
-<li>Why would anyone buy <em>and</em> sell within seconds like that?</li>
+<li>Are there no other buyers/sellers whose order would be in this list?</li>
+<li>Why would anyone who's a <em>maker</em> buy <em>and</em> sell within seconds like that? A <em>taker</em> would, but a <em>maker</em> would not.</li>
 </ul>
-<p>This looks like market manipulation more than market making.</p>
+<p>This looks like market manipulation more than market making to me.</p>
 <p>At times, the MM guys go on a day trip or take a day off, and then you see the extent of it:</p>
 <p><img decoding="async" loading="lazy" alt="Market M-ing at a CEX yesterday" src="https://armchairancap.github.io/assets/images/2025-03-26_03_dex_mm_mia-318ed89c3ef8247e07184fee409bb218.png" width="1127" height="467" class="img_xHFY"></p>
-<p>I checked the smaller pair on this exchange, SUPRA/USDC, and it's even worse there.</p>
-<p>Again, the problem here isn't that there's a market "maker". The problem is that they're "trade marker".</p>
-<p>If you make market, you create buy/sell orders that others "take"" (with matching sell/buy orders). If there's no genuine activity, market maker's orders just sit there.</p>
-<p>Seeing a lot more volume when they're not day-tripping means when they're gone there's no trading. Obviously, this means bots are rampant, the MM guys engage in wash trading.</p>
-<p>And, related to transparency, you don't even know who's MM-ing, who's paying them, and if they're actively trading against exchange's retail users. But, you can probably assume the worst.</p>
-<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>Binance recently busted a crooked MM and confiscated their funds.</p><p>I've never heard of anything like tha thappening at any of the exchanges that list Supra and I assume "reasonably crooked" MMers operate even on well-run unregulated exchanges.</p></div></div>
+<p>I checked the smaller pair on this exchange, SUPRA/USDC, and it's even worse there. (There the making/manipulation is probably ran by some USDC-outsourced marketing guys who are supposed to aid USDC adoption.)</p>
+<p>Again, the problem here isn't that there's a market "maker". The problem is that they're a "taker". They <em>actively trade</em>.</p>
+<p>If you make a market, you create buy/sell orders that others "take"" (by issuing matching sell/buy orders). If there's no genuine activity, market maker's orders just sit there for the time when a user comes, to have liquidity to sell or buy into. Market makers aren't supposed to impact the price.</p>
+<p>Seeing a lot more volume when they're not day-tripping means when they're gone there's no trading. Obviously, this means bots are rampant. These MM guys engage in wash trading (to create appearance of activity) and various forms of market manipulation all deemed illegal in regulated markets.</p>
+<p>And, related to transparency, you don't even know who's MM-ing, who's paying them, and if they're actively trading against exchange's retail users. But, you'd probably be right if you assumed the worst (such as, that these deregulated CEXes don't care what kind of MM-ing - making or manipulation - goes on).</p>
+<div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>Binance recently <a href="https://www.binance.com/en/support/announcement/detail/4a5fa79a6c174db29c43122db732af1e" target="_blank" rel="noopener noreferrer">busted</a> a crooked MM and confiscated their funds.</p><p>I've never heard of anything like tha thappening at any of the exchanges that list Supra and I assume "reasonably crooked" MMers operate even on well-run unregulated exchanges.</p></div></div>
+<p>Some "crypto people" told me I'm nit-picking, and "it's all MM". <em>That is nonsense</em>. If you <em>take</em> orders, meaning create matching bids for existing buy or sell orders, you directly impact the price and secondly, you earn or lose from such trades. And because of that, you'll obviously try to profit, and the result is you're now <em>trading against CEX users</em>. You can't profit unless they lose. So what, you may ask?</p>
+<ul>
+<li>The CEX can obviously see (see the screenshot at the top) that you're <em>taking</em> orders i.e. trading against users, which is the first problem</li>
+<li>The second problem is they can also easily see you're entering short positions in one place (such as Spot) and long (such as Futures) in another, for the same pair. That is, you're clearly there to manipulate the price by creating artifical price swings. You're not either selling or buying</li>
+</ul>
+<p>What is the difference between a Market Maker and a regular user with an AI bot? If you're a Market Maker, not a Manipulator, no regulated exchange will let you do that. Even Binance (not the gold standard by any means) won't allow it. From the Binance link above:</p>
+<blockquote>
+<p>General reminder that all projects’ authorized market makers on Binance must comply with the principals and rules as follows:</p>
+<ul>
+<li>Place orders for <em>both</em> bid and ask</li>
+<li>Ensure orders remain for a certain amount of time, and prevent market disruption from high-frequency order placement and cancellations</li>
+</ul>
+</blockquote>
+<p>When a Market Maker violates the rules (in the Binance case), what happens is although they're authorized (and usually paid by someone) to make markets, provide liquidity and build trust, they start acting on behalf of other "customers" (they trade on own behalf or maybe even on behalf of other manipulators, to assist others to manipulate the market they make). Extremely bad!</p>
+<p>Although it may seem such dishonest Market Makers could simply become general exchange users and do whatever they want, that isn't the case. Regulated CEXes do not allow market manipulation explained above, even if it's done by regular users.</p>
+<p>Degens would object to anything that comes from the SEC, so I'll provide an example from the FCA (UK).</p>
+<p><img decoding="async" loading="lazy" alt="FCA anti-manipulation rules" src="https://armchairancap.github.io/assets/images/2025-03-26_11_fca_manipulation-0a92dd07733ddedeaeb6f56899935b34.png" width="665" height="444" class="img_xHFY"></p>
+<p>There's more <a href="https://www.handbook.fca.org.uk/handbook/MAR/1/6.html" target="_blank" rel="noopener noreferrer">here</a> and elsehwere.</p>
+<p>Again, this doesn't mean "everything ought to be regulated". DEXes aren't either. But <em>as a customer of unregulated CEXes</em>, I'm not very happy about this arrangement. Fees are low, but they're probably "double-dipping" and also collecting fees from all sorts of people who trade against their users.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="spot">Spot<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#spot" class="hash-link" aria-label="Direct link to Spot" title="Direct link to Spot">​</a></h3>
 <p>This was taken today.</p>
 <p><img decoding="async" loading="lazy" alt="Supra/USDT Spot Market Screenshot" src="https://armchairancap.github.io/assets/images/2025-03-26_01_dex_supra_spot-9b448c4984aa11b22a01c4609e117416.png" width="1282" height="496" class="img_xHFY"></p>
