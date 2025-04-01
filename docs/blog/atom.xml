@@ -2,11 +2,126 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://armchairancap.github.io/blog</id>
     <title>ArmchairAncap Blog</title>
-    <updated>2025-03-30T00:00:00.000Z</updated>
+    <updated>2025-04-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://armchairancap.github.io/blog"/>
     <subtitle>ArmchairAncap Blog</subtitle>
     <icon>https://armchairancap.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Multiple addresses in Supra StarKey wallet]]></title>
+        <id>https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses</id>
+        <link href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses"/>
+        <updated>2025-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Basic tips for using multiple wallets and addresses in Supra Starkey]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#introduction">Introduction</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#use-multiple-addresses">Use multiple addresses</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#use-multiple-wallets">Use multiple wallets</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#how-could-a-wallet-be-exposed-and-not-all-its-addresses-get-drained">How could a wallet be exposed and not all its addresses get drained?</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#wallet-setup">Wallet setup</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#add-addresses-to-same-starkey-wallet">Add addresses to same StarKey wallet</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#imported-accounts">Imported accounts</a></li>
+</ul>
+</li>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#basic-privacy-protection">Basic privacy protection</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#method-one">Method one</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#method-two">Method two</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#method-three">Method three</a></li>
+</ul>
+</li>
+<li><a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#take-away">Take-away</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="introduction">Introduction<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#introduction" class="hash-link" aria-label="Direct link to Introduction" title="Direct link to Introduction">​</a></h2>
+<p>Supra Name Service (SNS) is one of my favorite features on the Supra Network.</p>
+<p>This post shares some tips related to using multiple wallets and addresses, as well as SNS, in StarKey wallet.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="use-multiple-addresses">Use multiple addresses<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#use-multiple-addresses" class="hash-link" aria-label="Direct link to Use multiple addresses" title="Direct link to Use multiple addresses">​</a></h2>
+<p>Why? Because wallets can get drained.</p>
+<p>Secondly, although Supra isn't a privacy-focused network, multiple addreses can be better for your privacy as well.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="use-multiple-wallets">Use multiple wallets<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#use-multiple-wallets" class="hash-link" aria-label="Direct link to Use multiple wallets" title="Direct link to Use multiple wallets">​</a></h2>
+<p>Should you use multiple wallets?</p>
+<p>Maybe yes. If your wallet password gets compromised, all addresses in it are at risk.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="how-could-a-wallet-be-exposed-and-not-all-its-addresses-get-drained">How could a wallet be exposed and not all its addresses get drained?<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#how-could-a-wallet-be-exposed-and-not-all-its-addresses-get-drained" class="hash-link" aria-label="Direct link to How could a wallet be exposed and not all its addresses get drained?" title="Direct link to How could a wallet be exposed and not all its addresses get drained?">​</a></h2>
+<p>I've mentioned wallets and addresses can get drained, but how could just one address in a wallet get drained?</p>
+<p>Because when you connect to a dApp, you pick <em>an</em> address - not all addresses - from your wallet.</p>
+<p>If malware that auto-approves transactions takes over, it may approve transactions, but may not necessarily go through the entire list of addresses, connect and drain them all.</p>
+<p>If malware is any good, it'll drain all addresses, but if not, some may survive.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="wallet-setup">Wallet setup<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#wallet-setup" class="hash-link" aria-label="Direct link to Wallet setup" title="Direct link to Wallet setup">​</a></h2>
+<p>Given the above, you can consider your risks and convenience.</p>
+<p>I like a setup like this: two wallets, several addresses.</p>
+<table><thead><tr><th style="text-align:left">Wallet</th><th>Address</th><th>Purpose</th><th>SNS</th></tr></thead><tbody><tr><td style="text-align:left">1</td><td>Treasury</td><td>Staking</td><td>(none)</td></tr><tr><td style="text-align:left">1</td><td>LP</td><td>LP-ing</td><td>(none)</td></tr><tr><td style="text-align:left">2</td><td>Play</td><td>Trusted dApps</td><td><code>myname.supra</code></td></tr><tr><td style="text-align:left">2</td><td>Testing</td><td>Testing untrusted dApps</td><td><code>test.myname.supra</code></td></tr></tbody></table>
+<p>I wouldn't even give SNS names to addresses (accounts) in wallet One.</p>
+<p>For wallet Two, I think it's nice to have a name at least for "frquent use" address. You could have two names (one or both subdomains) or two unrelated names (e.g. <code>play.supra</code>, <code>test.supra</code>), but sending tokens between them would identify them as likely owned by the same user in any case.</p>
+<div class="theme-admonition theme-admonition-tip admonition_UIiK alert alert--success"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent__ZrN"><p>As the first wallet (Treasury/LP) is most valuable, it's best to not even use it on the same device where your wallet Two is used.</p><p>Furthermore, you may want to buy a Ledger hardware wallet for that wallet. Wallet number two may not be valuable enough to warrant protection (especially if the lack of convenience bothers you).</p></div></div>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="add-addresses-to-same-starkey-wallet">Add addresses to same StarKey wallet<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#add-addresses-to-same-starkey-wallet" class="hash-link" aria-label="Direct link to Add addresses to same StarKey wallet" title="Direct link to Add addresses to same StarKey wallet">​</a></h2>
+<p>This step is not very obvious, but it's simple enough. Click on the round cricle in top left corner.</p>
+<p><img decoding="async" loading="lazy" alt="Add additional addresses" src="https://armchairancap.github.io/assets/images/2025-04-01-supra-starkey-multiple-addresses_01-060dafaf39b1caa6576f8152edcf9e76.png" width="359" height="79" class="img_xHFY"></p>
+<p>The next step requires some thinking.</p>
+<p>Let's say I've created my wallet 2 and in it I already have my "Play" address. I want another one for Testing.</p>
+<p><img decoding="async" loading="lazy" alt="Select addresses type" src="https://armchairancap.github.io/assets/images/2025-04-01-supra-starkey-multiple-addresses_02-2f43f7bdc95ff436742ad958c4bb9fbe.png" width="360" height="514" class="img_xHFY"></p>
+<p>In order of my personal preference:</p>
+<ol>
+<li>
+<p>Sub-account "Testing" will be recoverable with the same recovery method - it's a "cousin" of your Play account</p>
+</li>
+<li>
+<p>New account - different recovery, but approximately same risks, so I don't like this approach</p>
+</li>
+<li>
+<p>Imported account - this is the least convenient method, as you need to create an account (address) elsewhere and get its private key.</p>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="imported-accounts">Imported accounts<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#imported-accounts" class="hash-link" aria-label="Direct link to Imported accounts" title="Direct link to Imported accounts">​</a></h3>
+<p>These seem like a hassle, but they have some advantages as well.</p>
+<p>Disadvantages:</p>
+<ul>
+<li>Just getting a private key out of a wallet and sending/copying it around is risky and may result in a compromised address (not wallet)</li>
+<li>You need to protect that private key ... somehow, because StarKey can't recover it for you. So you'll also need to keep it encrypted (or printed on paper) somewhere</li>
+</ul>
+<p>Advantages:</p>
+<ul>
+<li>This method allows you to create and use "vanity address", such as <code>0xb00b5...</code> (i.e. "boobs"). In fact, you can create and import several such addresses, and it's easy to find them and recognize them in SupraScan even without a name</li>
+<li>If you intend to use the same address from the CLI or similar, you'll need to have a copy of your private key elsewhere anyway</li>
+</ul>
+<p>My use cases for imported accounts are related to both of the items listed under advantages (you can read about it <a href="https://armchairancap.github.io/blog/2025/02/19/supra-suprans-sns-hex-names">in a recent post here</a>).</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="basic-privacy-protection">Basic privacy protection<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#basic-privacy-protection" class="hash-link" aria-label="Direct link to Basic privacy protection" title="Direct link to Basic privacy protection">​</a></h2>
+<p>This is actually one of the main reasons for this post: as I've mentioned Supra transacations are pseudo-anonymous, but let's do what we can.</p>
+<p>That is, make at least one hop between wallets One and Two, so that the link between wallet Two and One is not obvious.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="method-one">Method one<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#method-one" class="hash-link" aria-label="Direct link to Method one" title="Direct link to Method one">​</a></h3>
+<div class="theme-admonition theme-admonition-warning admonition_UIiK alert alert--warning"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent__ZrN"><ul>
+<li>Some CEX reuse addresses, so doing this multiple times doesn't work well privacy-wise</li>
+<li>It is recommended to deposit and withdraw different amounts</li>
+<li>Don't withdraw from the same CEX to both wallet One and Two</li>
+</ul></div></div>
+<ol>
+<li>
+<p>Send Supra from wallet One to a CEX</p>
+</li>
+<li>
+<p>Withdraw (different amount) funds from CEX to wallet Two</p>
+</li>
+</ol>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="method-two">Method two<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#method-two" class="hash-link" aria-label="Direct link to Method two" title="Direct link to Method two">​</a></h3>
+<p>Send ERC20 USDC (Eth) from a CEX to Metamask.</p>
+<p>From there, send USDC to Dexlyn bridge, and finally convert to Supra using an address in wallet Two.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="method-three">Method three<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#method-three" class="hash-link" aria-label="Direct link to Method three" title="Direct link to Method three">​</a></h3>
+<p>You could also buy Supra on a CEX and send to wallet Two, as presumably you'll never need a lot of Supra for addresses in wallet Two.</p>
+<p>But - see Method number One - if you do it multiple times <strong>or</strong> send from CEX to both wallet One and Two, it's downhill from there.</p>
+<p>--</p>
+<p>No method gives you Monero-like privacy (far from that!), but that's okay: our sole purpose is to not make it obvious to scammers that you also own wallet One.</p>
+<p>Furthermore, if your wallet One is better secured (e.g. separate device, Ledger, multi-sig), it's even not that critical.</p>
+<p>In any case, sooner or later you'll make a mistake and send from wallet One to wallet Two or vice versa, so don't sweat it - just secure wallet One and you'll be fine.</p>
+<h2 class="anchor anchorWithStickyNavbar_U9DT" id="take-away">Take-away<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#take-away" class="hash-link" aria-label="Direct link to Take-away" title="Direct link to Take-away">​</a></h2>
+<p>Multiple wallets are useful for obvious reasons. High-value wallets should not be installed on the same device as low-value, frequent-use wallets.</p>
+<p>It's also advisable to use multiple accounts within each. I prefer to use sub-accounts, but other approaches may work for certain use cases.</p>
+<p>For "frequent use" wallets SupraNS names are convenient and any approach (domains, subdomains, etc) is fine for most users.</p>]]></content>
+        <author>
+            <name>ArmchairAncap</name>
+            <uri>https://github.com/armchairancap</uri>
+        </author>
+        <category label="supra" term="supra"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Supra signature validation without the SDK]]></title>
         <id>https://armchairancap.github.io/blog/2025/03/30/supra-signature-validation</id>
@@ -2198,122 +2313,5 @@ I can't think of non-obvious ways that PQ-compromise of xx Chain would impact th
         <category label="xx network" term="xx network"/>
         <category label="xx chain" term="xx chain"/>
         <category label="economics" term="economics"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[xx Network and Polkadot ecosystem]]></title>
-        <id>https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem</id>
-        <link href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem"/>
-        <updated>2024-11-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Oh, look at all those blinded people]]></summary>
-        <content type="html"><![CDATA[<ul>
-<li><a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#intro">Intro</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#what-matters-and-what-doesnt">What matters and what doesn't</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#why-care-about-the-polkadot-ecosystem">Why care about the Polkadot ecosystem?</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#what-opportunities-are-there">What opportunities are there?</a>
-<ul>
-<li><a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#xx-coin-in-substrate-walelts">xx coin in Substrate walelts</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#universal-polkadot-addresses">Universal Polkadot addresses</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#xx-chain-can-integrate-with-many-polkadot-projects">xx chain can integrate with many Polkadot projects</a></li>
-</ul>
-</li>
-<li><a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#past-and-present-examples-and-opportunities">Past and present examples and opportunities</a></li>
-<li><a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#take-aways">Take-aways</a></li>
-</ul>
-<div class="codeBlockContainer_ecHN theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_Zx4T"><pre tabindex="0" class="prism-code language-text codeBlock_fJJu thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_AmI_"><span class="token-line" style="color:#bfc7d5"><span class="token plain">Ah, look at all the blinded people!</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Ah, look at all the blinded people!</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Eleanor Rigby wants cMixx used by the banks that have been</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Lives in a dream</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Dreams about use case which we all know won't get out of the door</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Who is it for?</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">All the blinded people</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Where do they all come from?</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">All the blinded people</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Where do they all belong?</span><br></span></code></pre><div class="buttonGroup_CiR6"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_ldCF" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_gU9M"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_cntW"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>Hope you don't mind the sarcasm.</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="intro">Intro<a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#intro" class="hash-link" aria-label="Direct link to Intro" title="Direct link to Intro">​</a></h2>
-<p>I'm going to turn a few thoughts into a blog post because it should be on the Internet and stay there for a while. (Ironically, this won't be published <em>soon</em> as I'm still waiting for Github to tell me what I did to have my account suspended - but more on that once I find out!)</p>
-<p>Claim: very few xx Network community members realize or highlight opportunities related to the fact that xx Network uses a Substrate-based chain.</p>
-<p>According to <a href="https://coinmarketcap.com/academy/article/a-deep-dive-into-polkadot" target="_blank" rel="noopener noreferrer">this</a> article, there's over 300 projects in the Polkadot SDK-based ecosystem.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-matters-and-what-doesnt">What matters and what doesn't<a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#what-matters-and-what-doesnt" class="hash-link" aria-label="Direct link to What matters and what doesn't" title="Direct link to What matters and what doesn't">​</a></h2>
-<p>Dr. Chaum and the Team behind xx Network are well aware of the benefits of having a Substrate-based chain, but years after the launch 90% of community members are still mesmerized and distracted by the peripheral stuff.</p>
-<p>What's periferal stuff?</p>
-<p>It's both old and new things - the BIS/CBDC trials, the Charles Hutchison-Trump administration thing, digital voting in government-organized elections...</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="why-care-about-the-polkadot-ecosystem">Why care about the Polkadot ecosystem?<a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#why-care-about-the-polkadot-ecosystem" class="hash-link" aria-label="Direct link to Why care about the Polkadot ecosystem?" title="Direct link to Why care about the Polkadot ecosystem?">​</a></h2>
-<p>The Team of course knows the value of Polkadot ecosystem which is why they picked a Substrate-based chain.</p>
-<p>But if one looks at what most people in the community are paying attention to, most don't appear to see it. They're blinded by the seeming ease of scoring bigly, or simply too lazy to learn about the less obvious opportunities, and so they tirelessly look in the wrong places.</p>
-<p>Such as? Various quantum computing news, the Charles/Trump thing, rumored crypto payments on X, etc.</p>
-<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>The obsession about quantum computing news is very strange to me.</p><p>On the one hand, that's one of two main things in cMixx (the other is that it's a mixnet). The threat is real, it is now ("Harvest now, decrypt later"). But it's one thing to mention it, and another to obsess about quantum computing-related news and ignore almost everything else.</p><p>Or worse, to think that some government will use cMixx because it uses PQC. This week I skimmed through some EU-originated PQC work and they're happily researching their own and plan to get it done in the late 20s. Why would they use cMixx when it could make them redundant? It's no different in any other country or union.</p></div></div>
-<p>It is true that Dr. Chaum himself has participated in BIS/CBDC-related research and evaluations, but that's because he should. I wouldn't expect, or want him to build embedded wallets. He is focused on the tech behind cMixx and the best evagelist and promoter we have.</p>
-<p>But the opportunities that Polkadot SDK offers to xx Network are many and significant.</p>
-<ul>
-<li><strong>approachable</strong>: they're suitable for community and developer engagement. You and that dApp developer you know don't need a PhD in cryptography or deep understanding of the workings of central banks in order to use cMixx and xx Chain to create useful and practical solutions today</li>
-<li><strong>immediate</strong>: some of my ideas for dDpps require mere days to develop and launch. I know because I've done some simple ones myself. They don't take quarters to discuss and years to develop, trial and put in production. You don't need to look for "investors" to fund their development. Imagine &amp; implement!</li>
-<li><strong>low-cost</strong>: in some cases, 7 engineer days to users and maybe even revenue</li>
-<li><strong>permissionless</strong>: these opportunities are real and don't depend on anyone reaching out to Elon or some political figure doing us a favor (or even realizing that it'd be us doing them a favor)</li>
-</ul>
-<p>I could go on, but hodlers are doing themselves disservice looking for opportunities in the wrong places.</p>
-<p>How hard is it to realize that fiat currencies aren't meant to be transparent, decentralized or private? It seems very. It won't happen.</p>
-<p>Yes, cMixx <em>should</em> be trialed with the BIS and central banks. Why?</p>
-<ul>
-<li>to show that it won't happen despite the tech being there. In other words, to expose central banks and governments so that everyone can see that it's not about technical challenges, "the tech not being there" or whatever other excuse they come up with</li>
-<li>to scientifically and practically prove that xx Network can do this for private/permissionless use cases</li>
-</ul>
-<p>I'm convinced 95% of people in the xx Network community don't realize or disagree with the above two points. But these are the key points when it comes to choosing where to engage and contribute (especially since most of us neither connected nor <em>qualified</em> to contribute - and no, asking "wen" doesn't count).</p>
-<p>If anything, post-quantum mixnets <strong>may be</strong> implemented by central banks and governments, but in order <em>to hide</em> their own inner workings from taxpayers and public debt investors.</p>
-<p>In other words, they may implement them to hide and obfuscate transactions between central banks or between central banks and private banks with whom they do business. It won't be on xx Network or any other public mixnet or chain. Got it?</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="what-opportunities-are-there">What opportunities are there?<a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#what-opportunities-are-there" class="hash-link" aria-label="Direct link to What opportunities are there?" title="Direct link to What opportunities are there?">​</a></h2>
-<p>I hope I shouldn't need to explain, but given the visual impairedness of many in the community, I'll mention several examples:</p>
-<ul>
-<li>My recent posts on dApps and Hacktoberfest 2024 wins give some concrete examples</li>
-<li>Other opportunities (high-level only, as I may try to realize some of them):<!-- -->
-<ul>
-<li>Most Substrate-based (aka Polkadot SDK-based) wallets can access xx Chain</li>
-<li>All xx Chain addressses are valid on <em>almost every</em> Substrate-based chain</li>
-<li>Almost all Polkadot-related projects could use xx Chain and make use of cMixx (xx Network mixnet service)</li>
-</ul>
-</li>
-</ul>
-<p>I'll explore each of these claims, but feel free to skim through them if you understood what I meant to say.</p>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="xx-coin-in-substrate-walelts">xx coin in Substrate walelts<a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#xx-coin-in-substrate-walelts" class="hash-link" aria-label="Direct link to xx coin in Substrate walelts" title="Direct link to xx coin in Substrate walelts">​</a></h3>
-<p>If one has "a" Substrate based wallet, they can likely use it to hold xx coin.</p>
-<p>Not a big deal, there are many wallets that work with multiple chains, right?</p>
-<p>Yes, but you have to pick a wallet that supports two or more coins that you have which in many cases means some L2 and therefore L1 - often Ethereum, which has been stagnant. Sometimes, if you use two L2s, you may need <em>two</em> Ethereum wallets. Or maybe three if you also use another chain. Oops!</p>
-<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>In the interest of disclosure: I am not a fan of Ethereum <em>and</em> Bitcoin and I belive they're outdated.
-Because of that, two months ago I put a small amount of fiat into some other, newer L1 networks and they've done very well (relative to both ETH and BTC).</p><p>Also importantly, I do think coins and L1/L2's are fungible in the mid- to long-term, so what's modern and superior today may not be five years down the road. It depends on the innovation, development, etc.</p><p>And finally, much of my crypto is in XX token and do not encourage anyone to buy any crypto token.</p><p>All this is just FYI to may clear I'm not pumping any coin or network here.</p></div></div>
-<p>For bitcoiners, it's even worse because there's barely anything going on there in terms of useful decentralized applications. Anyone who uses crypto (rather than keep their BTC parked and watch the number go up and down) needs wallet one for Bitcoin and several for other useful apps (other L1/L2 chains).</p>
-<p>In the Polkadot ecosystem, there are <em>many</em> good L1 <em>and</em> L2 chains and apps. You usually need just one wallet to access all your tokens and NFTs. You may not be able to <em>use an app</em> from the wallet if the wallet doesn't offer integration with the app, but you'll see your coin in almost any wallet for Substrate-bsed chains.</p>
-<p>That makes it easy to own XX token and enables cross-polination across Substrate-based networks.</p>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="universal-polkadot-addresses">Universal Polkadot addresses<a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#universal-polkadot-addresses" class="hash-link" aria-label="Direct link to Universal Polkadot addresses" title="Direct link to Universal Polkadot addresses">​</a></h3>
-<p>That first statement about xx Chain adddresses being the same across all Substrate chains isn't entirely correct as stated above - that was purposedly simplified.</p>
-<p>What's valid across most Substrate chains is your regular wallet pass phrase and private key(s). SS58 addresses are different for every chain, but can be derived from the same pass phrase or private key(s).</p>
-<p>Why should we care? Because you can have a Substrate wallet that uses a <em>single</em> pass phrase for (probably) <em>any dApp</em> in the Polkadot ecosystem.</p>
-<p>Consider this simple pitch from <a href="https://www.subwallet.app/" target="_blank" rel="noopener noreferrer">SubWallet</a>:</p>
-<blockquote>
-<p>Manage multiple seed phrases with only one master password. SubWallet supports 150+ networks, 450+ tokens, and 80+ dApps.</p>
-</blockquote>
-<p>An xx Network address looks differently from its Polkadot "representation", but these are - and must be, to prevent confusion and loss - because these are different SS58 networks. That is amazing.</p>
-<h3 class="anchor anchorWithStickyNavbar_U9DT" id="xx-chain-can-integrate-with-many-polkadot-projects">xx chain can integrate with many Polkadot projects<a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#xx-chain-can-integrate-with-many-polkadot-projects" class="hash-link" aria-label="Direct link to xx chain can integrate with many Polkadot projects" title="Direct link to xx chain can integrate with many Polkadot projects">​</a></h3>
-<p>Because of the two earlier points, Substrate L1 and L2 chains and apps can be easily interconnected.</p>
-<p>What if I use Kusama and need to pay for cMixx "postage" (i.e. "premium" service tier, <a href="https://armchairancap.github.io/blog/2024/08/16/worldcoin-xx-postage">once xxPostage becomes available</a>)?</p>
-<p>I'll need only one wallet, just one pass phrase, KSM (tokens) and the ability to buy and sell XX tokens on a DEX to pay for "postage" on xx Network. cMixx postage hasn't been implemented yet, but the only thing that's missing is the ability to buy/sell XX coin with KSM which is technically possible today (e.g. see <a href="https://hydration.net/" target="_blank" rel="noopener noreferrer">Hydration</a>) and only a matter of making a small-to-moderate implementation effort.</p>
-<p>What if I use XX token and want to use for some non-zero cost service on one of the many Substrate-based chains?</p>
-<p>The same thing - one wallet, one pass phrase, and the ability to buy/sell other Substrate tokens - directly or indirectly (e.g. sell XX token to buy DOT or KSM, then sell DOT or KSM to buy the Substrate L1 token you need).</p>
-<p>Until direct or indirect on-Substrate-chain DEXes that support XX token become available, one can still do this by using a DEX outside of the Substrate chain ecosystem, but for that we need a wallet that supports said DEX. At this time the easiest way to buy/sell in either direction would be to use a DEX and Ethereum-based wrapped XX coin. That's not perfectly convenient, but at least it doesn't require much overhead - it takes minutes at most.</p>
-<p>For free services on Substrate-based entworks (where there's no need for buying and selling) - you can access them as soon as they're implemented. For example, the <a href="https://armchairancap.github.io/blog/2023/11/05/xx-network-asset-gated-access">token- and asset-gated acces</a> demo app only requires ocassional, potentially one-time transfer or transaction and you're good to go for months if not years. Some don't require any, for example in the case a site lets you access it with <em>any</em> Substrate-based token, as long as the USD equivalent of your balance is more than 10 dollars.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="past-and-present-examples-and-opportunities">Past and present examples and opportunities<a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#past-and-present-examples-and-opportunities" class="hash-link" aria-label="Direct link to Past and present examples and opportunities" title="Direct link to Past and present examples and opportunities">​</a></h2>
-<p>In addition to the dApps I wrote about recently, I want to highlight one opportunity which I thought was real, and that was to evangelize and popularize the integration with Crust Network, a Substate-based network storage project.</p>
-<p>xx Network added a Curst Network files app to the official xx Network wallet, but most people didn't pay attention or didn't want to think about it, so the feature wasn't maintained or improved and now it doesn't work (it appears Crust Network no longer maintains that pallet/API).</p>
-<p>Crust Network isn't equally private and post-quantum resistant, but it's convenient and not less private that 99% of other chat apps let you upload "attachments" or inline images.</p>
-<p>What if the idea didn't make any sense? Was it practical and usable at all? I've no doubt it was.</p>
-<ul>
-<li>Text - and Crust Network download links - go to cMixx</li>
-<li>Blobs (memes, audio clips, etc) go to Crust Network storage nodes and can be downloaded or shown inline in cMixx chat app</li>
-</ul>
-<p>You lose some privacy for such binary data, but that's a low-cost tradeoff. In return we could have had "unlimited" size attachments in cMixx chat apps for 2 years now. But no one showed much interest and we still don't have that feature in Haven today.</p>
-<p>While Crust Network is now out of the focus due to low interest, similar opportunities abound so I know what I'll do - I'll be looking at other opportunities in the Polkadot ecosystem because they're approachable, immediate, low-cost and permissionless.</p>
-<p><a href="https://learn.xx.network/dapps/proxxy" target="_blank" rel="noopener noreferrer">Proxxy</a> is another low-hanging fruit. As a reminder, it proxies chain RPC calls through cMixx, which means once <em>a</em> Substrate-based chain becomes supported by Proxxy, many Substrate chains could be supported within days. xx Network's cMixx mixnet is free to use and there's 300 projects that could add this "enhanced privacy" feature easily. And maybe just four-five wallets would have to be enabled to add this feature to hundreds of Polkadot SDK-based projects, to put it another way and tie with those earlire points mentioned above.</p>
-<p>Proxxy originally focused on Ethereum wallets and just like with Crust Network integration, the community thought it's better to focus on those "high-profile" use cases I find unlikely to happen. I think Proxy should focus on Substrate-based chains instead.</p>
-<h2 class="anchor anchorWithStickyNavbar_U9DT" id="take-aways">Take-aways<a href="https://armchairancap.github.io/blog/2024/11/25/xx-network-and-polkadot-ecosystem#take-aways" class="hash-link" aria-label="Direct link to Take-aways" title="Direct link to Take-aways">​</a></h2>
-<p>Many dApps from the Polkadot ecosystem could be used directly from xx Chain wallet and many Substrate chains could have a privacy setting that flips their wallet RPC transactions to use cMixx even if they don't pay for it with xx coin. That works today.</p>
-<p>The lack of a mobile Haven client - once XX Messenger was discontinued  - has been hindering such dApps and integrations, but thanks to one of the winners of Hacktoberfest 2024 now we have a responsive Haven application that works from Android clients. It doesn't work <em>great</em> (it's not power-efficient on mobile - those improvements need to be added), but it works. If your mobile device connects to cMixx periodically - for example to download notifications or batch-upload data - there's no problem to do that on Android today.</p>
-<p>If we look in the right places, and those places are <em>not</em> in central banks or governments, opportunities are plenty. Take a look at <a href="https://messari.io/report/state-of-polkadot-q3-2024" target="_blank" rel="noopener noreferrer">this State of Polkadot</a> report to understand this better.</p>
-<p>I look forward to seeing - and maybe even creating some related PoCs - some cool Polkadot ecosystem integrations happen in 2025.</p>]]></content>
-        <author>
-            <name>ArmchairAncap</name>
-            <uri>https://github.com/armchairancap</uri>
-        </author>
-        <category label="xx network" term="xx network"/>
-        <category label="xx chain" term="xx chain"/>
     </entry>
 </feed>
