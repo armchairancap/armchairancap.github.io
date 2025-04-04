@@ -508,7 +508,7 @@ You may do something like this:</p>
 <p><img decoding="async" loading="lazy" alt="Anecdotal example with 1492 SUPRA to 10 dexUSDC Dexlyn Swap" src="https://armchairancap.github.io/assets/images/2025-03-26_15_dex_swap_01-34a090708e992022f6ebef88c3230e0b.png" width="1750" height="712" class="img_xHFY"></p>
 <p>SupraScan view showed a small 7.4611 Supra "refund". I'm not sure why. Maybe that was because slippage was lower than "up to 0.5%".</p>
 <p><img decoding="async" loading="lazy" alt="Anecdotal example Swap TX on Dexlyn" src="https://armchairancap.github.io/assets/images/2025-03-26_15_dex_swap_02-5c7447c6ef10b631f863c682e2980311.png" width="461" height="193" class="img_xHFY"></p>
-<p>Two minutes later I sold 1500 Supra on a CEX: I sold 1500 Supra at Market. Taker's fee was $0.004966 (i.e. 0.5%). I received 9.992334 USDT. MEXC has no withdrawal fees, so that's the end.</p>
+<p>Two minutes later I sold 1500 Supra on a CEX: I sold 1500 Supra at Market. Taker's fee was $0.004966 (i.e. 0.05%). I received 9.992334 USDT. MEXC has no withdrawal fees, so that's the end.</p>
 <p><img decoding="async" loading="lazy" alt="CEX Swap 1500 to 10 USD" src="https://armchairancap.github.io/assets/images/2025-03-26_15_dex_swap_03-a2b6f30dd28dc42e91d186e9498fcd22.png" width="1437" height="120" class="img_xHFY"></p>
 <ul>
 <li>DEX: 0.006700965 (9.9993/1492.218)</li>
@@ -518,7 +518,9 @@ You may do something like this:</p>
 <li>there was a two minute lag between these transactions and the price constantly fluctuates</li>
 <li>each CEX has different prices and spreads</li>
 </ul><p>So the conclusion may as well be "no statistically significant difference".</p><p>That's why this should really be done as a study across many transactions. But you won't find that anywhere in April 2025, so at least this blog provides some anecdotal evidence.</p></div></div>
-<p>External benefits from using DEXes should help Supra price growth. I can't think of a single downside for the Supra ecosystem if you pull most of your active stash from a CEX.</p>
+<p>For further reference and research, note that in this particular case the CEX pair spread was 0.29%, on top of which a 0.05% taker fee was added (total: 0.36% - higher than Dexlyn Swap fee of 0.3%).</p>
+<p><img decoding="async" loading="lazy" alt="CEX Spread" src="https://armchairancap.github.io/assets/images/2025-03-26_15_dex_swap_04-2fd92d365b059a2293a1ba5458222947.png" width="990" height="397" class="img_xHFY"></p>
+<p>In addition to advantages that we may realize in own Swaps or other trades, DEXes help Supra price growth. I can't think of a single downside for the Supra ecosystem if you pull most of your active stash from a CEX.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="take-aways-and-call-to-action">Take-aways and call to action<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#take-aways-and-call-to-action" class="hash-link" aria-label="Direct link to Take-aways and call to action" title="Direct link to Take-aways and call to action">​</a></h2>
 <p>The current lot of unregulated exchanges that run Supra Spot market are in my opinion not good <em>hombres</em>, folks.</p>
 <p>We have a solution: several in fact. Dexlyn today and two more are coming soon.</p>
