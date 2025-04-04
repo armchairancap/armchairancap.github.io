@@ -104,8 +104,9 @@
 </li>
 </ol>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="method-two">Method two<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#method-two" class="hash-link" aria-label="Direct link to Method two" title="Direct link to Method two">​</a></h3>
-<p>Send ERC20 USDC (Eth) from a CEX to Metamask.</p>
-<p>From there, send USDC to Dexlyn bridge, and finally convert to Supra using an address in wallet Two.</p>
+<p>Send ERC20 USDC (Ethereum) from a CEX to Metamask.</p>
+<p>From there, send USDC to Dexlyn bridge to get dexUSDC, then use Dexlyn Swap to swap dexUSDC to Supra using an address in wallet Two.</p>
+<p>Like in Method One, you may want to swap from dexUSDC to Supra in random-sized chunks over a period spanning at least several days.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="method-three">Method three<a href="https://armchairancap.github.io/blog/2025/04/01/supra-starkey-multiple-addresses#method-three" class="hash-link" aria-label="Direct link to Method three" title="Direct link to Method three">​</a></h3>
 <p>You could also buy Supra on a CEX and send to wallet Two, as presumably you'll never need a lot of Supra for addresses in wallet Two.</p>
 <p>But - see Method number One - if you do it multiple times <strong>or</strong> send from CEX to both wallet One and Two, it's downhill from there.</p>
@@ -250,7 +251,11 @@
 <li><a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#what-else-is-coming">What else is coming</a></li>
 </ul>
 </li>
-<li><a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#cost-comparison">Cost comparison</a></li>
+<li><a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#cost-comparison">Cost comparison</a>
+<ul>
+<li><a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#anecdotal-example">Anecdotal example</a></li>
+</ul>
+</li>
 <li><a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#take-aways-and-call-to-action">Take-aways and call to action</a></li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="intro">Intro<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#intro" class="hash-link" aria-label="Direct link to Intro" title="Direct link to Intro">​</a></h2>
@@ -349,6 +354,9 @@
 <p><img decoding="async" loading="lazy" alt="MEXC Deposit Address Screenshot" src="https://armchairancap.github.io/assets/images/2025-03-26_12_cex_deposit_wallet-35622213be7aebf177651643f42e024f.png" width="872" height="545" class="img_xHFY"></p>
 <p>Yesterday's volume in Spot was 24 hours was 1.87 billion Supra.</p>
 <p><img decoding="async" loading="lazy" alt="MEXC Mar 27 Spot Volume Screenshot" src="https://armchairancap.github.io/assets/images/2025-03-26_12_cex_vol_mar_27-0997ee30a3ce989dcaa19afdeaf8cddc.png" width="1482" height="535" class="img_xHFY"></p>
+<p>(Edit) And on April 3, not even $0.7 million (95% less).</p>
+<p><img decoding="async" loading="lazy" alt="MEXC Apr 03 Spot Volume Screenshot" src="https://armchairancap.github.io/assets/images/2025-03-26_14_cex_vol_apr_03-903b9b8bd148fb655a4a40f7abf0abfd.png" width="1287" height="389" class="img_xHFY"></p>
+<p>I don't think that means "up 95% of volume may be manipulation". I think it means <em>at least</em> 95% is, and some amount of manipulation by small players is still going on.</p>
 <h3 class="anchor anchorWithStickyNavbar_U9DT" id="perpetual-futures-aka-perps">Perpetual Futures aka Perps<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#perpetual-futures-aka-perps" class="hash-link" aria-label="Direct link to Perpetual Futures aka Perps" title="Direct link to Perpetual Futures aka Perps">​</a></h3>
 <p>Perpetual futures are basically entries in a database which is a closed zero-sum system where there is <strong>no Supra involved at all</strong>.</p>
 <p>In fact, there's no USD involved either! Yes, it says <code>SUPRA/USDT</code>, but understand that this Perps market doesn't need USDT just like it doesn't need SUPRA.</p>
@@ -495,7 +503,22 @@ You may do something like this:</p>
 <p>If you trade just once a month, there's no reason to not stake the "trading half of your DEX stash, and unstake when you want to DCA or trade.</p>
 <p>With such optimization (especially when Supra's AutoFi comes out, this aproach could be easy to fully automated) you could probably do weekly trades on DEX without being worse off.</p>
 <div class="theme-admonition theme-admonition-info admonition_UIiK alert alert--info"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent__ZrN"><p>Supra's AutoFi is expected to have associated service and transaction fees, but for anyone with a couple of thousand dollars in assets it shouldn't change the outcome of above calculation.</p></div></div>
-<p>External benefits from using DEX should help Supra price growth. I can't think of a single downside for the Supra ecosystem if you pull most of your active stash from a CEX.</p>
+<h3 class="anchor anchorWithStickyNavbar_U9DT" id="anecdotal-example">Anecdotal example<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#anecdotal-example" class="hash-link" aria-label="Direct link to Anecdotal example" title="Direct link to Anecdotal example">​</a></h3>
+<p>On April 4, I tested slippage by swapping enough Supra (close to 1500) to get $10 dexUSDC.</p>
+<p><img decoding="async" loading="lazy" alt="Anecdotal example with 1492 SUPRA to 10 dexUSDC Dexlyn Swap" src="https://armchairancap.github.io/assets/images/2025-03-26_15_dex_swap_01-34a090708e992022f6ebef88c3230e0b.png" width="1750" height="712" class="img_xHFY"></p>
+<p>SupraScan view showed a small 7.4611 Supra "refund". I'm not sure why. Maybe that was because slippage was lower than "up to 0.5%".</p>
+<p><img decoding="async" loading="lazy" alt="Anecdotal example Swap TX on Dexlyn" src="https://armchairancap.github.io/assets/images/2025-03-26_15_dex_swap_02-5c7447c6ef10b631f863c682e2980311.png" width="461" height="193" class="img_xHFY"></p>
+<p>Two minutes later I sold 1500 Supra on a CEX: I sold 1500 Supra at Market. Taker's fee was $0.004966 (i.e. 0.5%). I received 9.992334 USDT. MEXC has no withdrawal fees, so that's the end.</p>
+<p><img decoding="async" loading="lazy" alt="CEX Swap 1500 to 10 USD" src="https://armchairancap.github.io/assets/images/2025-03-26_15_dex_swap_03-a2b6f30dd28dc42e91d186e9498fcd22.png" width="1437" height="120" class="img_xHFY"></p>
+<ul>
+<li>DEX: 0.006700965 (9.9993/1492.218)</li>
+<li>CEX: 0.006666 (9.992334/1500)</li>
+</ul>
+<div class="theme-admonition theme-admonition-note admonition_UIiK alert alert--secondary"><div class="admonitionHeading_WVRp"><span class="admonitionIcon_lTvr"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent__ZrN"><p>DEX price I got for Supra was <strong>better</strong> by 1.005392094x (0.52%). However:</p><ul>
+<li>there was a two minute lag between these transactions and the price constantly fluctuates</li>
+<li>each CEX has different prices and spreads</li>
+</ul><p>So the conclusion may as well be "no statistically significant difference".</p><p>That's why this should really be done as a study across many transactions. But you won't find that anywhere in April 2025, so at least this blog provides some anecdotal evidence.</p></div></div>
+<p>External benefits from using DEXes should help Supra price growth. I can't think of a single downside for the Supra ecosystem if you pull most of your active stash from a CEX.</p>
 <h2 class="anchor anchorWithStickyNavbar_U9DT" id="take-aways-and-call-to-action">Take-aways and call to action<a href="https://armchairancap.github.io/blog/2025/03/26/move-supra-to-dex#take-aways-and-call-to-action" class="hash-link" aria-label="Direct link to Take-aways and call to action" title="Direct link to Take-aways and call to action">​</a></h2>
 <p>The current lot of unregulated exchanges that run Supra Spot market are in my opinion not good <em>hombres</em>, folks.</p>
 <p>We have a solution: several in fact. Dexlyn today and two more are coming soon.</p>
