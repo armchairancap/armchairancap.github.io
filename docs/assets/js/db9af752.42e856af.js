@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkaa=self.webpackChunkaa||[]).push([[5967],{24990:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/blog/page/5","page":5,"postsPerPage":10,"totalPages":5,"totalCount":41,"previousPage":"/blog/page/4","blogDescription":"A blog by @ArmchairAncap","blogTitle":"Armchair Ancap Blog"}}')}}]);
